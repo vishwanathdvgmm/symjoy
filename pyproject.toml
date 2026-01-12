@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "symjoy"
+version = "2.0.0"
+authors = [{ name="Vishwanath M M", email="vishwanathmm2005@gmail.com" }]
+description = "The unicode_symbols package is designed to simplify the use of Unicode characters in Python projects. Whether you need emojis for chat applications, symbols for documentation, mathematical symbols for calculations, currency symbols for finance apps, or miscellaneous icons for fun, this package has you covered."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/vishwanathdvgmm/symjoy"
+Issues = "https://github.com/vishwanathdvgmm/symjoy/issues"
