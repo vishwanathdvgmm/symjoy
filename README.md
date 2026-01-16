@@ -87,7 +87,30 @@ print(emojis["smile"])
 
 ⚠️ This usage is deprecated and will be removed in symjoy 3.0.0.
 
-## Github Link
+### 5. Helper APIs (v2.1+)
+
+Each category now supports metadata helpers:
+
+```python
+from symjoy import emoji
+
+emoji.exists("smile")   # True / False
+
+emoji.info("smile")
+# {
+#   "name": "smile",
+#   "char": "😄",
+#   "category": "emoji",
+#   "unicode": "U+1F604"
+# }
+```
+
+These helpers are available for:
+`emoji`, `math`, `arrows`, `currency`, `misc`, and `symbols`.
+
+
+
+### 6. Github Link
 
 **If any issue with the package you can contact here:**
 
@@ -96,3 +119,7 @@ print(emojis["smile"])
 **The source code is available on GitHub**
 
 -   **Github:** https://github.com/vishwanathdvgmm/symjoy
+
+```
+
+```

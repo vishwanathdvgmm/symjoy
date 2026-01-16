@@ -6,7 +6,10 @@ from symjoy.core.registry import get_symbol, list_by_category
 _CATEGORY = "symbols"
 
 def get(name: str):
-    symbol = get_symbol(name)
+    if not name:
+        return None
+
+    symbol = get_symbol(name.lower())
     if symbol and symbol.category == _CATEGORY:
         return symbol.char
     return None
@@ -22,3 +25,26 @@ def list():
 
 def items():
     return {s.name: s.char for s in list_by_category(_CATEGORY)}
+
+# ---- v2.1.0 helper APIs ----
+
+def exists(name: str) -> bool:
+    if not name:
+        return False
+
+    symbol = get_symbol(name.lower())
+    return bool(symbol and symbol.category == _CATEGORY)
+
+def info(name: str) -> dict | None:
+    if not name:
+        return None
+
+    symbol = get_symbol(name.lower())
+    if symbol and symbol.category == _CATEGORY:
+        return {
+            "name": symbol.name,
+            "char": symbol.char,
+            "category": symbol.category,
+            "unicode": symbol.unicode,
+        }
+    return None

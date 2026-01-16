@@ -1,5 +1,7 @@
-# math_symbols.py
+# categories/math.py
+
 math_symbols = {
+    # Basic operators
     "plus": "+",
     "minus": "-",
     "multiply": "×",
@@ -8,15 +10,22 @@ math_symbols = {
     "plus_minus": "±",
     "not_equals": "≠",
     "approximately": "≈",
+
+    # Comparisons
     "less_than": "<",
     "greater_than": ">",
     "less_equal": "≤",
     "greater_equal": "≥",
+
+    # Constants and functions
     "infinity": "∞",
     "square_root": "√",
     "summation": "∑",
-    "pi": "π",
-    "theta": "θ",
+    "integral": "∫",
+    "partial_derivative": "∂",
+    "nabla": "∇",
+
+    # Greek letters (lowercase, unique)
     "alpha": "α",
     "beta": "β",
     "gamma": "γ",
@@ -25,7 +34,7 @@ math_symbols = {
     "zeta": "ζ",
     "eta": "η",
     "theta": "θ",
-    "iota": "Ι",
+    "iota": "ι",
     "kappa": "κ",
     "lambda": "λ",
     "mu": "μ",
@@ -41,18 +50,20 @@ math_symbols = {
     "chi": "χ",
     "psi": "ψ",
     "omega": "ω",
-    "prime": "'",
-    "double_prime": "″",
-    "triple_prime": "‴",
+
+    # Geometry and notation
     "angle": "∠",
     "degree": "°",
     "perpendicular": "⊥",
     "parallel": "∥",
-    "integral": "∫",
-    "partial_derivative": "∂",
-    "nabla": "∇",
+    "prime": "'",
+    "double_prime": "″",
+    "triple_prime": "‴",
     "therefore": "∴",
     "because": "∵",
+
+    # Set theory
+    # NOTE: Naming reflects existing API; corrections are deferred to 3.0.0
     "element_of": "∈",
     "not_element_of": "∉",
     "subset": "⊂",
@@ -60,5 +71,5 @@ math_symbols = {
     "proper_subset": "⊆",
     "proper_superset": "⊇",
     "union": "∪",
-    "intersection": "∩"
+    "intersection": "∩",
 }

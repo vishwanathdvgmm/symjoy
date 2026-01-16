@@ -14,5 +14,36 @@ misc = {
     "radioactive": "☢",
     "biohazard": "☣",
     "snowman": "☃",
-    "fire": "🔥"
+    "fire": "🔥",
+
+    # ---- v2.1.0 additions ----
+
+    # Weather & nature
+    "rain": "☔",
+    "umbrella_rain": "⛱",
+    "comet": "☄",
+    "wind": "🌬",
+    "thermometer": "🌡",
+
+    # Warnings & information
+    "warning": "⚠",
+    "no_entry": "⛔",
+    "prohibited": "🚫",
+    "information": "ℹ",
+    "question": "❓",
+    "exclamation": "❗",
+
+    # Time & navigation
+    "hourglass": "⌛",
+    "watch": "⌚",
+    "alarm": "⏰",
+    "compass": "🧭",
+
+    # UI / common symbols
+    "check": "✔",
+    "cross": "✖",
+    "play": "▶",
+    "pause": "⏸",
+    "stop": "⏹",
+
 }
