@@ -20,7 +20,7 @@ pip install symjoy
 
 #### 1. Quick Start (v2 API)
 
-```
+```python
 from symjoy import emoji, symbols, arrows, math, currency, misc, search
 
 print(emoji.get("smile"))      # 😄
@@ -46,7 +46,7 @@ items()        -> dict[str, str]
 
 ##### **Example**
 
-```
+```python
 from symjoy import emoji
 
 emoji.list()
@@ -57,7 +57,7 @@ emoji.items()
 
 Search across all categories:
 
-```
+```python
 from symjoy import search
 
 results = search("heart")
@@ -80,7 +80,7 @@ Expected results:
 
 Version 2.x still supports v1-style access:
 
-```
+```python
 from symjoy import emojis
 print(emojis["smile"])
 ```
