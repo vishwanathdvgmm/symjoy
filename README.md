@@ -1,3 +1,6 @@
+![PyPI](https://img.shields.io/pypi/v/symjoy)
+![Python](https://img.shields.io/pypi/pyversions/symjoy)
+
 # Symjoy
 
 **symjoy** is a comprehensive Python package providing easy access to Unicode characters, including **emojis, symbols, arrows, mathematical symbols, currency signs, and miscellaneous icons**. Perfect for chat apps, games, educational tools, financial apps, or any Python project requiring Unicode characters.
