@@ -108,8 +108,6 @@ emoji.info("smile")
 These helpers are available for:
 `emoji`, `math`, `arrows`, `currency`, `misc`, and `symbols`.
 
-
-
 ### 6. Github Link
 
 **If any issue with the package you can contact here:**
@@ -119,7 +117,3 @@ These helpers are available for:
 **The source code is available on GitHub**
 
 -   **Github:** https://github.com/vishwanathdvgmm/symjoy
-
-```
-
-```
