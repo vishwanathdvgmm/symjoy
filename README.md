@@ -1,4 +1,5 @@
 ![PyPI](https://img.shields.io/pypi/v/symjoy)
+[![PyPI version](https://img.shields.io/pypi/v/symjoy.svg)](https://pypi.org/project/symjoy/)
 ![Python](https://img.shields.io/pypi/pyversions/symjoy)
 
 # Symjoy
