@@ -1,3 +1,6 @@
+![PyPI](https://img.shields.io/pypi/v/symjoy)
+![Python](https://img.shields.io/pypi/pyversions/symjoy)
+
 # Symjoy
 
 **symjoy** is a comprehensive Python package providing easy access to Unicode characters, including **emojis, symbols, arrows, mathematical symbols, currency signs, and miscellaneous icons**. Perfect for chat apps, games, educational tools, financial apps, or any Python project requiring Unicode characters.
@@ -17,7 +20,7 @@ pip install symjoy
 
 #### 1. Quick Start (v2 API)
 
-```
+```python
 from symjoy import emoji, symbols, arrows, math, currency, misc, search
 
 print(emoji.get("smile"))      # 😄
@@ -43,7 +46,7 @@ items()        -> dict[str, str]
 
 ##### **Example**
 
-```
+```python
 from symjoy import emoji
 
 emoji.list()
@@ -54,7 +57,7 @@ emoji.items()
 
 Search across all categories:
 
-```
+```python
 from symjoy import search
 
 results = search("heart")
@@ -77,14 +80,35 @@ Expected results:
 
 Version 2.x still supports v1-style access:
 
-```
+```python
 from symjoy import emojis
 print(emojis["smile"])
 ```
 
 ⚠️ This usage is deprecated and will be removed in symjoy 3.0.0.
 
-## Github Link
+### 5. Helper APIs (v2.1+)
+
+Each category now supports metadata helpers:
+
+```python
+from symjoy import emoji
+
+emoji.exists("smile")   # True / False
+
+emoji.info("smile")
+# {
+#   "name": "smile",
+#   "char": "😄",
+#   "category": "emoji",
+#   "unicode": "U+1F604"
+# }
+```
+
+These helpers are available for:
+`emoji`, `math`, `arrows`, `currency`, `misc`, and `symbols`.
+
+### 6. Github Link
 
 **If any issue with the package you can contact here:**
 
