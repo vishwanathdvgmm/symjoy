@@ -1,5 +1,6 @@
 ![PyPI](https://img.shields.io/pypi/v/symjoy)
 ![Python](https://img.shields.io/pypi/pyversions/symjoy)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Symjoy
 
@@ -112,8 +113,8 @@ These helpers are available for:
 
 **If any issue with the package you can contact here:**
 
--   **Email:** vishwanathdvgmm@gmail.com
+- **Email:** vishwanathdvgmm@gmail.com
 
 **The source code is available on GitHub**
 
--   **Github:** https://github.com/vishwanathdvgmm/symjoy
+- **Github:** https://github.com/vishwanathdvgmm/symjoy

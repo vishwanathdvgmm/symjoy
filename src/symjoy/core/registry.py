@@ -1,7 +1,8 @@
 # src/symjoy/core/registry.py
 
 from dataclasses import dataclass
-import warnings, os
+import warnings
+import os
 
 from symjoy.categories import (
     emoji,
