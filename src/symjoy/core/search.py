@@ -1,51 +1,66 @@
-# src/symjoy/core/search.py
+from symjoy.core.registry import _REGISTRY, _ensure_initialized
 
-from symjoy.core.registry import _REGISTRY
-
-def search(query: str):
+def search(query: str, language: str = "en"):
     """
-    Search for symbols by name across all categories.
-    Case-insensitive substring match.
+    Metadata-aware search.
 
-    Ordering:
-    1. Exact match
-    2. Prefix match
-    3. Substring match
-    4. Category (deterministic)
-    5. Name (deterministic)
+    Ordering priority:
+    0 - Exact name match
+    1 - Prefix name match
+    2 - Keyword match
+    3 - Alias match
+    4 - Substring name match
+    5 - Deterministic fallback
     """
     if not query:
         return []
+
+    _ensure_initialized()
 
     query = query.lower()
     results = []
 
     for symbol in _REGISTRY.values():
         name = symbol.name.lower()
-        if query in name:
-            if name == query:
-                rank = 0
-            elif name.startswith(query):
-                rank = 1
-            else:
-                rank = 2
+        rank = None
 
+        # Exact name
+        if name == query:
+            rank = 0
+
+        # Prefix name
+        elif name.startswith(query):
+            rank = 1
+
+        # Keyword match
+        elif symbol.keywords and query in [k.lower() for k in symbol.keywords]:
+            rank = 2
+
+        # Alias match
+        elif (
+            symbol.aliases
+            and language in symbol.aliases
+            and query in [a.lower() for a in symbol.aliases[language]]
+        ):
+            rank = 3
+
+        # Substring fallback
+        elif query in name:
+            rank = 4
+
+        if rank is not None:
             results.append(
                 {
                     "name": symbol.name,
                     "char": symbol.char,
                     "category": symbol.category,
                     "unicode": symbol.unicode,
-                    "_rank": rank,  # internal only
+                    "_rank": rank,
                 }
             )
 
-    # Deterministic + relevance ordering
-    results.sort(
-        key=lambda x: (x["_rank"], x["category"], x["name"])
-    )
+    results.sort(key=lambda x: (x["_rank"], x["category"], x["name"]))
 
-    # Remove internal rank before returning
     for r in results:
         r.pop("_rank", None)
 

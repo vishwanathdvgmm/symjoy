@@ -1,0 +1,247 @@
+[
+  {
+    "name": "alarm",
+    "char": "⏰",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "biohazard",
+    "char": "☣",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "check",
+    "char": "✔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "cloud",
+    "char": "☁",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "comet",
+    "char": "☄",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "compass",
+    "char": "🧭",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "cross",
+    "char": "✖",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "exclamation",
+    "char": "❗",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "fire",
+    "char": "🔥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "hourglass",
+    "char": "⌛",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "information",
+    "char": "ℹ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "lightning",
+    "char": "⚡",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "music",
+    "char": "♪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "no_entry",
+    "char": "⛔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "note",
+    "char": "♫",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "pause",
+    "char": "⏸",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "peace",
+    "char": "☮",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "play",
+    "char": "▶",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "prohibited",
+    "char": "🚫",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "question",
+    "char": "❓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "radioactive",
+    "char": "☢",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "rain",
+    "char": "☔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "skull",
+    "char": "☠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "snowflake",
+    "char": "❄",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "snowman",
+    "char": "☃",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "star",
+    "char": "★",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "stop",
+    "char": "⏹",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sun",
+    "char": "☀",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "thermometer",
+    "char": "🌡",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "umbrella",
+    "char": "☂",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "umbrella_rain",
+    "char": "⛱",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "warning",
+    "char": "⚠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "watch",
+    "char": "⌚",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "wind",
+    "char": "🌬",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "yin_yang",
+    "char": "☯",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "clockwise",
+    "char": "↻",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "counterclockwise",
+    "char": "↺",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_down",
+    "char": "⇓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_left",
+    "char": "⇐",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_left_right",
+    "char": "⇔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_right",
+    "char": "⇒",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_up",
+    "char": "⇑",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "down",
+    "char": "↓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "down_left",
+    "char": "↙",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "down_right",
+    "char": "↘",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "hook_left",
+    "char": "↩",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "hook_right",
+    "char": "↪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "implied_by",
+    "char": "⇐",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "implies",
+    "char": "⇒",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "left",
+    "char": "←",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "left_right",
+    "char": "↔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "long_left",
+    "char": "⟵",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "long_left_right",
+    "char": "⟷",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "long_right",
+    "char": "⟶",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "right",
+    "char": "→",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "up",
+    "char": "↑",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "up_left",
+    "char": "↖",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "up_right",
+    "char": "↗",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  }
+]

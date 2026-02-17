@@ -1,0 +1,247 @@
+[
+  {
+    "name": "angstrom",
+    "char": "Å",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "black_circle",
+    "char": "●",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "black_square",
+    "char": "■",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "bullet",
+    "char": "•",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "check_mark",
+    "char": "✓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "club",
+    "char": "♣",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "copyright",
+    "char": "©",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "cross_mark",
+    "char": "✗",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "dagger",
+    "char": "†",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "degree",
+    "char": "°",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "diamond",
+    "char": "♦",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_dagger",
+    "char": "‡",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "down_arrow",
+    "char": "↓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "ellipsis",
+    "char": "…",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "heart",
+    "char": "♥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "infinity",
+    "char": "∞",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "left_arrow",
+    "char": "←",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "micro",
+    "char": "µ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "middle_dot",
+    "char": "·",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "ohm",
+    "char": "Ω",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "paragraph",
+    "char": "¶",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "pilcrow",
+    "char": "¶",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "plus_minus",
+    "char": "±",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "registered",
+    "char": "®",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "right_arrow",
+    "char": "→",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "section",
+    "char": "§",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "service_mark",
+    "char": "℠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sound_recording_copyright",
+    "char": "℗",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "spade",
+    "char": "♠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "star",
+    "char": "★",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "trademark",
+    "char": "™",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "up_arrow",
+    "char": "↑",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "white_circle",
+    "char": "○",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "white_square",
+    "char": "□",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "white_star",
+    "char": "☆",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  }
+]

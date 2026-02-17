@@ -19,3 +19,9 @@ license-files = ["LICENSE"]
 [project.urls]
 Homepage = "https://github.com/vishwanathdvgmm/symjoy"
 Issues = "https://github.com/vishwanathdvgmm/symjoy/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/symjoy"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/symjoy/data" = "symjoy/data"

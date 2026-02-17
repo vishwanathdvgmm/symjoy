@@ -1,0 +1,592 @@
+[
+  {
+    "name": "100",
+    "char": "💯",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "angry",
+    "char": "😠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "bell",
+    "char": "🔔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "black_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "blue_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "boom",
+    "char": "💥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "broken_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "check_mark",
+    "char": "✅",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "clap",
+    "char": "👏",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "clapping_hands",
+    "char": "👏",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "confused",
+    "char": "😕",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "crescent_moon",
+    "char": "🌙",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "cross_mark",
+    "char": "❌",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "crossed_fingers",
+    "char": "🤞",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "cry",
+    "char": "😢",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "disappointed",
+    "char": "😞",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "exploding_head",
+    "char": "🤯",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "face_blowing_a_kiss",
+    "char": "😘",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "face_with_hand_over_mouth",
+    "char": "🤭",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "face_with_monocle",
+    "char": "🧐",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "face_with_sunglasses",
+    "char": "😎",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "face_with_tears_of_joy",
+    "char": "😂",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "fire",
+    "char": "🔥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "flexed_biceps",
+    "char": "💪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "flushed",
+    "char": "😵",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "folded_hands",
+    "char": "🙏",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "green_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "grin",
+    "char": "😁",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "grinning",
+    "char": "😀",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "heart",
+    "char": "♥",
+    "keywords": [
+      "love",
+      "valentine"
+    ],
+    "aliases": {
+      "en": [
+        "heart"
+      ],
+      "es": [
+        "corazon"
+      ],
+      "fr": [
+        "coeur"
+      ]
+    },
+    "related": [
+      "broken_heart",
+      "red_heart"
+    ]
+  },
+  {
+    "name": "heart_eyes",
+    "char": "😍",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "hourglass",
+    "char": "⏳",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "information",
+    "char": "ℹ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "joy",
+    "char": "😂",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "kiss",
+    "char": "😘",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "laugh",
+    "char": "😆",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "light_bulb",
+    "char": "💡",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "lock",
+    "char": "🔒",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "loudly_crying_face",
+    "char": "😭",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "muscle",
+    "char": "💪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "neutral_face",
+    "char": "😐",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "ok_hand",
+    "char": "👌",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "orange_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "party",
+    "char": "🥳",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "partying_face",
+    "char": "🥳",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "pleading_face",
+    "char": "🥺",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "point_down",
+    "char": "👇",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "point_left",
+    "char": "👈",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "point_right",
+    "char": "👉",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "point_up",
+    "char": "👆",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "pray",
+    "char": "🙏",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "purple_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "raised_hands",
+    "char": "🙌",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "red_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "rocket",
+    "char": "🚀",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sleeping",
+    "char": "😴",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sleepy_face",
+    "char": "😪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "smile",
+    "char": "😄",
+    "keywords": [
+      "happy",
+      "joy",
+      "grin"
+    ],
+    "aliases": {
+      "en": [
+        "smile"
+      ],
+      "es": [
+        "sonrisa"
+      ]
+    },
+    "related": [
+      "grinning",
+      "laugh"
+    ]
+  },
+  {
+    "name": "smiling_face",
+    "char": "😄",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sob",
+    "char": "😭",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sparkle",
+    "char": "✨",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "star",
+    "char": "⭐",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "star_struck",
+    "char": "🤩",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sun",
+    "char": "☀",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sunglasses",
+    "char": "😎",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "tada",
+    "char": "🎉",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "thinking",
+    "char": "🤔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "thinking_face",
+    "char": "🤔",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "thumbs_down",
+    "char": "👎",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "thumbs_up",
+    "char": "👍",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "unlock",
+    "char": "🔓",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "victory_hand",
+    "char": "✌",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "warning",
+    "char": "⚠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "wave",
+    "char": "👋",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "waving_hand",
+    "char": "👋",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "white_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "wink",
+    "char": "😉",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "winking_face",
+    "char": "😉",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "yellow_heart",
+    "char": "❤️",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "zany_face",
+    "char": "🤪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  }
+]

@@ -1,5 +1,5 @@
 # emojis.py
-emojis = {
+emoji = {
     "grinning": "\U0001F600",
     "smile": "\U0001F604",
     "laugh": "\U0001F606",

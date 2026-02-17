@@ -4,24 +4,43 @@
 
 # Symjoy
 
-**symjoy** is a comprehensive Python package providing easy access to Unicode characters, including **emojis, symbols, arrows, mathematical symbols, currency signs, and miscellaneous icons**. Perfect for chat apps, games, educational tools, financial apps, or any Python project requiring Unicode characters.
+A structured, metadata-driven Unicode symbol engine for Python.
 
-Version 2.x introduces a clean, discoverable API while maintaining backward compatibility
-with version 1.x.
+**symjoy** provides clean, consistent, and intelligent access to Unicode characters including:
 
-## Installation
+- Emojis 😄
+- Symbols ♥
+- Arrows →
+- Mathematical symbols π
+- Currency signs ₹
+- Miscellaneous icons ☀
 
-Install from PyPI:
+It is designed for chat applications, games, educational tools, financial apps, and any Python project requiring Unicode characters.
+
+---
+
+## ✨ Key Features
+
+- JSON-backed data architecture
+- Lazy-loaded registry
+- Automatic keyword enrichment
+- Semantic relationship graph
+- Multilingual alias support
+- Deterministic search ordering
+- Category-isolated APIs
+- Backward compatible with v2.x
+
+---
+
+## 📦 Installation
 
 ```bash
 pip install symjoy
 ```
 
-## Usage
+## 🚀 Basic Usage
 
-#### 1. Quick Start (v2 API)
-
-```python
+```Python
 from symjoy import emoji, symbols, arrows, math, currency, misc, search
 
 print(emoji.get("smile"))      # 😄
@@ -31,30 +50,31 @@ print(math.get("pi"))          # π
 print(currency.get("rupee"))   # ₹
 print(misc.get("sun"))         # ☀
 
-print(emoji.random())          # random emoji
+print(emoji.random())          # Random emoji
 ```
 
-#### 2. Category APIs
+## 📚 Category API
 
-Each category exposes the same interface:
+Each category exposes a consistent interface:
 
+```python
+get(name) -> str | None
+random() -> str
+list() -> list[str]
+items() -> dict[str, str]
+related(name) -> list[dict]
 ```
-get(name)      -> str | None
-random()       -> str
-list()         -> list[str]
-items()        -> dict[str, str]
-```
 
-##### **Example**
+Example:
 
 ```python
 from symjoy import emoji
 
-emoji.list()
-emoji.items()
+print(emoji.list())
+print(emoji.related("broken_heart"))
 ```
 
-#### 3. Global Search
+## 🔎 Intelligent Search
 
 Search across all categories:
 
@@ -64,52 +84,50 @@ from symjoy import search
 results = search("heart")
 ```
 
-Expected results:
+Search is ranked by:
 
+1. Exact match
+2. Prefix match
+3. Substring match
+4. Deterministic category ordering
+
+## 🧠 Metadata Engine (v2.5.0)
+
+v2.5.0 introduces a major internal upgrade:
+
+- JSON-driven data storage
+- Runtime metadata enrichment
+- Automatic keyword generation
+- Token-based semantic relationship graph
+- Fully category-agnostic registry
+
+Example:
+
+```python
+emoji.related("heart")
+search("joy")
 ```
-[
-  {
-    "name": "heart",
-    "char": "♥",
-    "category": "symbols",
-    "unicode": "U+2665"
-  }
-]
-```
 
-#### 4. Backward Compatibility (v1.x)
+## Backward Compatibility (v1.x)
 
-Version 2.x still supports v1-style access:
+Version 2.x still supports legacy v1-style access:
 
 ```python
 from symjoy import emojis
 print(emojis["smile"])
 ```
 
-⚠️ This usage is deprecated and will be removed in symjoy 3.0.0.
+⚠️ This usage is deprecated and will be removed in symjoy v3.0.0.
 
-### 5. Helper APIs (v2.1+)
+## 📖 Documentation
 
-Each category now supports metadata helpers:
+[📜 Changelog](CHANGELOG.md)
 
-```python
-from symjoy import emoji
+[🔄 Migration Guide](MIGRATION.md)
 
-emoji.exists("smile")   # True / False
+[🏗 Architecture Overview](ARCHITECTURE.md)
 
-emoji.info("smile")
-# {
-#   "name": "smile",
-#   "char": "😄",
-#   "category": "emoji",
-#   "unicode": "U+1F604"
-# }
-```
-
-These helpers are available for:
-`emoji`, `math`, `arrows`, `currency`, `misc`, and `symbols`.
-
-### 6. Github Link
+## Project Links
 
 **If any issue with the package you can contact here:**
 
@@ -118,3 +136,10 @@ These helpers are available for:
 **The source code is available on GitHub**
 
 - **Github:** https://github.com/vishwanathdvgmm/symjoy
+- **Github issues:** https://github.com/vishwanathdvgmm/symjoy/issues
+
+**The link for the package in pypi.org is:**
+
+- **Pypi:** https://pypi.org/project/symjoy/
+
+**License: MIT**

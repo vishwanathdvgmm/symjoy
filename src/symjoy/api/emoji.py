@@ -2,6 +2,7 @@
 
 import random as _random
 from symjoy.core.registry import get_symbol, list_by_category
+from symjoy.core.registry import get_related as _get_related
 
 _CATEGORY = "emoji"
 
@@ -74,3 +75,14 @@ def info(name: str) -> dict | None:
             "unicode": symbol.unicode,
         }
     return None
+
+def related(name: str):
+    """
+    Return related emoji characters.
+    """
+    nodes = _get_related(name)
+    return [
+        {"name": n.name, "char": n.char}
+        for n in nodes
+        if n.category == _CATEGORY
+        ]

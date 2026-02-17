@@ -1,6 +1,6 @@
 # categories/emoji.py
 
-emojis = {
+emoji = {
     # ---- v2.0.0 original emojis (UNCHANGED) ----
     "grinning": "\U0001F600",
     "smile": "\U0001F604",

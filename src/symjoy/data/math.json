@@ -1,0 +1,415 @@
+[
+  {
+    "name": "alpha",
+    "char": "α",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "angle",
+    "char": "∠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "approximately",
+    "char": "≈",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "because",
+    "char": "∵",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "beta",
+    "char": "β",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "chi",
+    "char": "χ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "degree",
+    "char": "°",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "delta",
+    "char": "δ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "divide",
+    "char": "÷",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "double_prime",
+    "char": "″",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "element_of",
+    "char": "∈",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "epsilon",
+    "char": "ε",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "equals",
+    "char": "=",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "eta",
+    "char": "η",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "gamma",
+    "char": "γ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "greater_equal",
+    "char": "≥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "greater_than",
+    "char": ">",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "infinity",
+    "char": "∞",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "integral",
+    "char": "∫",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "intersection",
+    "char": "∩",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "iota",
+    "char": "ι",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "kappa",
+    "char": "κ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "lambda",
+    "char": "λ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "less_equal",
+    "char": "≤",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "less_than",
+    "char": "<",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "minus",
+    "char": "-",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "mu",
+    "char": "μ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "multiply",
+    "char": "×",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "nabla",
+    "char": "∇",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "not_element_of",
+    "char": "∉",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "not_equals",
+    "char": "≠",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "nu",
+    "char": "ν",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "omega",
+    "char": "ω",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "omicron",
+    "char": "ο",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "parallel",
+    "char": "∥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "partial_derivative",
+    "char": "∂",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "perpendicular",
+    "char": "⊥",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "phi",
+    "char": "φ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "pi",
+    "char": "π",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "plus",
+    "char": "+",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "plus_minus",
+    "char": "±",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "prime",
+    "char": "'",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "proper_subset",
+    "char": "⊆",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "proper_superset",
+    "char": "⊇",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "psi",
+    "char": "ψ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "rho",
+    "char": "ρ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "sigma",
+    "char": "σ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "square_root",
+    "char": "√",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "subset",
+    "char": "⊂",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "summation",
+    "char": "∑",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "superset",
+    "char": "⊃",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "tau",
+    "char": "τ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "therefore",
+    "char": "∴",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "theta",
+    "char": "θ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "triple_prime",
+    "char": "‴",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "union",
+    "char": "∪",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "upsilon",
+    "char": "υ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "xi",
+    "char": "ξ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  },
+  {
+    "name": "zeta",
+    "char": "ζ",
+    "keywords": [],
+    "aliases": {},
+    "related": []
+  }
+]
