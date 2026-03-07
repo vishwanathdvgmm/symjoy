@@ -49,13 +49,6 @@
     "related": []
   },
   {
-    "name": "check_mark",
-    "char": "✅",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
     "name": "clap",
     "char": "👏",
     "keywords": [],
@@ -79,13 +72,6 @@
   {
     "name": "crescent_moon",
     "char": "🌙",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
-    "name": "cross_mark",
-    "char": "❌",
     "keywords": [],
     "aliases": {},
     "related": []
@@ -154,13 +140,6 @@
     "related": []
   },
   {
-    "name": "fire",
-    "char": "🔥",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
     "name": "flexed_biceps",
     "char": "💪",
     "keywords": [],
@@ -203,45 +182,8 @@
     "related": []
   },
   {
-    "name": "heart",
-    "char": "♥",
-    "keywords": [
-      "love",
-      "valentine"
-    ],
-    "aliases": {
-      "en": [
-        "heart"
-      ],
-      "es": [
-        "corazon"
-      ],
-      "fr": [
-        "coeur"
-      ]
-    },
-    "related": [
-      "broken_heart",
-      "red_heart"
-    ]
-  },
-  {
     "name": "heart_eyes",
     "char": "😍",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
-    "name": "hourglass",
-    "char": "⏳",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
-    "name": "information",
-    "char": "ℹ",
     "keywords": [],
     "aliases": {},
     "related": []
@@ -457,22 +399,8 @@
     "related": []
   },
   {
-    "name": "star",
-    "char": "⭐",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
     "name": "star_struck",
     "char": "🤩",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
-    "name": "sun",
-    "char": "☀",
     "keywords": [],
     "aliases": {},
     "related": []
@@ -529,13 +457,6 @@
   {
     "name": "victory_hand",
     "char": "✌",
-    "keywords": [],
-    "aliases": {},
-    "related": []
-  },
-  {
-    "name": "warning",
-    "char": "⚠",
     "keywords": [],
     "aliases": {},
     "related": []

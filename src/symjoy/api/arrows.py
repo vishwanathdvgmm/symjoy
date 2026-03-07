@@ -1,5 +1,4 @@
-# src/symjoy/api/arrows.py
-
+from __future__ import annotations
 import random as _random
 from symjoy.core.registry import get_symbol, list_by_category
 from symjoy.core.registry import get_related as _get_related

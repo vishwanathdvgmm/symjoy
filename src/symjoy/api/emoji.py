@@ -1,12 +1,11 @@
-# src/symjoy/api/emoji.py
-
+from __future__ import annotations
 import random as _random
 from symjoy.core.registry import get_symbol, list_by_category
 from symjoy.core.registry import get_related as _get_related
 
 _CATEGORY = "emoji"
 
-def get(name: str):
+def get(name: str) -> str | None:
     """
     Get an emoji by name.
     Returns the unicode character or None if not found.
@@ -19,7 +18,7 @@ def get(name: str):
         return symbol.char
     return None
 
-def random():
+def random() -> str | None:
     """
     Return a random emoji character.
     """
@@ -28,13 +27,13 @@ def random():
         return None
     return _random.choice(symbols).char
 
-def list():
+def list() -> list[str]:
     """
     List all emoji names (sorted).
     """
     return [s.name for s in list_by_category(_CATEGORY)]
 
-def items():
+def items() -> dict[str, str]:
     """
     Return a dict of {name: char} for emojis.
     """
@@ -76,13 +75,16 @@ def info(name: str) -> dict | None:
         }
     return None
 
-def related(name: str):
+def related(name: str) -> list[dict]:
     """
     Return related emoji characters.
     """
-    nodes = _get_related(name)
+    if not None:
+        return []
+
+    nodes = _get_related(name.lower())
     return [
         {"name": n.name, "char": n.char}
         for n in nodes
         if n.category == _CATEGORY
-        ]
+    ]

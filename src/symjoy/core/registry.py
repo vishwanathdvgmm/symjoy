@@ -8,10 +8,12 @@ from symjoy.categories import (
     emoji as emoji_legacy,
     symbols,
     arrows,
-    math,
     currency,
     misc,
+    math,
 )
+
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 _DEBUG = os.environ.get("SYMJOY_DEBUG", "").lower() in {"1", "true", "yes"}
 
@@ -26,7 +28,7 @@ class SymbolNode:
     category: str
     unicode: str
     keywords: tuple[str, ...] = ()
-    aliases: dict[str, tuple[str, ...]] = None
+    aliases: dict[str, tuple[str, ...]] | None = None
     related: tuple[str, ...] = ()
 
 # -------------------------------
@@ -64,7 +66,7 @@ def _register_symbol(node: SymbolNode):
 # -------------------------------
 
 def _load_category_from_json(category_name: str) -> bool:
-    data_path = Path(__file__).parent.parent / "data" / f"{category_name}.json"
+    data_path = DATA_DIR / f"{category_name}.json"
 
     if not data_path.exists():
         return False
@@ -107,7 +109,6 @@ def _load_category_from_json(category_name: str) -> bool:
         if _DEBUG:
             warnings.warn(f"Failed to load {category_name}.json: {e}")
         return False
-
 
 def _enrich_metadata():
     """
@@ -204,13 +205,30 @@ def _ensure_initialized():
     if _INITIALIZED:
         return
 
+    category_map = {
+        "emoji": emoji_legacy.emoji,
+        "symbols": symbols.symbols,
+        "arrows": arrows.arrows,
+        "math": math.math_symbols,
+        "currency": currency.currency,
+        "misc": misc.misc,
+    }
+
     # Load JSON categories
-    for category in ["emoji", "symbols", "arrows", "math", "currency", "misc"]:
-        _load_category_from_json(category)
+    for category, legacy_data in category_map.items():
+        loaded = _load_category_from_json(category)
+        if not loaded:
+            _register_legacy_category(category, legacy_data)
     
     _enrich_metadata()
+    
+    from symjoy.core.index import build_index
+    build_index()
 
     _INITIALIZED = True
+
+    if not _REGISTRY and _DEBUG:
+        warnings.warn("Symjoy registry initialized but no symbols loaded.")
 
 # -------------------------------
 # Public API
@@ -238,36 +256,8 @@ def get_related(name: str) -> list[SymbolNode]:
     if not node:
         return []
 
-    related_set = set(node.related)
-
-    if node.keywords:
-        node_keywords = {
-            k.lower()
-            for k in node.keywords
-            if k.lower() not in _STOPWORDS
-        }
-
-        for other in _REGISTRY.values():
-            if other.name == name:
-                continue
-
-            if not other.keywords:
-                continue
-
-            other_keywords = {
-                k.lower()
-                for k in other.keywords
-                if k.lower() not in _STOPWORDS
-            }
-
-            if node_keywords.intersection(other_keywords):
-                related_set.add(other.name)
-
-    # Unique + deterministic ordering
-    unique_nodes = [
+    return [
         _REGISTRY[n]
-        for n in sorted(related_set)
+        for n in sorted(node.related)
         if n in _REGISTRY
     ]
-
-    return unique_nodes
