@@ -44,6 +44,7 @@
 ├── 📄 LICENSE
 ├── 📝 MIGRATION.md
 ├── 📝 README.md
+├── 📝 STRUCTURE.md
 └── ⚙️ pyproject.toml
 ```
 
