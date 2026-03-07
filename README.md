@@ -4,6 +4,13 @@
 
 # Symjoy
 
+| Version | Highlights                    |
+| ------- | ----------------------------- |
+| v2.6.0  | Indexed search engine         |
+| v2.5.0  | Metadata-driven architecture  |
+| v2.1.0  | Helper APIs & improved search |
+| v2.0.0  | Structured category API       |
+
 A structured, metadata-driven Unicode symbol engine for Python.
 
 **symjoy** provides clean, consistent, and intelligent access to Unicode characters including:
@@ -21,14 +28,15 @@ It is designed for chat applications, games, educational tools, financial apps, 
 
 ## ✨ Key Features
 
-- JSON-backed data architecture
-- Lazy-loaded registry
-- Automatic keyword enrichment
-- Semantic relationship graph
-- Multilingual alias support
-- Deterministic search ordering
-- Category-isolated APIs
-- Backward compatible with v2.x
+- JSON-backed data architecture.
+- Lazy-loaded registry.
+- Automatic keyword enrichment.
+- Semantic relationship graph.
+- Multilingual alias support.
+- **Indexed search engine for fast lookups**.
+- Deterministic search ordering.
+- Category-isolated APIs.
+- Backward compatible with v2.x.
 
 ---
 
@@ -37,6 +45,8 @@ It is designed for chat applications, games, educational tools, financial apps, 
 ```bash
 pip install symjoy
 ```
+
+Required Python version: **3.12+**
 
 ## 🚀 Basic Usage
 
@@ -86,10 +96,11 @@ results = search("heart")
 
 Search is ranked by:
 
-1. Exact match
-2. Prefix match
-3. Substring match
-4. Deterministic category ordering
+1. Exact name match.
+2. Prefix name match.
+3. Keyword match.
+4. Alias match.
+5. Substring fallback.
 
 ## 🧠 Metadata Engine (v2.5.0)
 
@@ -108,7 +119,26 @@ emoji.related("heart")
 search("joy")
 ```
 
-## Backward Compatibility (v1.x)
+## ⚡ Indexed Search Engine (v2.6.0)
+
+v2.6.0 introduces an internal **symbol index engine** that significantly improves search performance.
+
+The registry now builds internal indexes for:
+
+- symbol names.
+- keywords.
+- aliases.
+- name tokens.
+
+This allows search queries to avoid scanning the entire symbol registry and instead perform indexed lookups.
+
+Benefits:
+
+- faster search performance.
+- scalable architecture for larger Unicode datasets.
+- improved metadata-based queries.
+
+## 🔁 Backward Compatibility (v1.x)
 
 Version 2.x still supports legacy v1-style access:
 
@@ -121,11 +151,13 @@ print(emojis["smile"])
 
 ## 📖 Documentation
 
-[📜 Changelog](CHANGELOG.md)
+[📜 Changelog](https://github.com/vishwanathdvgmm/symjoy/blob/main/CHANGELOG.md)
 
-[🔄 Migration Guide](MIGRATION.md)
+[🔄 Migration Guide](https://github.com/vishwanathdvgmm/symjoy/blob/main/MIGRATION.md)
 
-[🏗 Architecture Overview](ARCHITECTURE.md)
+[🏗 Architecture Overview](https://github.com/vishwanathdvgmm/symjoy/blob/main/ARCHITECTURE.md)
+
+[📁 File Structure](https://github.com/vishwanathdvgmm/symjoy/blob/main/STRUCTURE.md)
 
 ## Project Links
 

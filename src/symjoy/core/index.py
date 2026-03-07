@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 from symjoy.core.registry import _REGISTRY
 
 _NAME_INDEX = {}
@@ -8,7 +7,6 @@ _ALIAS_INDEX = defaultdict(set)
 _TOKEN_INDEX = defaultdict(set)
 
 _INDEX_BUILT = False
-
 
 def build_index():
     global _INDEX_BUILT
@@ -38,14 +36,11 @@ def build_index():
 
     _INDEX_BUILT = True
 
-
-def search_keyword(keyword):
+def search_keyword(keyword: str):
     return _KEYWORD_INDEX.get(keyword.lower(), set())
 
-
-def search_alias(alias):
+def search_alias(alias: str):
     return _ALIAS_INDEX.get(alias.lower(), set())
 
-
-def search_token(token):
+def search_token(token: str):
     return _TOKEN_INDEX.get(token.lower(), set())

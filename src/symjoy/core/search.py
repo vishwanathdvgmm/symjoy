@@ -8,7 +8,6 @@ def search(query: str, language: str = "en"):
     _ensure_initialized()
 
     query = query.lower()
-
     candidates = set()
 
     # exact name
@@ -41,5 +40,4 @@ def search(query: str, language: str = "en"):
         )
 
     results.sort(key=lambda x: (x["category"], x["name"]))
-
     return results

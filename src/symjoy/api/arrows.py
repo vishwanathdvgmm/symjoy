@@ -5,7 +5,11 @@ from symjoy.core.registry import get_related as _get_related
 
 _CATEGORY = "arrows"
 
-def get(name: str):
+def get(name: str) -> str | None:
+    """
+    Get an arrow by name.
+    Returns the unicode character or None if not found.
+    """
     if not name:
         return None
 
@@ -14,21 +18,33 @@ def get(name: str):
         return symbol.char
     return None
 
-def random():
+def random() -> str | None:
+    """
+    Return a random arrow character.
+    """
     symbols = list_by_category(_CATEGORY)
     if not symbols:
         return None
     return _random.choice(symbols).char
 
-def list():
+def list() -> list[str]:
+    """
+    List all arrow names (sorted).
+    """
     return [s.name for s in list_by_category(_CATEGORY)]
 
-def items():
+def items() -> dict[str, str]:
+    """
+    Return a dict of {name: char} for arrows.
+    """
     return {s.name: s.char for s in list_by_category(_CATEGORY)}
 
 # ---- v2.1.0 helper APIs ----
 
 def exists(name: str) -> bool:
+    """
+    Check if an arrow exists by name.
+    """
     if not name:
         return False
 
@@ -36,6 +52,16 @@ def exists(name: str) -> bool:
     return bool(symbol and symbol.category == _CATEGORY)
 
 def info(name: str) -> dict | None:
+    """
+    Return metadata for an arrow.
+
+    {
+        "name": str,
+        "char": str,
+        "category": str,
+        "unicode": str
+    }
+    """
     if not name:
         return None
 
@@ -49,7 +75,12 @@ def info(name: str) -> dict | None:
         }
     return None
 
-def related(name: str):
+def related(name: str) -> list[dict]:
+    """
+    Return related arrow characters.
+    """
+    if not name:
+        return []
     nodes = _get_related(name)
     return [
         {"name": n.name, "char": n.char}
