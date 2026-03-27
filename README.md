@@ -151,13 +151,13 @@ print(emojis["smile"])
 
 ## 📖 Documentation
 
-[📜 Changelog](https://github.com/vishwanathdvgmm/symjoy/blob/main/CHANGELOG.md)
+[📜 Changelog](https://github.com/vishwanathdvgmm/symjoy/blob/main/docs/CHANGELOG.md)
 
-[🔄 Migration Guide](https://github.com/vishwanathdvgmm/symjoy/blob/main/MIGRATION.md)
+[🔄 Migration Guide](https://github.com/vishwanathdvgmm/symjoy/blob/main/docs/MIGRATION.md)
 
-[🏗 Architecture Overview](https://github.com/vishwanathdvgmm/symjoy/blob/main/ARCHITECTURE.md)
+[🏗 Architecture Overview](https://github.com/vishwanathdvgmm/symjoy/blob/main/docs/ARCHITECTURE.md)
 
-[📁 File Structure](https://github.com/vishwanathdvgmm/symjoy/blob/main/STRUCTURE.md)
+[📁 File Structure](https://github.com/vishwanathdvgmm/symjoy/blob/main/docs/STRUCTURE.md)
 
 ## Project Links
 
