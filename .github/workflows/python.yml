@@ -1,0 +1,31 @@
+name: Symjoy CI
+
+on:
+    push:
+    pull_request:
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                python-version: ["3.12"]
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Setup Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: ${{ matrix.python-version }}
+
+            - name: Install package
+              run: |
+                  python -m pip install --upgrade pip setupools wheel
+                  pip install -e .
+                  pip install pytest
+
+            - name: Run tests
+              run: pytest

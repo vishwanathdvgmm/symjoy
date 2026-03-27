@@ -24,6 +24,3 @@ tests/
 *.key
 
 PKG-INFO
-.*/
-
-migrate_category_to_json.py
