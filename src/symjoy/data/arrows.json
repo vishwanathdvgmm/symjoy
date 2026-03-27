@@ -38,9 +38,7 @@
       ]
     },
     "related": [
-      "double_left",
       "double_left_right",
-      "double_right",
       "double_up",
       "down",
       "down_left",
@@ -48,88 +46,17 @@
     ]
   },
   {
-    "name": "double_left",
-    "char": "⇐",
-    "keywords": [
-      "double",
-      "left"
-    ],
-    "aliases": {
-      "en": [
-        "double left"
-      ]
-    },
-    "related": [
-      "double_down",
-      "double_left_right",
-      "double_right",
-      "double_up",
-      "down_left",
-      "hook_left",
-      "left",
-      "left_right",
-      "long_left",
-      "long_left_right",
-      "up_left"
-    ]
-  },
-  {
-    "name": "double_left_right",
+    "name": "equivalent",
     "char": "⇔",
     "keywords": [
-      "double",
-      "left",
-      "right"
+      "equivalent"
     ],
     "aliases": {
       "en": [
-        "double left right"
+        "equivalent"
       ]
     },
-    "related": [
-      "double_down",
-      "double_left",
-      "double_right",
-      "double_up",
-      "down_left",
-      "down_right",
-      "hook_left",
-      "hook_right",
-      "left",
-      "left_right",
-      "long_left",
-      "long_left_right",
-      "long_right",
-      "right",
-      "up_left",
-      "up_right"
-    ]
-  },
-  {
-    "name": "double_right",
-    "char": "⇒",
-    "keywords": [
-      "double",
-      "right"
-    ],
-    "aliases": {
-      "en": [
-        "double right"
-      ]
-    },
-    "related": [
-      "double_down",
-      "double_left",
-      "double_left_right",
-      "double_up",
-      "down_right",
-      "hook_right",
-      "left_right",
-      "long_left_right",
-      "long_right",
-      "right",
-      "up_right"
-    ]
+    "related": []
   },
   {
     "name": "double_up",

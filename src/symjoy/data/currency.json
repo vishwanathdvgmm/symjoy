@@ -296,19 +296,6 @@
     "related": []
   },
   {
-    "name": "rubl",
-    "char": "₽",
-    "keywords": [
-      "rubl"
-    ],
-    "aliases": {
-      "en": [
-        "rubl"
-      ]
-    },
-    "related": []
-  },
-  {
     "name": "ruble",
     "char": "₽",
     "keywords": [

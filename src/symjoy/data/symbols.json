@@ -307,19 +307,6 @@
     "related": []
   },
   {
-    "name": "pilcrow",
-    "char": "¶",
-    "keywords": [
-      "pilcrow"
-    ],
-    "aliases": {
-      "en": [
-        "pilcrow"
-      ]
-    },
-    "related": []
-  },
-  {
     "name": "plus_minus",
     "char": "±",
     "keywords": [

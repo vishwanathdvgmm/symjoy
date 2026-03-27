@@ -23,3 +23,5 @@ Thumbs.db
 PKG-INFO
 
 scripts/
+
+*.txt

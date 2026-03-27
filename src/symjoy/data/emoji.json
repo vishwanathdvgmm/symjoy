@@ -13,14 +13,243 @@
     "related": []
   },
   {
-    "name": "angry",
+    "name": "alien",
+    "char": "👽",
+    "keywords": [
+      "alien",
+      "ufo"
+    ],
+    "aliases": {
+      "en": [
+        "alien"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "alien_monster",
+    "char": "👾",
+    "keywords": [
+      "alien",
+      "monster",
+      "game"
+    ],
+    "aliases": {
+      "en": [
+        "alien_monster"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "angry_face",
     "char": "😠",
     "keywords": [
-      "angry"
+      "angry",
+      "mad"
     ],
     "aliases": {
       "en": [
         "angry"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "angry_face_with_horns",
+    "char": "👿",
+    "keywords": [
+      "angry",
+      "devil"
+    ],
+    "aliases": {
+      "en": [
+        "imp"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "anguished_face",
+    "char": "😧",
+    "keywords": [
+      "anguished"
+    ],
+    "aliases": {
+      "en": [
+        "anguished"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "apple",
+    "char": "🍎",
+    "keywords": [
+      "fruit",
+      "apple"
+    ],
+    "aliases": {
+      "en": [
+        "apple"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "astonished_face",
+    "char": "😲",
+    "keywords": [
+      "astonished",
+      "shocked"
+    ],
+    "aliases": {
+      "en": [
+        "astonished"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "avocado",
+    "char": "🥑",
+    "keywords": [
+      "avocado"
+    ],
+    "aliases": {
+      "en": [
+        "avocado"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "baby",
+    "char": "👶",
+    "keywords": [
+      "baby"
+    ],
+    "aliases": {
+      "en": [
+        "baby"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "badminton",
+    "char": "🏸",
+    "keywords": [
+      "sport"
+    ],
+    "aliases": {
+      "en": [
+        "badminton"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bald_person",
+    "char": "🧑‍🦲",
+    "keywords": [
+      "bald"
+    ],
+    "aliases": {
+      "en": [
+        "bald"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "banana",
+    "char": "🍌",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "banana"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "baseball",
+    "char": "⚾",
+    "keywords": [
+      "sport"
+    ],
+    "aliases": {
+      "en": [
+        "baseball"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "basketball",
+    "char": "🏀",
+    "keywords": [
+      "sport"
+    ],
+    "aliases": {
+      "en": [
+        "basketball"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "beach",
+    "char": "🏖️",
+    "keywords": [
+      "beach"
+    ],
+    "aliases": {
+      "en": [
+        "beach"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "beaming_face_with_smiling_eyes",
+    "char": "😁",
+    "keywords": [
+      "happy",
+      "smile"
+    ],
+    "aliases": {
+      "en": [
+        "grin"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bear",
+    "char": "🐻",
+    "keywords": [
+      "bear"
+    ],
+    "aliases": {
+      "en": [
+        "bear"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bearded_person",
+    "char": "🧔",
+    "keywords": [
+      "beard"
+    ],
+    "aliases": {
+      "en": [
+        "bearded_person"
       ]
     },
     "related": []
@@ -39,8 +268,73 @@
     "related": []
   },
   {
+    "name": "beating_heart",
+    "char": "💓",
+    "keywords": [
+      "beating",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "beating heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "billiards",
+    "char": "🎱",
+    "keywords": [
+      "pool"
+    ],
+    "aliases": {
+      "en": [
+        "8ball"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bird",
+    "char": "🐦",
+    "keywords": [
+      "bird"
+    ],
+    "aliases": {
+      "en": [
+        "bird"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "black_heart",
-    "char": "❤️",
+    "char": "🖤",
     "keywords": [
       "black",
       "heart"
@@ -51,20 +345,48 @@
       ]
     },
     "related": [
+      "beating_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
   },
   {
+    "name": "blond_haired_person",
+    "char": "👱",
+    "keywords": [
+      "blond"
+    ],
+    "aliases": {
+      "en": [
+        "blond"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "blue_heart",
-    "char": "❤️",
+    "char": "💙",
     "keywords": [
       "blue",
       "heart"
@@ -75,13 +397,28 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
@@ -100,8 +437,73 @@
     "related": []
   },
   {
+    "name": "bowling",
+    "char": "🎳",
+    "keywords": [
+      "bowling"
+    ],
+    "aliases": {
+      "en": [
+        "bowling"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "boxing",
+    "char": "🥊",
+    "keywords": [
+      "fight"
+    ],
+    "aliases": {
+      "en": [
+        "boxing"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "boy",
+    "char": "👦",
+    "keywords": [
+      "boy"
+    ],
+    "aliases": {
+      "en": [
+        "boy"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bread",
+    "char": "🍞",
+    "keywords": [
+      "bread"
+    ],
+    "aliases": {
+      "en": [
+        "bread"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "bridge",
+    "char": "🌉",
+    "keywords": [
+      "bridge"
+    ],
+    "aliases": {
+      "en": [
+        "bridge"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "broken_heart",
-    "char": "❤️",
+    "char": "💔",
     "keywords": [
       "broken",
       "heart"
@@ -112,26 +514,254 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
   },
   {
-    "name": "clap",
-    "char": "👏",
+    "name": "brown_heart",
+    "char": "🤎",
     "keywords": [
-      "clap"
+      "brown",
+      "heart"
     ],
     "aliases": {
       "en": [
-        "clap"
+        "brown heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "burger",
+    "char": "🍔",
+    "keywords": [
+      "burger"
+    ],
+    "aliases": {
+      "en": [
+        "hamburger"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cake",
+    "char": "🍰",
+    "keywords": [
+      "dessert"
+    ],
+    "aliases": {
+      "en": [
+        "cake"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "camping",
+    "char": "🏕️",
+    "keywords": [
+      "camp"
+    ],
+    "aliases": {
+      "en": [
+        "camping"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "carrot",
+    "char": "🥕",
+    "keywords": [
+      "vegetable"
+    ],
+    "aliases": {
+      "en": [
+        "carrot"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cat_face",
+    "char": "🐱",
+    "keywords": [
+      "cat"
+    ],
+    "aliases": {
+      "en": [
+        "cat"
+      ]
+    },
+    "related": [
+      "cat",
+      "cat_face_with_tears_of_joy",
+      "cat_with_heart_eyes"
+    ]
+  },
+  {
+    "name": "cat_face_with_tears_of_joy",
+    "char": "😹",
+    "keywords": [
+      "cat",
+      "joy"
+    ],
+    "aliases": {
+      "en": [
+        "joy_cat"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cheese",
+    "char": "🧀",
+    "keywords": [
+      "cheese"
+    ],
+    "aliases": {
+      "en": [
+        "cheese"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cherries",
+    "char": "🍒",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "cherries"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "chess",
+    "char": "♟️",
+    "keywords": [
+      "game"
+    ],
+    "aliases": {
+      "en": [
+        "chess"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "chicken",
+    "char": "🐔",
+    "keywords": [
+      "chicken"
+    ],
+    "aliases": {
+      "en": [
+        "chicken"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "chicken_leg",
+    "char": "🍗",
+    "keywords": [
+      "meat"
+    ],
+    "aliases": {
+      "en": [
+        "poultry_leg"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "child",
+    "char": "🧒",
+    "keywords": [
+      "child"
+    ],
+    "aliases": {
+      "en": [
+        "child"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "chocolate",
+    "char": "🍫",
+    "keywords": [
+      "sweet"
+    ],
+    "aliases": {
+      "en": [
+        "chocolate"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "city",
+    "char": "🏙️",
+    "keywords": [
+      "city"
+    ],
+    "aliases": {
+      "en": [
+        "cityscape"
       ]
     },
     "related": []
@@ -154,7 +784,47 @@
     ]
   },
   {
-    "name": "confused",
+    "name": "clown_face",
+    "char": "🤡",
+    "keywords": [
+      "clown"
+    ],
+    "aliases": {
+      "en": [
+        "clown_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cold_face",
+    "char": "🥶",
+    "keywords": [
+      "cold",
+      "freezing"
+    ],
+    "aliases": {
+      "en": [
+        "cold_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "confounded_face",
+    "char": "😖",
+    "keywords": [
+      "frustrated"
+    ],
+    "aliases": {
+      "en": [
+        "confounded"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "confused_face",
     "char": "😕",
     "keywords": [
       "confused"
@@ -162,6 +832,45 @@
     "aliases": {
       "en": [
         "confused"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cookie",
+    "char": "🍪",
+    "keywords": [
+      "dessert"
+    ],
+    "aliases": {
+      "en": [
+        "cookie"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "corn",
+    "char": "🌽",
+    "keywords": [
+      "vegetable"
+    ],
+    "aliases": {
+      "en": [
+        "corn"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cow",
+    "char": "🐮",
+    "keywords": [
+      "cow"
+    ],
+    "aliases": {
+      "en": [
+        "cow"
       ]
     },
     "related": []
@@ -181,6 +890,19 @@
     "related": []
   },
   {
+    "name": "cricket",
+    "char": "🏏",
+    "keywords": [
+      "sport"
+    ],
+    "aliases": {
+      "en": [
+        "cricket"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "crossed_fingers",
     "char": "🤞",
     "keywords": [
@@ -195,14 +917,67 @@
     "related": []
   },
   {
-    "name": "cry",
+    "name": "crying_face",
     "char": "😢",
     "keywords": [
-      "cry"
+      "cry",
+      "sad"
     ],
     "aliases": {
       "en": [
         "cry"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cycling",
+    "char": "🚴",
+    "keywords": [
+      "bike"
+    ],
+    "aliases": {
+      "en": [
+        "cycling"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "dart",
+    "char": "🎯",
+    "keywords": [
+      "target"
+    ],
+    "aliases": {
+      "en": [
+        "dart"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "deer",
+    "char": "🦌",
+    "keywords": [
+      "deer"
+    ],
+    "aliases": {
+      "en": [
+        "deer"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "desert",
+    "char": "🏜️",
+    "keywords": [
+      "desert"
+    ],
+    "aliases": {
+      "en": [
+        "desert"
       ]
     },
     "related": []
@@ -221,15 +996,184 @@
     "related": []
   },
   {
-    "name": "exploding_head",
-    "char": "🤯",
+    "name": "dizzy_face",
+    "char": "😵",
     "keywords": [
-      "exploding",
-      "head"
+      "dizzy"
     ],
     "aliases": {
       "en": [
-        "exploding head"
+        "dizzy_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "dog",
+    "char": "🐶",
+    "keywords": [
+      "dog"
+    ],
+    "aliases": {
+      "en": [
+        "dog"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "dolphin",
+    "char": "🐬",
+    "keywords": [
+      "dolphin"
+    ],
+    "aliases": {
+      "en": [
+        "dolphin"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "donut",
+    "char": "🍩",
+    "keywords": [
+      "dessert"
+    ],
+    "aliases": {
+      "en": [
+        "doughnut"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "dotted_line_face",
+    "char": "🫥",
+    "keywords": [
+      "invisible"
+    ],
+    "aliases": {
+      "en": [
+        "dotted_line_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "downcast_face_with_sweat",
+    "char": "😓",
+    "keywords": [
+      "sad",
+      "sweat"
+    ],
+    "aliases": {
+      "en": [
+        "sweat"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "drooling_face",
+    "char": "🤤",
+    "keywords": [
+      "drool"
+    ],
+    "aliases": {
+      "en": [
+        "drooling_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "duck",
+    "char": "🦆",
+    "keywords": [
+      "duck"
+    ],
+    "aliases": {
+      "en": [
+        "duck"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "eagle",
+    "char": "🦅",
+    "keywords": [
+      "eagle"
+    ],
+    "aliases": {
+      "en": [
+        "eagle"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "earth",
+    "char": "🌍",
+    "keywords": [
+      "world"
+    ],
+    "aliases": {
+      "en": [
+        "earth"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "egg",
+    "char": "🥚",
+    "keywords": [
+      "egg"
+    ],
+    "aliases": {
+      "en": [
+        "egg"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "elephant",
+    "char": "🐘",
+    "keywords": [
+      "elephant"
+    ],
+    "aliases": {
+      "en": [
+        "elephant"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "exploding_head",
+    "char": "🤯",
+    "keywords": [
+      "mind blown"
+    ],
+    "aliases": {
+      "en": [
+        "exploding_head"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "expressionless_face",
+    "char": "😑",
+    "keywords": [
+      "blank"
+    ],
+    "aliases": {
+      "en": [
+        "expressionless"
       ]
     },
     "related": []
@@ -238,99 +1182,358 @@
     "name": "face_blowing_a_kiss",
     "char": "😘",
     "keywords": [
-      "blowing",
-      "kiss"
+      "kiss",
+      "love"
     ],
     "aliases": {
       "en": [
-        "face blowing a kiss"
+        "kissing_heart"
       ]
     },
-    "related": [
-      "kiss"
-    ]
+    "related": []
+  },
+  {
+    "name": "face_exhaling",
+    "char": "😮‍💨",
+    "keywords": [
+      "exhale"
+    ],
+    "aliases": {
+      "en": [
+        "face_exhaling"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_holding_back_tears",
+    "char": "🥹",
+    "keywords": [
+      "tears"
+    ],
+    "aliases": {
+      "en": [
+        "holding_back_tears"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_in_clouds",
+    "char": "😶‍🌫️",
+    "keywords": [
+      "clouds"
+    ],
+    "aliases": {
+      "en": [
+        "face_in_clouds"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_savoring_food",
+    "char": "😋",
+    "keywords": [
+      "yum"
+    ],
+    "aliases": {
+      "en": [
+        "yum"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_screaming_in_fear",
+    "char": "😱",
+    "keywords": [
+      "scream"
+    ],
+    "aliases": {
+      "en": [
+        "scream"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_vomiting",
+    "char": "🤮",
+    "keywords": [
+      "vomit"
+    ],
+    "aliases": {
+      "en": [
+        "vomiting"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_diagonal_mouth",
+    "char": "🫤",
+    "keywords": [
+      "meh"
+    ],
+    "aliases": {
+      "en": [
+        "diagonal_mouth"
+      ]
+    },
+    "related": []
   },
   {
     "name": "face_with_hand_over_mouth",
     "char": "🤭",
     "keywords": [
-      "hand",
-      "over",
-      "mouth"
+      "oops"
     ],
     "aliases": {
       "en": [
-        "face with hand over mouth"
+        "hand_over_mouth"
       ]
     },
-    "related": [
-      "ok_hand",
-      "victory_hand",
-      "waving_hand"
-    ]
+    "related": []
+  },
+  {
+    "name": "face_with_head_bandage",
+    "char": "🤕",
+    "keywords": [
+      "injured"
+    ],
+    "aliases": {
+      "en": [
+        "head_bandage"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_medical_mask",
+    "char": "😷",
+    "keywords": [
+      "mask"
+    ],
+    "aliases": {
+      "en": [
+        "mask"
+      ]
+    },
+    "related": []
   },
   {
     "name": "face_with_monocle",
     "char": "🧐",
     "keywords": [
-      "monocle"
+      "inspect"
     ],
     "aliases": {
       "en": [
-        "face with monocle"
+        "monocle"
       ]
     },
     "related": []
   },
   {
-    "name": "face_with_sunglasses",
-    "char": "😎",
+    "name": "face_with_open_eyes_and_hand_over_mouth",
+    "char": "🫢",
     "keywords": [
-      "sunglasses"
+      "shock"
     ],
     "aliases": {
       "en": [
-        "face with sunglasses"
+        "open_hand_mouth"
       ]
     },
-    "related": [
-      "sunglasses"
-    ]
+    "related": []
+  },
+  {
+    "name": "face_with_peeking_eye",
+    "char": "🫣",
+    "keywords": [
+      "peek"
+    ],
+    "aliases": {
+      "en": [
+        "peeking_eye"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_raised_eyebrow",
+    "char": "🤨",
+    "keywords": [
+      "skeptical"
+    ],
+    "aliases": {
+      "en": [
+        "raised_eyebrow"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_rolling_eyes",
+    "char": "🙄",
+    "keywords": [
+      "eyeroll"
+    ],
+    "aliases": {
+      "en": [
+        "roll_eyes"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_spiral_eyes",
+    "char": "😵‍💫",
+    "keywords": [
+      "spiral"
+    ],
+    "aliases": {
+      "en": [
+        "spiral_eyes"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_steam_from_nose",
+    "char": "😤",
+    "keywords": [
+      "steam",
+      "angry"
+    ],
+    "aliases": {
+      "en": [
+        "triumph"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_symbols_on_mouth",
+    "char": "🤬",
+    "keywords": [
+      "cursing"
+    ],
+    "aliases": {
+      "en": [
+        "cursing"
+      ]
+    },
+    "related": []
   },
   {
     "name": "face_with_tears_of_joy",
     "char": "😂",
     "keywords": [
-      "tears",
       "joy"
     ],
     "aliases": {
       "en": [
-        "face with tears of joy"
-      ]
-    },
-    "related": [
-      "joy",
-      "smile"
-    ]
-  },
-  {
-    "name": "flexed_biceps",
-    "char": "💪",
-    "keywords": [
-      "flexed",
-      "biceps"
-    ],
-    "aliases": {
-      "en": [
-        "flexed biceps"
+        "joy"
       ]
     },
     "related": []
   },
   {
-    "name": "flushed",
-    "char": "😵",
+    "name": "face_with_thermometer",
+    "char": "🤒",
+    "keywords": [
+      "sick"
+    ],
+    "aliases": {
+      "en": [
+        "thermometer"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_with_tongue",
+    "char": "😛",
+    "keywords": [
+      "tongue"
+    ],
+    "aliases": {
+      "en": [
+        "tongue"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "face_without_mouth",
+    "char": "😶",
+    "keywords": [
+      "silent"
+    ],
+    "aliases": {
+      "en": [
+        "no_mouth"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "fearful_face",
+    "char": "😨",
+    "keywords": [
+      "fear"
+    ],
+    "aliases": {
+      "en": [
+        "fearful"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "fire",
+    "char": "🔥",
+    "keywords": [
+      "fire"
+    ],
+    "aliases": {
+      "en": [
+        "fire"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "fish",
+    "char": "🐟",
+    "keywords": [
+      "fish"
+    ],
+    "aliases": {
+      "en": [
+        "fish"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "flower",
+    "char": "🌸",
+    "keywords": [
+      "flower"
+    ],
+    "aliases": {
+      "en": [
+        "flower"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "flushed_face",
+    "char": "😳",
     "keywords": [
       "flushed"
     ],
@@ -342,25 +1545,164 @@
     "related": []
   },
   {
-    "name": "folded_hands",
-    "char": "🙏",
+    "name": "football",
+    "char": "⚽",
     "keywords": [
-      "folded",
-      "hands"
+      "soccer"
     ],
     "aliases": {
       "en": [
-        "folded hands"
+        "soccer"
       ]
     },
-    "related": [
-      "clapping_hands",
-      "raised_hands"
-    ]
+    "related": []
+  },
+  {
+    "name": "forest",
+    "char": "🌲",
+    "keywords": [
+      "tree"
+    ],
+    "aliases": {
+      "en": [
+        "tree"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "fox",
+    "char": "🦊",
+    "keywords": [
+      "fox"
+    ],
+    "aliases": {
+      "en": [
+        "fox"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "french_fries",
+    "char": "🍟",
+    "keywords": [
+      "fries"
+    ],
+    "aliases": {
+      "en": [
+        "fries"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "frog",
+    "char": "🐸",
+    "keywords": [
+      "frog"
+    ],
+    "aliases": {
+      "en": [
+        "frog"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "ghost",
+    "char": "👻",
+    "keywords": [
+      "ghost"
+    ],
+    "aliases": {
+      "en": [
+        "ghost"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "giraffe",
+    "char": "🦒",
+    "keywords": [
+      "giraffe"
+    ],
+    "aliases": {
+      "en": [
+        "giraffe"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "girl",
+    "char": "👧",
+    "keywords": [
+      "girl"
+    ],
+    "aliases": {
+      "en": [
+        "girl"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "goat",
+    "char": "🐐",
+    "keywords": [
+      "goat"
+    ],
+    "aliases": {
+      "en": [
+        "goat"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "golf",
+    "char": "⛳",
+    "keywords": [
+      "golf"
+    ],
+    "aliases": {
+      "en": [
+        "golf"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "gorilla",
+    "char": "🦍",
+    "keywords": [
+      "gorilla"
+    ],
+    "aliases": {
+      "en": [
+        "gorilla"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "grapes",
+    "char": "🍇",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "grapes"
+      ]
+    },
+    "related": []
   },
   {
     "name": "green_heart",
-    "char": "❤️",
+    "char": "💚",
     "keywords": [
       "green",
       "heart"
@@ -371,34 +1713,73 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
-      "heart_eyes",
+      "brown_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
   },
   {
-    "name": "grin",
-    "char": "😁",
+    "name": "grey_heart",
+    "char": "🩶",
     "keywords": [
-      "grin"
+      "grey",
+      "heart"
     ],
     "aliases": {
       "en": [
-        "grin"
+        "grey heart"
       ]
     },
     "related": [
-      "smile"
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
     ]
   },
   {
-    "name": "grinning",
+    "name": "grinning_face",
     "char": "😀",
     "keywords": [
       "grinning"
@@ -411,72 +1792,511 @@
     "related": []
   },
   {
-    "name": "heart_eyes",
-    "char": "😍",
+    "name": "grinning_face_with_big_eyes",
+    "char": "😃",
     "keywords": [
-      "heart",
-      "eyes"
+      "smiley"
     ],
     "aliases": {
       "en": [
-        "heart eyes"
+        "smiley"
       ]
     },
-    "related": [
-      "black_heart",
-      "blue_heart",
-      "broken_heart",
-      "green_heart",
-      "orange_heart",
-      "purple_heart",
-      "red_heart",
-      "white_heart",
-      "yellow_heart"
-    ]
+    "related": []
   },
   {
-    "name": "joy",
-    "char": "😂",
+    "name": "grinning_face_with_smiling_eyes",
+    "char": "😄",
     "keywords": [
-      "joy"
-    ],
-    "aliases": {
-      "en": [
-        "joy"
-      ]
-    },
-    "related": [
-      "face_with_tears_of_joy",
       "smile"
-    ]
-  },
-  {
-    "name": "kiss",
-    "char": "😘",
-    "keywords": [
-      "kiss"
     ],
     "aliases": {
       "en": [
-        "kiss"
+        "smile"
       ]
     },
-    "related": [
-      "face_blowing_a_kiss"
-    ]
+    "related": []
   },
   {
-    "name": "laugh",
+    "name": "grinning_squinting_face",
     "char": "😆",
     "keywords": [
       "laugh"
     ],
     "aliases": {
       "en": [
-        "laugh"
+        "laughing"
       ]
     },
     "related": []
+  },
+  {
+    "name": "grimacing_face",
+    "char": "😬",
+    "keywords": [
+      "grimace"
+    ],
+    "aliases": {
+      "en": [
+        "grimacing"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "growing_heart",
+    "char": "💗",
+    "keywords": [
+      "growing",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "growing heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "gym",
+    "char": "🏋️",
+    "keywords": [
+      "fitness"
+    ],
+    "aliases": {
+      "en": [
+        "weightlifting"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "hamster",
+    "char": "🐹",
+    "keywords": [
+      "hamster"
+    ],
+    "aliases": {
+      "en": [
+        "hamster"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "heart_decoration",
+    "char": "💟",
+    "keywords": [
+      "heart",
+      "decoration"
+    ],
+    "aliases": {
+      "en": [
+        "heart decoration"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "heart_exclamation",
+    "char": "❣️",
+    "keywords": [
+      "heart",
+      "exclamation"
+    ],
+    "aliases": {
+      "en": [
+        "heart decoration"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "heart_on_fire",
+    "char": "❤️‍🔥",
+    "keywords": [
+      "heart",
+      "fire"
+    ],
+    "aliases": {
+      "en": [
+        "heart on fire"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "heart_with_arrow",
+    "char": "💘",
+    "keywords": [
+      "heart",
+      "arrow"
+    ],
+    "aliases": {
+      "en": [
+        "heart with arrow"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "heart_with_ribbon",
+    "char": "💝",
+    "keywords": [
+      "heart",
+      "ribbon"
+    ],
+    "aliases": {
+      "en": [
+        "heart with ribbon"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "horse",
+    "char": "🐴",
+    "keywords": [
+      "horse"
+    ],
+    "aliases": {
+      "en": [
+        "horse"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "hot_dog",
+    "char": "🌭",
+    "keywords": [
+      "hotdog"
+    ],
+    "aliases": {
+      "en": [
+        "hotdog"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "hot_face",
+    "char": "🥵",
+    "keywords": [
+      "hot"
+    ],
+    "aliases": {
+      "en": [
+        "hot_face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "hugging_face",
+    "char": "🤗",
+    "keywords": [
+      "hug"
+    ],
+    "aliases": {
+      "en": [
+        "hugging"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "hushed_face",
+    "char": "😯",
+    "keywords": [
+      "hushed"
+    ],
+    "aliases": {
+      "en": [
+        "hushed"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "ice_cream",
+    "char": "🍨",
+    "keywords": [
+      "dessert"
+    ],
+    "aliases": {
+      "en": [
+        "ice_cream"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "island",
+    "char": "🏝️",
+    "keywords": [
+      "island"
+    ],
+    "aliases": {
+      "en": [
+        "island"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "kangaroo",
+    "char": "🦘",
+    "keywords": [
+      "kangaroo"
+    ],
+    "aliases": {
+      "en": [
+        "kangaroo"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "kissing face",
+    "char": "😗",
+    "keywords": [
+      "kiss"
+    ],
+    "aliases": {
+      "en": [
+        "kissing"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "koala",
+    "char": "🐨",
+    "keywords": [
+      "koala"
+    ],
+    "aliases": {
+      "en": [
+        "koala"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "lake",
+    "char": "🏞️",
+    "keywords": [
+      "lake"
+    ],
+    "aliases": {
+      "en": [
+        "lake"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "leopard",
+    "char": "🐆",
+    "keywords": [
+      "leopard"
+    ],
+    "aliases": {
+      "en": [
+        "leopard"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "light_blue_heart",
+    "char": "🩵",
+    "keywords": [
+      "light blue",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "light blue heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "light_bulb",
@@ -488,6 +2308,19 @@
     "aliases": {
       "en": [
         "light bulb"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "lion",
+    "char": "🦁",
+    "keywords": [
+      "lion"
+    ],
+    "aliases": {
+      "en": [
+        "lion"
       ]
     },
     "related": []
@@ -509,12 +2342,224 @@
     "name": "loudly_crying_face",
     "char": "😭",
     "keywords": [
-      "loudly",
-      "crying"
+      "sob"
     ],
     "aliases": {
       "en": [
-        "loudly crying face"
+        "sob"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man",
+    "char": "👨",
+    "keywords": [
+      "man"
+    ],
+    "aliases": {
+      "en": [
+        "man"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man_bald",
+    "char": "👨‍🦲",
+    "keywords": [
+      "man",
+      "bald"
+    ],
+    "aliases": {
+      "en": [
+        "man_bald"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man_blond_hair",
+    "char": "👱‍♂️",
+    "keywords": [
+      "man",
+      "blond"
+    ],
+    "aliases": {
+      "en": [
+        "man_blond"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man_curly_hair",
+    "char": "👨‍🦱",
+    "keywords": [
+      "man",
+      "curly"
+    ],
+    "aliases": {
+      "en": [
+        "man_curly"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man_red_hair",
+    "char": "👨‍🦰",
+    "keywords": [
+      "man",
+      "red"
+    ],
+    "aliases": {
+      "en": [
+        "man_red"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "man_white_hair",
+    "char": "👨‍🦳",
+    "keywords": [
+      "man",
+      "white hair"
+    ],
+    "aliases": {
+      "en": [
+        "man_white"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "mango",
+    "char": "🥭",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "mango"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "medal",
+    "char": "🏅",
+    "keywords": [
+      "award"
+    ],
+    "aliases": {
+      "en": [
+        "medal"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "melting_face",
+    "char": "🫠",
+    "keywords": [
+      "melting"
+    ],
+    "aliases": {
+      "en": [
+        "melting"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "mending_heart",
+    "char": "❤️‍🩹",
+    "keywords": [
+      "mending",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "mending heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "money_mouth_face",
+    "char": "🤑",
+    "keywords": [
+      "money"
+    ],
+    "aliases": {
+      "en": [
+        "money_mouth"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "monkey",
+    "char": "🐵",
+    "keywords": [
+      "monkey"
+    ],
+    "aliases": {
+      "en": [
+        "monkey"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "mouse",
+    "char": "🐭",
+    "keywords": [
+      "mouse"
+    ],
+    "aliases": {
+      "en": [
+        "mouse"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "mountain",
+    "char": "⛰️",
+    "keywords": [
+      "mountain"
+    ],
+    "aliases": {
+      "en": [
+        "mountain"
       ]
     },
     "related": []
@@ -533,6 +2578,32 @@
     "related": []
   },
   {
+    "name": "music",
+    "char": "🎵",
+    "keywords": [
+      "music"
+    ],
+    "aliases": {
+      "en": [
+        "music_note"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "nerd_face",
+    "char": "🤓",
+    "keywords": [
+      "nerd"
+    ],
+    "aliases": {
+      "en": [
+        "nerd"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "neutral_face",
     "char": "😐",
     "keywords": [
@@ -541,6 +2612,19 @@
     "aliases": {
       "en": [
         "neutral face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "octopus",
+    "char": "🐙",
+    "keywords": [
+      "octopus"
+    ],
+    "aliases": {
+      "en": [
+        "octopus"
       ]
     },
     "related": []
@@ -564,8 +2648,49 @@
     ]
   },
   {
+    "name": "older_adult",
+    "char": "🧓",
+    "keywords": [
+      "old"
+    ],
+    "aliases": {
+      "en": [
+        "older_adult"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "older_man",
+    "char": "👴",
+    "keywords": [
+      "old",
+      "man"
+    ],
+    "aliases": {
+      "en": [
+        "older_man"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "older_woman",
+    "char": "👵",
+    "keywords": [
+      "old",
+      "woman"
+    ],
+    "aliases": {
+      "en": [
+        "older_woman"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "orange_heart",
-    "char": "❤️",
+    "char": "🧡",
     "keywords": [
       "orange",
       "heart"
@@ -576,19 +2701,60 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
   },
   {
-    "name": "party",
+    "name": "owl",
+    "char": "🦉",
+    "keywords": [
+      "owl"
+    ],
+    "aliases": {
+      "en": [
+        "owl"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "panda",
+    "char": "🐼",
+    "keywords": [
+      "panda"
+    ],
+    "aliases": {
+      "en": [
+        "panda"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "partying_face",
     "char": "🥳",
     "keywords": [
       "party"
@@ -601,14 +2767,147 @@
     "related": []
   },
   {
-    "name": "partying_face",
-    "char": "🥳",
+    "name": "penguin",
+    "char": "🐧",
     "keywords": [
-      "partying"
+      "penguin"
     ],
     "aliases": {
       "en": [
-        "partying face"
+        "penguin"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "pensive_face",
+    "char": "😔",
+    "keywords": [
+      "pensive"
+    ],
+    "aliases": {
+      "en": [
+        "pensive"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "person",
+    "char": "🧑",
+    "keywords": [
+      "person"
+    ],
+    "aliases": {
+      "en": [
+        "person"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "person_curly_hair",
+    "char": "🧑‍🦱",
+    "keywords": [
+      "person",
+      "curly"
+    ],
+    "aliases": {
+      "en": [
+        "person_curly"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "person_red_hair",
+    "char": "🧑‍🦰",
+    "keywords": [
+      "person",
+      "red"
+    ],
+    "aliases": {
+      "en": [
+        "person_red"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "person_white_hair",
+    "char": "🧑‍🦳",
+    "keywords": [
+      "person",
+      "white hair"
+    ],
+    "aliases": {
+      "en": [
+        "person_white"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "pig",
+    "char": "🐷",
+    "keywords": [
+      "pig"
+    ],
+    "aliases": {
+      "en": [
+        "pig"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "pink_heart",
+    "char": "🩷",
+    "keywords": [
+      "pink",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "pink heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "pizza",
+    "char": "🍕",
+    "keywords": [
+      "pizza"
+    ],
+    "aliases": {
+      "en": [
+        "pizza"
       ]
     },
     "related": []
@@ -701,6 +3000,32 @@
     ]
   },
   {
+    "name": "poop",
+    "char": "💩",
+    "keywords": [
+      "poop"
+    ],
+    "aliases": {
+      "en": [
+        "poop"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "popcorn",
+    "char": "🍿",
+    "keywords": [
+      "snack"
+    ],
+    "aliases": {
+      "en": [
+        "popcorn"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "pray",
     "char": "🙏",
     "keywords": [
@@ -715,7 +3040,7 @@
   },
   {
     "name": "purple_heart",
-    "char": "❤️",
+    "char": "💜",
     "keywords": [
       "purple",
       "heart"
@@ -726,16 +3051,70 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
+  },
+  {
+    "name": "rabbit",
+    "char": "🐰",
+    "keywords": [
+      "rabbit"
+    ],
+    "aliases": {
+      "en": [
+        "rabbit"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "raccoon",
+    "char": "🦝",
+    "keywords": [
+      "raccoon"
+    ],
+    "aliases": {
+      "en": [
+        "raccoon"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "rainbow",
+    "char": "🌈",
+    "keywords": [
+      "rainbow"
+    ],
+    "aliases": {
+      "en": [
+        "rainbow"
+      ]
+    },
+    "related": []
   },
   {
     "name": "raised_hands",
@@ -767,16 +3146,109 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart",
       "yellow_heart"
     ]
+  },
+  {
+    "name": "relieved_face",
+    "char": "😌",
+    "keywords": [
+      "relieved"
+    ],
+    "aliases": {
+      "en": [
+        "relieved"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "rolling_on_the_floor_laughing",
+    "char": "🤣",
+    "keywords": [
+      "rofl"
+    ],
+    "aliases": {
+      "en": [
+        "rofl"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "revolving_hearts",
+    "char": "💞",
+    "keywords": [
+      "revolving",
+      "hearts"
+    ],
+    "aliases": {
+      "en": [
+        "revolving hearts"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
+    "name": "rice",
+    "char": "🍚",
+    "keywords": [
+      "rice"
+    ],
+    "aliases": {
+      "en": [
+        "rice"
+      ]
+    },
+    "related": []
   },
   {
     "name": "rocket",
@@ -792,10 +3264,166 @@
     "related": []
   },
   {
-    "name": "sleeping",
+    "name": "running",
+    "char": "🏃",
+    "keywords": [
+      "run"
+    ],
+    "aliases": {
+      "en": [
+        "running"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sad_but_relieved_face",
+    "char": "😥",
+    "keywords": [
+      "sad"
+    ],
+    "aliases": {
+      "en": [
+        "sad_relieved"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sad_face",
+    "char": "☹️",
+    "keywords": [
+      "sad"
+    ],
+    "aliases": {
+      "en": [
+        "frowning"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "salad",
+    "char": "🥗",
+    "keywords": [
+      "healthy"
+    ],
+    "aliases": {
+      "en": [
+        "salad"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sandwich",
+    "char": "🥪",
+    "keywords": [
+      "sandwich"
+    ],
+    "aliases": {
+      "en": [
+        "sandwich"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "shark",
+    "char": "🦈",
+    "keywords": [
+      "shark"
+    ],
+    "aliases": {
+      "en": [
+        "shark"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sheep",
+    "char": "🐑",
+    "keywords": [
+      "sheep"
+    ],
+    "aliases": {
+      "en": [
+        "sheep"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "shushing_face",
+    "char": "🤫",
+    "keywords": [
+      "shush"
+    ],
+    "aliases": {
+      "en": [
+        "shushing"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "shrimp",
+    "char": "🦐",
+    "keywords": [
+      "shrimp"
+    ],
+    "aliases": {
+      "en": [
+        "shrimp"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "skateboard",
+    "char": "🛹",
+    "keywords": [
+      "skate"
+    ],
+    "aliases": {
+      "en": [
+        "skateboard"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "skull",
+    "char": "💀",
+    "keywords": [
+      "dead"
+    ],
+    "aliases": {
+      "en": [
+        "skull"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "skull_and_crossbones",
+    "char": "☠️",
+    "keywords": [
+      "danger"
+    ],
+    "aliases": {
+      "en": [
+        "skull_crossbones"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sleeping_face",
     "char": "😴",
     "keywords": [
-      "sleeping"
+      "sleep"
     ],
     "aliases": {
       "en": [
@@ -812,57 +3440,98 @@
     ],
     "aliases": {
       "en": [
-        "sleepy face"
+        "sleepy"
       ]
     },
     "related": []
   },
   {
-    "name": "smile",
-    "char": "😄",
+    "name": "slightly_smiling_face",
+    "char": "🙂",
     "keywords": [
-      "happy",
-      "joy",
-      "grin"
+      "slight smile"
     ],
     "aliases": {
       "en": [
-        "smile"
-      ],
-      "es": [
-        "sonrisa"
-      ]
-    },
-    "related": [
-      "face_with_tears_of_joy",
-      "grin",
-      "grinning",
-      "joy",
-      "laugh"
-    ]
-  },
-  {
-    "name": "smiling_face",
-    "char": "😄",
-    "keywords": [
-      "smiling"
-    ],
-    "aliases": {
-      "en": [
-        "smiling face"
+        "slightly_smiling"
       ]
     },
     "related": []
   },
   {
-    "name": "sob",
-    "char": "😭",
+    "name": "smiling_face_with_halo",
+    "char": "😇",
     "keywords": [
-      "sob"
+      "angel"
     ],
     "aliases": {
       "en": [
-        "sob"
+        "innocent"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "smiling_face_with_heart_eyes",
+    "char": "😍",
+    "keywords": [
+      "love"
+    ],
+    "aliases": {
+      "en": [
+        "heart_eyes"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "smirking_face",
+    "char": "😏",
+    "keywords": [
+      "smirk"
+    ],
+    "aliases": {
+      "en": [
+        "smirk"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "snail",
+    "char": "🐌",
+    "keywords": [
+      "snail"
+    ],
+    "aliases": {
+      "en": [
+        "snail"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "snake",
+    "char": "🐍",
+    "keywords": [
+      "snake"
+    ],
+    "aliases": {
+      "en": [
+        "snake"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "spaghetti",
+    "char": "🍝",
+    "keywords": [
+      "pasta"
+    ],
+    "aliases": {
+      "en": [
+        "spaghetti"
       ]
     },
     "related": []
@@ -881,6 +3550,45 @@
     "related": []
   },
   {
+    "name": "sparkling_heart",
+    "char": "💖",
+    "keywords": [
+      "sparkling",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "sparkling heart"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "two_hearts",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
     "name": "star_struck",
     "char": "🤩",
     "keywords": [
@@ -890,6 +3598,45 @@
     "aliases": {
       "en": [
         "star struck"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "steak",
+    "char": "🥩",
+    "keywords": [
+      "meat"
+    ],
+    "aliases": {
+      "en": [
+        "steak"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "strawberry",
+    "char": "🍓",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "strawberry"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sun",
+    "char": "☀️",
+    "keywords": [
+      "sun"
+    ],
+    "aliases": {
+      "en": [
+        "sun"
       ]
     },
     "related": []
@@ -910,6 +3657,58 @@
     ]
   },
   {
+    "name": "sunrise",
+    "char": "🌅",
+    "keywords": [
+      "sunrise"
+    ],
+    "aliases": {
+      "en": [
+        "sunrise"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "sunset",
+    "char": "🌇",
+    "keywords": [
+      "sunset"
+    ],
+    "aliases": {
+      "en": [
+        "sunset"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "swimming",
+    "char": "🏊",
+    "keywords": [
+      "swim"
+    ],
+    "aliases": {
+      "en": [
+        "swimming"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "taco",
+    "char": "🌮",
+    "keywords": [
+      "taco"
+    ],
+    "aliases": {
+      "en": [
+        "taco"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "tada",
     "char": "🎉",
     "keywords": [
@@ -923,19 +3722,17 @@
     "related": []
   },
   {
-    "name": "thinking",
-    "char": "🤔",
+    "name": "tennis",
+    "char": "🎾",
     "keywords": [
-      "thinking"
+      "tennis"
     ],
     "aliases": {
       "en": [
-        "thinking"
+        "tennis"
       ]
     },
-    "related": [
-      "thinking_face"
-    ]
+    "related": []
   },
   {
     "name": "thinking_face",
@@ -945,12 +3742,36 @@
     ],
     "aliases": {
       "en": [
-        "thinking face"
+        "thinking"
       ]
     },
-    "related": [
-      "thinking"
-    ]
+    "related": []
+  },
+  {
+    "name": "tiger",
+    "char": "🐯",
+    "keywords": [
+      "tiger"
+    ],
+    "aliases": {
+      "en": [
+        "tiger"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "tired_face",
+    "char": "😫",
+    "keywords": [
+      "tired"
+    ],
+    "aliases": {
+      "en": [
+        "tired"
+      ]
+    },
+    "related": []
   },
   {
     "name": "thumbs_down",
@@ -987,6 +3808,84 @@
     ]
   },
   {
+    "name": "tree",
+    "char": "🌳",
+    "keywords": [
+      "tree"
+    ],
+    "aliases": {
+      "en": [
+        "tree"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "trophy",
+    "char": "🏆",
+    "keywords": [
+      "win"
+    ],
+    "aliases": {
+      "en": [
+        "trophy"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "turtle",
+    "char": "🐢",
+    "keywords": [
+      "turtle"
+    ],
+    "aliases": {
+      "en": [
+        "turtle"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "two_hearts",
+    "char": "💕",
+    "keywords": [
+      "two",
+      "hearts"
+    ],
+    "aliases": {
+      "en": [
+        "two hearts"
+      ]
+    },
+    "related": [
+      "beating_heart",
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "brown_heart",
+      "green_heart",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
+      "orange_heart",
+      "pink_heart",
+      "purple_heart",
+      "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
+  },
+  {
     "name": "unlock",
     "char": "🔓",
     "keywords": [
@@ -995,6 +3894,32 @@
     "aliases": {
       "en": [
         "unlock"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "upside_down_face",
+    "char": "🙃",
+    "keywords": [
+      "upside"
+    ],
+    "aliases": {
+      "en": [
+        "upside_down"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "video_game",
+    "char": "🎮",
+    "keywords": [
+      "gaming"
+    ],
+    "aliases": {
+      "en": [
+        "video_game"
       ]
     },
     "related": []
@@ -1018,14 +3943,41 @@
     ]
   },
   {
-    "name": "wave",
-    "char": "👋",
+    "name": "volcano",
+    "char": "🌋",
     "keywords": [
+      "volcano"
+    ],
+    "aliases": {
+      "en": [
+        "volcano"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "water_wave",
+    "char": "🌊",
+    "keywords": [
+      "water",
       "wave"
     ],
     "aliases": {
       "en": [
-        "wave"
+        "water wave"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "watermelon",
+    "char": "🍉",
+    "keywords": [
+      "fruit"
+    ],
+    "aliases": {
+      "en": [
+        "watermelon"
       ]
     },
     "related": []
@@ -1049,8 +4001,21 @@
     ]
   },
   {
+    "name": "whale",
+    "char": "🐳",
+    "keywords": [
+      "whale"
+    ],
+    "aliases": {
+      "en": [
+        "whale"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "white_heart",
-    "char": "❤️",
+    "char": "🤍",
     "keywords": [
       "white",
       "heart"
@@ -1061,19 +4026,47 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "yellow_heart"
     ]
   },
   {
-    "name": "wink",
+    "name": "wind",
+    "char": "🌬️",
+    "keywords": [
+      "wind"
+    ],
+    "aliases": {
+      "en": [
+        "wind"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "winking face",
     "char": "😉",
     "keywords": [
       "wink"
@@ -1086,21 +4079,130 @@
     "related": []
   },
   {
-    "name": "winking_face",
-    "char": "😉",
+    "name": "wolf",
+    "char": "🐺",
     "keywords": [
-      "winking"
+      "wolf"
     ],
     "aliases": {
       "en": [
-        "winking face"
+        "wolf"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman",
+    "char": "👩",
+    "keywords": [
+      "woman"
+    ],
+    "aliases": {
+      "en": [
+        "woman"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman_bald",
+    "char": "👩‍🦲",
+    "keywords": [
+      "woman",
+      "bald"
+    ],
+    "aliases": {
+      "en": [
+        "woman_bald"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman_blond_hair",
+    "char": "👱‍♀️",
+    "keywords": [
+      "woman",
+      "blond"
+    ],
+    "aliases": {
+      "en": [
+        "woman_blond"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman_curly_hair",
+    "char": "👩‍🦱",
+    "keywords": [
+      "woman",
+      "curly"
+    ],
+    "aliases": {
+      "en": [
+        "woman_curly"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman_red_hair",
+    "char": "👩‍🦰",
+    "keywords": [
+      "woman",
+      "red"
+    ],
+    "aliases": {
+      "en": [
+        "woman_red"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woman_white_hair",
+    "char": "👩‍🦳",
+    "keywords": [
+      "woman",
+      "white hair"
+    ],
+    "aliases": {
+      "en": [
+        "woman_white"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "woozy_face",
+    "char": "🥴",
+    "keywords": [
+      "woozy"
+    ],
+    "aliases": {
+      "en": [
+        "woozy"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "worried_face",
+    "char": "😟",
+    "keywords": [
+      "worried"
+    ],
+    "aliases": {
+      "en": [
+        "worried"
       ]
     },
     "related": []
   },
   {
     "name": "yellow_heart",
-    "char": "❤️",
+    "char": "💛",
     "keywords": [
       "yellow",
       "heart"
@@ -1111,14 +4213,29 @@
       ]
     },
     "related": [
+      "beating_heart",
       "black_heart",
       "blue_heart",
       "broken_heart",
+      "brown_heart",
       "green_heart",
-      "heart_eyes",
+      "grey_heart",
+      "growing_heart",
+      "heart_decoration",
+      "heart_exclamation",
+      "heart_on_fire",
+      "heart_with_arrow",
+      "heart_with_ribbon",
+      "light_blue_heart",
+      "mending_heart",
       "orange_heart",
+      "pink_heart",
       "purple_heart",
       "red_heart",
+      "revolving_hearts",
+      "smiling_face_with_heart_eyes",
+      "sparkling_heart",
+      "two_hearts",
       "white_heart"
     ]
   },
@@ -1131,6 +4248,19 @@
     "aliases": {
       "en": [
         "zany face"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "zebra",
+    "char": "🦓",
+    "keywords": [
+      "zebra"
+    ],
+    "aliases": {
+      "en": [
+        "zebra"
       ]
     },
     "related": []

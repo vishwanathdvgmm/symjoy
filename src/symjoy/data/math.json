@@ -78,6 +78,32 @@
     "related": []
   },
   {
+    "name": "congruent",
+    "char": "≅",
+    "keywords": [
+      "congruent"
+    ],
+    "aliases": {
+      "en": [
+        "congruent"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "cube_root",
+    "char": "∛",
+    "keywords": [
+      "root"
+    ],
+    "aliases": {
+      "en": [
+        "cube root"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "degree",
     "char": "°",
     "keywords": [
@@ -190,6 +216,32 @@
     "related": []
   },
   {
+    "name": "exists",
+    "char": "∃",
+    "keywords": [
+      "exists"
+    ],
+    "aliases": {
+      "en": [
+        "exists"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "for_all",
+    "char": "∀",
+    "keywords": [
+      "forall"
+    ],
+    "aliases": {
+      "en": [
+        "for all"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "gamma",
     "char": "γ",
     "keywords": [
@@ -235,6 +287,19 @@
       "greater_equal",
       "less_than"
     ]
+  },
+  {
+    "name": "identical",
+    "char": "≡",
+    "keywords": [
+      "identical"
+    ],
+    "aliases": {
+      "en": [
+        "identical"
+      ]
+    },
+    "related": []
   },
   {
     "name": "infinity",
@@ -403,23 +468,6 @@
     "related": []
   },
   {
-    "name": "not_element_of",
-    "char": "∉",
-    "keywords": [
-      "not",
-      "element"
-    ],
-    "aliases": {
-      "en": [
-        "not element of"
-      ]
-    },
-    "related": [
-      "element_of",
-      "not_equals"
-    ]
-  },
-  {
     "name": "not_equals",
     "char": "≠",
     "keywords": [
@@ -432,9 +480,34 @@
       ]
     },
     "related": [
-      "equals",
-      "not_element_of"
+      "equals"
     ]
+  },
+  {
+    "name": "not_exists",
+    "char": "∄",
+    "keywords": [
+      "not exists"
+    ],
+    "aliases": {
+      "en": [
+        "not exists"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "not_in",
+    "char": "∉",
+    "keywords": [
+      "not element"
+    ],
+    "aliases": {
+      "en": [
+        "not in"
+      ]
+    },
+    "related": []
   },
   {
     "name": "nu",
@@ -498,6 +571,19 @@
     "aliases": {
       "en": [
         "partial derivative"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "percent",
+    "char": "%",
+    "keywords": [
+      "percent"
+    ],
+    "aliases": {
+      "en": [
+        "percent"
       ]
     },
     "related": []
@@ -590,6 +676,32 @@
     ]
   },
   {
+    "name": "product",
+    "char": "∏",
+    "keywords": [
+      "product"
+    ],
+    "aliases": {
+      "en": [
+        "product"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "proportional",
+    "char": "∝",
+    "keywords": [
+      "proportional"
+    ],
+    "aliases": {
+      "en": [
+        "proportional"
+      ]
+    },
+    "related": []
+  },
+  {
     "name": "proper_subset",
     "char": "⊆",
     "keywords": [
@@ -645,6 +757,58 @@
     "aliases": {
       "en": [
         "rho"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "set_natural",
+    "char": "ℕ",
+    "keywords": [
+      "natural"
+    ],
+    "aliases": {
+      "en": [
+        "natural numbers"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "set_real",
+    "char": "ℝ",
+    "keywords": [
+      "real"
+    ],
+    "aliases": {
+      "en": [
+        "real numbers"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "set_integer",
+    "char": "ℤ",
+    "keywords": [
+      "integer"
+    ],
+    "aliases": {
+      "en": [
+        "integers"
+      ]
+    },
+    "related": []
+  },
+  {
+    "name": "set_complex",
+    "char": "ℂ",
+    "keywords": [
+      "complex"
+    ],
+    "aliases": {
+      "en": [
+        "complex"
       ]
     },
     "related": []
