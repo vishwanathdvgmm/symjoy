@@ -2,246 +2,466 @@
   {
     "name": "alarm",
     "char": "⏰",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "alarm"
+    ],
+    "aliases": {
+      "en": [
+        "alarm"
+      ]
+    },
     "related": []
   },
   {
     "name": "biohazard",
     "char": "☣",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "biohazard"
+    ],
+    "aliases": {
+      "en": [
+        "biohazard"
+      ]
+    },
     "related": []
   },
   {
     "name": "check",
     "char": "✔",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "check"
+    ],
+    "aliases": {
+      "en": [
+        "check"
+      ]
+    },
     "related": []
   },
   {
     "name": "cloud",
     "char": "☁",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "cloud"
+    ],
+    "aliases": {
+      "en": [
+        "cloud"
+      ]
+    },
     "related": []
   },
   {
     "name": "comet",
     "char": "☄",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "comet"
+    ],
+    "aliases": {
+      "en": [
+        "comet"
+      ]
+    },
     "related": []
   },
   {
     "name": "compass",
     "char": "🧭",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "compass"
+    ],
+    "aliases": {
+      "en": [
+        "compass"
+      ]
+    },
     "related": []
   },
   {
     "name": "cross",
     "char": "✖",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "cross"
+    ],
+    "aliases": {
+      "en": [
+        "cross"
+      ]
+    },
     "related": []
   },
   {
     "name": "exclamation",
     "char": "❗",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "exclamation"
+    ],
+    "aliases": {
+      "en": [
+        "exclamation"
+      ]
+    },
     "related": []
   },
   {
     "name": "fire",
     "char": "🔥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "fire"
+    ],
+    "aliases": {
+      "en": [
+        "fire"
+      ]
+    },
     "related": []
   },
   {
     "name": "hourglass",
     "char": "⌛",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "hourglass"
+    ],
+    "aliases": {
+      "en": [
+        "hourglass"
+      ]
+    },
     "related": []
   },
   {
     "name": "information",
     "char": "ℹ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "information"
+    ],
+    "aliases": {
+      "en": [
+        "information"
+      ]
+    },
     "related": []
   },
   {
     "name": "lightning",
     "char": "⚡",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "lightning"
+    ],
+    "aliases": {
+      "en": [
+        "lightning"
+      ]
+    },
     "related": []
   },
   {
     "name": "music",
     "char": "♪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "music"
+    ],
+    "aliases": {
+      "en": [
+        "music"
+      ]
+    },
     "related": []
   },
   {
     "name": "no_entry",
     "char": "⛔",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "no",
+      "entry"
+    ],
+    "aliases": {
+      "en": [
+        "no entry"
+      ]
+    },
     "related": []
   },
   {
     "name": "note",
     "char": "♫",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "note"
+    ],
+    "aliases": {
+      "en": [
+        "note"
+      ]
+    },
     "related": []
   },
   {
     "name": "pause",
     "char": "⏸",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pause"
+    ],
+    "aliases": {
+      "en": [
+        "pause"
+      ]
+    },
     "related": []
   },
   {
     "name": "peace",
     "char": "☮",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "peace"
+    ],
+    "aliases": {
+      "en": [
+        "peace"
+      ]
+    },
     "related": []
   },
   {
     "name": "play",
     "char": "▶",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "play"
+    ],
+    "aliases": {
+      "en": [
+        "play"
+      ]
+    },
     "related": []
   },
   {
     "name": "prohibited",
     "char": "🚫",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "prohibited"
+    ],
+    "aliases": {
+      "en": [
+        "prohibited"
+      ]
+    },
     "related": []
   },
   {
     "name": "question",
     "char": "❓",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "question"
+    ],
+    "aliases": {
+      "en": [
+        "question"
+      ]
+    },
     "related": []
   },
   {
     "name": "radioactive",
     "char": "☢",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "radioactive"
+    ],
+    "aliases": {
+      "en": [
+        "radioactive"
+      ]
+    },
     "related": []
   },
   {
     "name": "rain",
     "char": "☔",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "rain"
+    ],
+    "aliases": {
+      "en": [
+        "rain"
+      ]
+    },
+    "related": [
+      "umbrella_rain"
+    ]
   },
   {
     "name": "skull",
     "char": "☠",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "skull"
+    ],
+    "aliases": {
+      "en": [
+        "skull"
+      ]
+    },
     "related": []
   },
   {
     "name": "snowflake",
     "char": "❄",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "snowflake"
+    ],
+    "aliases": {
+      "en": [
+        "snowflake"
+      ]
+    },
     "related": []
   },
   {
     "name": "snowman",
     "char": "☃",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "snowman"
+    ],
+    "aliases": {
+      "en": [
+        "snowman"
+      ]
+    },
     "related": []
   },
   {
     "name": "star",
     "char": "★",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "star"
+    ],
+    "aliases": {
+      "en": [
+        "star"
+      ]
+    },
     "related": []
   },
   {
     "name": "stop",
     "char": "⏹",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "stop"
+    ],
+    "aliases": {
+      "en": [
+        "stop"
+      ]
+    },
     "related": []
   },
   {
     "name": "sun",
     "char": "☀",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sun"
+    ],
+    "aliases": {
+      "en": [
+        "sun"
+      ]
+    },
     "related": []
   },
   {
     "name": "thermometer",
     "char": "🌡",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "thermometer"
+    ],
+    "aliases": {
+      "en": [
+        "thermometer"
+      ]
+    },
     "related": []
   },
   {
     "name": "umbrella",
     "char": "☂",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "umbrella"
+    ],
+    "aliases": {
+      "en": [
+        "umbrella"
+      ]
+    },
+    "related": [
+      "umbrella_rain"
+    ]
   },
   {
     "name": "umbrella_rain",
     "char": "⛱",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "umbrella",
+      "rain"
+    ],
+    "aliases": {
+      "en": [
+        "umbrella rain"
+      ]
+    },
+    "related": [
+      "rain",
+      "umbrella"
+    ]
   },
   {
     "name": "warning",
     "char": "⚠",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "warning"
+    ],
+    "aliases": {
+      "en": [
+        "warning"
+      ]
+    },
     "related": []
   },
   {
     "name": "watch",
     "char": "⌚",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "watch"
+    ],
+    "aliases": {
+      "en": [
+        "watch"
+      ]
+    },
     "related": []
   },
   {
     "name": "wind",
     "char": "🌬",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "wind"
+    ],
+    "aliases": {
+      "en": [
+        "wind"
+      ]
+    },
     "related": []
   },
   {
     "name": "yin_yang",
     "char": "☯",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "yin",
+      "yang"
+    ],
+    "aliases": {
+      "en": [
+        "yin yang"
+      ]
+    },
     "related": []
   }
 ]

@@ -21,3 +21,5 @@ Thumbs.db
 *.key
 
 PKG-INFO
+
+scripts/

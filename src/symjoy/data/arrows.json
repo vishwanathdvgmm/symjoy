@@ -2,162 +2,519 @@
   {
     "name": "clockwise",
     "char": "↻",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "clockwise"
+    ],
+    "aliases": {
+      "en": [
+        "clockwise"
+      ]
+    },
     "related": []
   },
   {
     "name": "counterclockwise",
     "char": "↺",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "counterclockwise"
+    ],
+    "aliases": {
+      "en": [
+        "counterclockwise"
+      ]
+    },
     "related": []
   },
   {
     "name": "double_down",
     "char": "⇓",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "down"
+    ],
+    "aliases": {
+      "en": [
+        "double down"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "double_right",
+      "double_up",
+      "down",
+      "down_left",
+      "down_right"
+    ]
   },
   {
     "name": "double_left",
     "char": "⇐",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "double left"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left_right",
+      "double_right",
+      "double_up",
+      "down_left",
+      "hook_left",
+      "left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "up_left"
+    ]
   },
   {
     "name": "double_left_right",
     "char": "⇔",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "left",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "double left right"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left",
+      "double_right",
+      "double_up",
+      "down_left",
+      "down_right",
+      "hook_left",
+      "hook_right",
+      "left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up_left",
+      "up_right"
+    ]
   },
   {
     "name": "double_right",
     "char": "⇒",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "double right"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left",
+      "double_left_right",
+      "double_up",
+      "down_right",
+      "hook_right",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up_right"
+    ]
   },
   {
     "name": "double_up",
     "char": "⇑",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "up"
+    ],
+    "aliases": {
+      "en": [
+        "double up"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left",
+      "double_left_right",
+      "double_right",
+      "up",
+      "up_left",
+      "up_right"
+    ]
   },
   {
     "name": "down",
     "char": "↓",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "down"
+    ],
+    "aliases": {
+      "en": [
+        "down"
+      ]
+    },
+    "related": [
+      "double_down",
+      "down_left",
+      "down_right"
+    ]
   },
   {
     "name": "down_left",
     "char": "↙",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "down",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "down left"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left",
+      "double_left_right",
+      "down",
+      "down_right",
+      "hook_left",
+      "left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "up_left"
+    ]
   },
   {
     "name": "down_right",
     "char": "↘",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "down",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "down right"
+      ]
+    },
+    "related": [
+      "double_down",
+      "double_left_right",
+      "double_right",
+      "down",
+      "down_left",
+      "hook_right",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up_right"
+    ]
   },
   {
     "name": "hook_left",
     "char": "↩",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "hook",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "hook left"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "down_left",
+      "hook_right",
+      "left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "up_left"
+    ]
   },
   {
     "name": "hook_right",
     "char": "↪",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "hook",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "hook right"
+      ]
+    },
+    "related": [
+      "double_left_right",
+      "double_right",
+      "down_right",
+      "hook_left",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up_right"
+    ]
   },
   {
     "name": "implied_by",
     "char": "⇐",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "implied",
+      "by"
+    ],
+    "aliases": {
+      "en": [
+        "implied by"
+      ]
+    },
     "related": []
   },
   {
     "name": "implies",
     "char": "⇒",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "implies"
+    ],
+    "aliases": {
+      "en": [
+        "implies"
+      ]
+    },
     "related": []
   },
   {
     "name": "left",
     "char": "←",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "left"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "down_left",
+      "hook_left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "up_left"
+    ]
   },
   {
     "name": "left_right",
     "char": "↔",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "left",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "left right"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "double_right",
+      "down_left",
+      "down_right",
+      "hook_left",
+      "hook_right",
+      "left",
+      "long_left",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up_left",
+      "up_right"
+    ]
   },
   {
     "name": "long_left",
     "char": "⟵",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "long",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "long left"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "down_left",
+      "hook_left",
+      "left",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "up_left"
+    ]
   },
   {
     "name": "long_left_right",
     "char": "⟷",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "long",
+      "left",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "long left right"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "double_right",
+      "down_left",
+      "down_right",
+      "hook_left",
+      "hook_right",
+      "left",
+      "left_right",
+      "long_left",
+      "long_right",
+      "right",
+      "up_left",
+      "up_right"
+    ]
   },
   {
     "name": "long_right",
     "char": "⟶",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "long",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "long right"
+      ]
+    },
+    "related": [
+      "double_left_right",
+      "double_right",
+      "down_right",
+      "hook_right",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "right",
+      "up_right"
+    ]
   },
   {
     "name": "right",
     "char": "→",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "right"
+      ]
+    },
+    "related": [
+      "double_left_right",
+      "double_right",
+      "down_right",
+      "hook_right",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "up_right"
+    ]
   },
   {
     "name": "up",
     "char": "↑",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "up"
+    ],
+    "aliases": {
+      "en": [
+        "up"
+      ]
+    },
+    "related": [
+      "double_up",
+      "up_left",
+      "up_right"
+    ]
   },
   {
     "name": "up_left",
     "char": "↖",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "up",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "up left"
+      ]
+    },
+    "related": [
+      "double_left",
+      "double_left_right",
+      "double_up",
+      "down_left",
+      "hook_left",
+      "left",
+      "left_right",
+      "long_left",
+      "long_left_right",
+      "up",
+      "up_right"
+    ]
   },
   {
     "name": "up_right",
     "char": "↗",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "up",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "up right"
+      ]
+    },
+    "related": [
+      "double_left_right",
+      "double_right",
+      "double_up",
+      "down_right",
+      "hook_right",
+      "left_right",
+      "long_left_right",
+      "long_right",
+      "right",
+      "up",
+      "up_left"
+    ]
   }
 ]

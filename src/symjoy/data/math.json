@@ -2,414 +2,829 @@
   {
     "name": "alpha",
     "char": "α",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "alpha"
+    ],
+    "aliases": {
+      "en": [
+        "alpha"
+      ]
+    },
     "related": []
   },
   {
     "name": "angle",
     "char": "∠",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "angle"
+    ],
+    "aliases": {
+      "en": [
+        "angle"
+      ]
+    },
     "related": []
   },
   {
     "name": "approximately",
     "char": "≈",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "approximately"
+    ],
+    "aliases": {
+      "en": [
+        "approximately"
+      ]
+    },
     "related": []
   },
   {
     "name": "because",
     "char": "∵",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "because"
+    ],
+    "aliases": {
+      "en": [
+        "because"
+      ]
+    },
     "related": []
   },
   {
     "name": "beta",
     "char": "β",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "beta"
+    ],
+    "aliases": {
+      "en": [
+        "beta"
+      ]
+    },
     "related": []
   },
   {
     "name": "chi",
     "char": "χ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "chi"
+    ],
+    "aliases": {
+      "en": [
+        "chi"
+      ]
+    },
     "related": []
   },
   {
     "name": "degree",
     "char": "°",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "degree"
+    ],
+    "aliases": {
+      "en": [
+        "degree"
+      ]
+    },
     "related": []
   },
   {
     "name": "delta",
     "char": "δ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "delta"
+    ],
+    "aliases": {
+      "en": [
+        "delta"
+      ]
+    },
     "related": []
   },
   {
     "name": "divide",
     "char": "÷",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "divide"
+    ],
+    "aliases": {
+      "en": [
+        "divide"
+      ]
+    },
     "related": []
   },
   {
     "name": "double_prime",
     "char": "″",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "prime"
+    ],
+    "aliases": {
+      "en": [
+        "double prime"
+      ]
+    },
+    "related": [
+      "prime",
+      "triple_prime"
+    ]
   },
   {
     "name": "element_of",
     "char": "∈",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "element"
+    ],
+    "aliases": {
+      "en": [
+        "element of"
+      ]
+    },
+    "related": [
+      "not_element_of"
+    ]
   },
   {
     "name": "epsilon",
     "char": "ε",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "epsilon"
+    ],
+    "aliases": {
+      "en": [
+        "epsilon"
+      ]
+    },
     "related": []
   },
   {
     "name": "equals",
     "char": "=",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "equals"
+    ],
+    "aliases": {
+      "en": [
+        "equals"
+      ]
+    },
+    "related": [
+      "not_equals"
+    ]
   },
   {
     "name": "eta",
     "char": "η",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "eta"
+    ],
+    "aliases": {
+      "en": [
+        "eta"
+      ]
+    },
     "related": []
   },
   {
     "name": "gamma",
     "char": "γ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "gamma"
+    ],
+    "aliases": {
+      "en": [
+        "gamma"
+      ]
+    },
     "related": []
   },
   {
     "name": "greater_equal",
     "char": "≥",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "greater",
+      "equal"
+    ],
+    "aliases": {
+      "en": [
+        "greater equal"
+      ]
+    },
+    "related": [
+      "greater_than",
+      "less_equal"
+    ]
   },
   {
     "name": "greater_than",
     "char": ">",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "greater",
+      "than"
+    ],
+    "aliases": {
+      "en": [
+        "greater than"
+      ]
+    },
+    "related": [
+      "greater_equal",
+      "less_than"
+    ]
   },
   {
     "name": "infinity",
     "char": "∞",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "infinity"
+    ],
+    "aliases": {
+      "en": [
+        "infinity"
+      ]
+    },
     "related": []
   },
   {
     "name": "integral",
     "char": "∫",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "integral"
+    ],
+    "aliases": {
+      "en": [
+        "integral"
+      ]
+    },
     "related": []
   },
   {
     "name": "intersection",
     "char": "∩",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "intersection"
+    ],
+    "aliases": {
+      "en": [
+        "intersection"
+      ]
+    },
     "related": []
   },
   {
     "name": "iota",
     "char": "ι",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "iota"
+    ],
+    "aliases": {
+      "en": [
+        "iota"
+      ]
+    },
     "related": []
   },
   {
     "name": "kappa",
     "char": "κ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "kappa"
+    ],
+    "aliases": {
+      "en": [
+        "kappa"
+      ]
+    },
     "related": []
   },
   {
     "name": "lambda",
     "char": "λ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "lambda"
+    ],
+    "aliases": {
+      "en": [
+        "lambda"
+      ]
+    },
     "related": []
   },
   {
     "name": "less_equal",
     "char": "≤",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "less",
+      "equal"
+    ],
+    "aliases": {
+      "en": [
+        "less equal"
+      ]
+    },
+    "related": [
+      "greater_equal",
+      "less_than"
+    ]
   },
   {
     "name": "less_than",
     "char": "<",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "less",
+      "than"
+    ],
+    "aliases": {
+      "en": [
+        "less than"
+      ]
+    },
+    "related": [
+      "greater_than",
+      "less_equal"
+    ]
   },
   {
     "name": "minus",
     "char": "-",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "minus"
+    ],
+    "aliases": {
+      "en": [
+        "minus"
+      ]
+    },
+    "related": [
+      "plus_minus"
+    ]
   },
   {
     "name": "mu",
     "char": "μ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "mu"
+    ],
+    "aliases": {
+      "en": [
+        "mu"
+      ]
+    },
     "related": []
   },
   {
     "name": "multiply",
     "char": "×",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "multiply"
+    ],
+    "aliases": {
+      "en": [
+        "multiply"
+      ]
+    },
     "related": []
   },
   {
     "name": "nabla",
     "char": "∇",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "nabla"
+    ],
+    "aliases": {
+      "en": [
+        "nabla"
+      ]
+    },
     "related": []
   },
   {
     "name": "not_element_of",
     "char": "∉",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "not",
+      "element"
+    ],
+    "aliases": {
+      "en": [
+        "not element of"
+      ]
+    },
+    "related": [
+      "element_of",
+      "not_equals"
+    ]
   },
   {
     "name": "not_equals",
     "char": "≠",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "not",
+      "equals"
+    ],
+    "aliases": {
+      "en": [
+        "not equals"
+      ]
+    },
+    "related": [
+      "equals",
+      "not_element_of"
+    ]
   },
   {
     "name": "nu",
     "char": "ν",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "nu"
+    ],
+    "aliases": {
+      "en": [
+        "nu"
+      ]
+    },
     "related": []
   },
   {
     "name": "omega",
     "char": "ω",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "omega"
+    ],
+    "aliases": {
+      "en": [
+        "omega"
+      ]
+    },
     "related": []
   },
   {
     "name": "omicron",
     "char": "ο",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "omicron"
+    ],
+    "aliases": {
+      "en": [
+        "omicron"
+      ]
+    },
     "related": []
   },
   {
     "name": "parallel",
     "char": "∥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "parallel"
+    ],
+    "aliases": {
+      "en": [
+        "parallel"
+      ]
+    },
     "related": []
   },
   {
     "name": "partial_derivative",
     "char": "∂",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "partial",
+      "derivative"
+    ],
+    "aliases": {
+      "en": [
+        "partial derivative"
+      ]
+    },
     "related": []
   },
   {
     "name": "perpendicular",
     "char": "⊥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "perpendicular"
+    ],
+    "aliases": {
+      "en": [
+        "perpendicular"
+      ]
+    },
     "related": []
   },
   {
     "name": "phi",
     "char": "φ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "phi"
+    ],
+    "aliases": {
+      "en": [
+        "phi"
+      ]
+    },
     "related": []
   },
   {
     "name": "pi",
     "char": "π",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pi"
+    ],
+    "aliases": {
+      "en": [
+        "pi"
+      ]
+    },
     "related": []
   },
   {
     "name": "plus",
     "char": "+",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "plus"
+    ],
+    "aliases": {
+      "en": [
+        "plus"
+      ]
+    },
+    "related": [
+      "plus_minus"
+    ]
   },
   {
     "name": "plus_minus",
     "char": "±",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "plus",
+      "minus"
+    ],
+    "aliases": {
+      "en": [
+        "plus minus"
+      ]
+    },
+    "related": [
+      "minus",
+      "plus"
+    ]
   },
   {
     "name": "prime",
     "char": "'",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "prime"
+    ],
+    "aliases": {
+      "en": [
+        "prime"
+      ]
+    },
+    "related": [
+      "double_prime",
+      "triple_prime"
+    ]
   },
   {
     "name": "proper_subset",
     "char": "⊆",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "proper",
+      "subset"
+    ],
+    "aliases": {
+      "en": [
+        "proper subset"
+      ]
+    },
+    "related": [
+      "proper_superset",
+      "subset"
+    ]
   },
   {
     "name": "proper_superset",
     "char": "⊇",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "proper",
+      "superset"
+    ],
+    "aliases": {
+      "en": [
+        "proper superset"
+      ]
+    },
+    "related": [
+      "proper_subset",
+      "superset"
+    ]
   },
   {
     "name": "psi",
     "char": "ψ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "psi"
+    ],
+    "aliases": {
+      "en": [
+        "psi"
+      ]
+    },
     "related": []
   },
   {
     "name": "rho",
     "char": "ρ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "rho"
+    ],
+    "aliases": {
+      "en": [
+        "rho"
+      ]
+    },
     "related": []
   },
   {
     "name": "sigma",
     "char": "σ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sigma"
+    ],
+    "aliases": {
+      "en": [
+        "sigma"
+      ]
+    },
     "related": []
   },
   {
     "name": "square_root",
     "char": "√",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "square",
+      "root"
+    ],
+    "aliases": {
+      "en": [
+        "square root"
+      ]
+    },
     "related": []
   },
   {
     "name": "subset",
     "char": "⊂",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "subset"
+    ],
+    "aliases": {
+      "en": [
+        "subset"
+      ]
+    },
+    "related": [
+      "proper_subset"
+    ]
   },
   {
     "name": "summation",
     "char": "∑",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "summation"
+    ],
+    "aliases": {
+      "en": [
+        "summation"
+      ]
+    },
     "related": []
   },
   {
     "name": "superset",
     "char": "⊃",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "superset"
+    ],
+    "aliases": {
+      "en": [
+        "superset"
+      ]
+    },
+    "related": [
+      "proper_superset"
+    ]
   },
   {
     "name": "tau",
     "char": "τ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "tau"
+    ],
+    "aliases": {
+      "en": [
+        "tau"
+      ]
+    },
     "related": []
   },
   {
     "name": "therefore",
     "char": "∴",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "therefore"
+    ],
+    "aliases": {
+      "en": [
+        "therefore"
+      ]
+    },
     "related": []
   },
   {
     "name": "theta",
     "char": "θ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "theta"
+    ],
+    "aliases": {
+      "en": [
+        "theta"
+      ]
+    },
     "related": []
   },
   {
     "name": "triple_prime",
     "char": "‴",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "triple",
+      "prime"
+    ],
+    "aliases": {
+      "en": [
+        "triple prime"
+      ]
+    },
+    "related": [
+      "double_prime",
+      "prime"
+    ]
   },
   {
     "name": "union",
     "char": "∪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "union"
+    ],
+    "aliases": {
+      "en": [
+        "union"
+      ]
+    },
     "related": []
   },
   {
     "name": "upsilon",
     "char": "υ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "upsilon"
+    ],
+    "aliases": {
+      "en": [
+        "upsilon"
+      ]
+    },
     "related": []
   },
   {
     "name": "xi",
     "char": "ξ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "xi"
+    ],
+    "aliases": {
+      "en": [
+        "xi"
+      ]
+    },
     "related": []
   },
   {
     "name": "zeta",
     "char": "ζ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "zeta"
+    ],
+    "aliases": {
+      "en": [
+        "zeta"
+      ]
+    },
     "related": []
   }
 ]

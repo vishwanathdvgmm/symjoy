@@ -2,246 +2,526 @@
   {
     "name": "angstrom",
     "char": "Å",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "angstrom"
+    ],
+    "aliases": {
+      "en": [
+        "angstrom"
+      ]
+    },
     "related": []
   },
   {
     "name": "black_circle",
     "char": "●",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "black",
+      "circle"
+    ],
+    "aliases": {
+      "en": [
+        "black circle"
+      ]
+    },
+    "related": [
+      "black_square",
+      "white_circle"
+    ]
   },
   {
     "name": "black_square",
     "char": "■",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "black",
+      "square"
+    ],
+    "aliases": {
+      "en": [
+        "black square"
+      ]
+    },
+    "related": [
+      "black_circle",
+      "white_square"
+    ]
   },
   {
     "name": "bullet",
     "char": "•",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "bullet"
+    ],
+    "aliases": {
+      "en": [
+        "bullet"
+      ]
+    },
     "related": []
   },
   {
     "name": "check_mark",
     "char": "✓",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "check",
+      "mark"
+    ],
+    "aliases": {
+      "en": [
+        "check mark"
+      ]
+    },
+    "related": [
+      "cross_mark",
+      "service_mark"
+    ]
   },
   {
     "name": "club",
     "char": "♣",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "club"
+    ],
+    "aliases": {
+      "en": [
+        "club"
+      ]
+    },
     "related": []
   },
   {
     "name": "copyright",
     "char": "©",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "copyright"
+    ],
+    "aliases": {
+      "en": [
+        "copyright"
+      ]
+    },
+    "related": [
+      "sound_recording_copyright"
+    ]
   },
   {
     "name": "cross_mark",
     "char": "✗",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "cross",
+      "mark"
+    ],
+    "aliases": {
+      "en": [
+        "cross mark"
+      ]
+    },
+    "related": [
+      "check_mark",
+      "service_mark"
+    ]
   },
   {
     "name": "dagger",
     "char": "†",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "dagger"
+    ],
+    "aliases": {
+      "en": [
+        "dagger"
+      ]
+    },
+    "related": [
+      "double_dagger"
+    ]
   },
   {
     "name": "degree",
     "char": "°",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "degree"
+    ],
+    "aliases": {
+      "en": [
+        "degree"
+      ]
+    },
     "related": []
   },
   {
     "name": "diamond",
     "char": "♦",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "diamond"
+    ],
+    "aliases": {
+      "en": [
+        "diamond"
+      ]
+    },
     "related": []
   },
   {
     "name": "double_dagger",
     "char": "‡",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "double",
+      "dagger"
+    ],
+    "aliases": {
+      "en": [
+        "double dagger"
+      ]
+    },
+    "related": [
+      "dagger"
+    ]
   },
   {
     "name": "down_arrow",
     "char": "↓",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "down",
+      "arrow"
+    ],
+    "aliases": {
+      "en": [
+        "down arrow"
+      ]
+    },
+    "related": [
+      "left_arrow",
+      "right_arrow",
+      "up_arrow"
+    ]
   },
   {
     "name": "ellipsis",
     "char": "…",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "ellipsis"
+    ],
+    "aliases": {
+      "en": [
+        "ellipsis"
+      ]
+    },
     "related": []
   },
   {
     "name": "heart",
     "char": "♥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "heart"
+      ]
+    },
     "related": []
   },
   {
     "name": "infinity",
     "char": "∞",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "infinity"
+    ],
+    "aliases": {
+      "en": [
+        "infinity"
+      ]
+    },
     "related": []
   },
   {
     "name": "left_arrow",
     "char": "←",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "left",
+      "arrow"
+    ],
+    "aliases": {
+      "en": [
+        "left arrow"
+      ]
+    },
+    "related": [
+      "down_arrow",
+      "right_arrow",
+      "up_arrow"
+    ]
   },
   {
     "name": "micro",
     "char": "µ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "micro"
+    ],
+    "aliases": {
+      "en": [
+        "micro"
+      ]
+    },
     "related": []
   },
   {
     "name": "middle_dot",
     "char": "·",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "middle",
+      "dot"
+    ],
+    "aliases": {
+      "en": [
+        "middle dot"
+      ]
+    },
     "related": []
   },
   {
     "name": "ohm",
     "char": "Ω",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "ohm"
+    ],
+    "aliases": {
+      "en": [
+        "ohm"
+      ]
+    },
     "related": []
   },
   {
     "name": "paragraph",
     "char": "¶",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "paragraph"
+    ],
+    "aliases": {
+      "en": [
+        "paragraph"
+      ]
+    },
     "related": []
   },
   {
     "name": "pilcrow",
     "char": "¶",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pilcrow"
+    ],
+    "aliases": {
+      "en": [
+        "pilcrow"
+      ]
+    },
     "related": []
   },
   {
     "name": "plus_minus",
     "char": "±",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "plus",
+      "minus"
+    ],
+    "aliases": {
+      "en": [
+        "plus minus"
+      ]
+    },
     "related": []
   },
   {
     "name": "registered",
     "char": "®",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "registered"
+    ],
+    "aliases": {
+      "en": [
+        "registered"
+      ]
+    },
     "related": []
   },
   {
     "name": "right_arrow",
     "char": "→",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "right",
+      "arrow"
+    ],
+    "aliases": {
+      "en": [
+        "right arrow"
+      ]
+    },
+    "related": [
+      "down_arrow",
+      "left_arrow",
+      "up_arrow"
+    ]
   },
   {
     "name": "section",
     "char": "§",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "section"
+    ],
+    "aliases": {
+      "en": [
+        "section"
+      ]
+    },
     "related": []
   },
   {
     "name": "service_mark",
     "char": "℠",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "service",
+      "mark"
+    ],
+    "aliases": {
+      "en": [
+        "service mark"
+      ]
+    },
+    "related": [
+      "check_mark",
+      "cross_mark"
+    ]
   },
   {
     "name": "sound_recording_copyright",
     "char": "℗",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "sound",
+      "recording",
+      "copyright"
+    ],
+    "aliases": {
+      "en": [
+        "sound recording copyright"
+      ]
+    },
+    "related": [
+      "copyright"
+    ]
   },
   {
     "name": "spade",
     "char": "♠",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "spade"
+    ],
+    "aliases": {
+      "en": [
+        "spade"
+      ]
+    },
     "related": []
   },
   {
     "name": "star",
     "char": "★",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "star"
+    ],
+    "aliases": {
+      "en": [
+        "star"
+      ]
+    },
+    "related": [
+      "white_star"
+    ]
   },
   {
     "name": "trademark",
     "char": "™",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "trademark"
+    ],
+    "aliases": {
+      "en": [
+        "trademark"
+      ]
+    },
     "related": []
   },
   {
     "name": "up_arrow",
     "char": "↑",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "up",
+      "arrow"
+    ],
+    "aliases": {
+      "en": [
+        "up arrow"
+      ]
+    },
+    "related": [
+      "down_arrow",
+      "left_arrow",
+      "right_arrow"
+    ]
   },
   {
     "name": "white_circle",
     "char": "○",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "white",
+      "circle"
+    ],
+    "aliases": {
+      "en": [
+        "white circle"
+      ]
+    },
+    "related": [
+      "black_circle",
+      "white_square",
+      "white_star"
+    ]
   },
   {
     "name": "white_square",
     "char": "□",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "white",
+      "square"
+    ],
+    "aliases": {
+      "en": [
+        "white square"
+      ]
+    },
+    "related": [
+      "black_square",
+      "white_circle",
+      "white_star"
+    ]
   },
   {
     "name": "white_star",
     "char": "☆",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "white",
+      "star"
+    ],
+    "aliases": {
+      "en": [
+        "white star"
+      ]
+    },
+    "related": [
+      "star",
+      "white_circle",
+      "white_square"
+    ]
   }
 ]

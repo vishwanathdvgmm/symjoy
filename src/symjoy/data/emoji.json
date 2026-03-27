@@ -2,358 +2,819 @@
   {
     "name": "100",
     "char": "💯",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "100"
+    ],
+    "aliases": {
+      "en": [
+        "100"
+      ]
+    },
     "related": []
   },
   {
     "name": "angry",
     "char": "😠",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "angry"
+    ],
+    "aliases": {
+      "en": [
+        "angry"
+      ]
+    },
     "related": []
   },
   {
     "name": "bell",
     "char": "🔔",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "bell"
+    ],
+    "aliases": {
+      "en": [
+        "bell"
+      ]
+    },
     "related": []
   },
   {
     "name": "black_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "black",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "black heart"
+      ]
+    },
+    "related": [
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "blue_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "blue",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "blue heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "boom",
     "char": "💥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "boom"
+    ],
+    "aliases": {
+      "en": [
+        "boom"
+      ]
+    },
     "related": []
   },
   {
     "name": "broken_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "broken",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "broken heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "clap",
     "char": "👏",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "clap"
+    ],
+    "aliases": {
+      "en": [
+        "clap"
+      ]
+    },
     "related": []
   },
   {
     "name": "clapping_hands",
     "char": "👏",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "clapping",
+      "hands"
+    ],
+    "aliases": {
+      "en": [
+        "clapping hands"
+      ]
+    },
+    "related": [
+      "folded_hands",
+      "raised_hands"
+    ]
   },
   {
     "name": "confused",
     "char": "😕",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "confused"
+    ],
+    "aliases": {
+      "en": [
+        "confused"
+      ]
+    },
     "related": []
   },
   {
     "name": "crescent_moon",
     "char": "🌙",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "crescent",
+      "moon"
+    ],
+    "aliases": {
+      "en": [
+        "crescent moon"
+      ]
+    },
     "related": []
   },
   {
     "name": "crossed_fingers",
     "char": "🤞",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "crossed",
+      "fingers"
+    ],
+    "aliases": {
+      "en": [
+        "crossed fingers"
+      ]
+    },
     "related": []
   },
   {
     "name": "cry",
     "char": "😢",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "cry"
+    ],
+    "aliases": {
+      "en": [
+        "cry"
+      ]
+    },
     "related": []
   },
   {
     "name": "disappointed",
     "char": "😞",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "disappointed"
+    ],
+    "aliases": {
+      "en": [
+        "disappointed"
+      ]
+    },
     "related": []
   },
   {
     "name": "exploding_head",
     "char": "🤯",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "exploding",
+      "head"
+    ],
+    "aliases": {
+      "en": [
+        "exploding head"
+      ]
+    },
     "related": []
   },
   {
     "name": "face_blowing_a_kiss",
     "char": "😘",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "blowing",
+      "kiss"
+    ],
+    "aliases": {
+      "en": [
+        "face blowing a kiss"
+      ]
+    },
+    "related": [
+      "kiss"
+    ]
   },
   {
     "name": "face_with_hand_over_mouth",
     "char": "🤭",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "hand",
+      "over",
+      "mouth"
+    ],
+    "aliases": {
+      "en": [
+        "face with hand over mouth"
+      ]
+    },
+    "related": [
+      "ok_hand",
+      "victory_hand",
+      "waving_hand"
+    ]
   },
   {
     "name": "face_with_monocle",
     "char": "🧐",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "monocle"
+    ],
+    "aliases": {
+      "en": [
+        "face with monocle"
+      ]
+    },
     "related": []
   },
   {
     "name": "face_with_sunglasses",
     "char": "😎",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "sunglasses"
+    ],
+    "aliases": {
+      "en": [
+        "face with sunglasses"
+      ]
+    },
+    "related": [
+      "sunglasses"
+    ]
   },
   {
     "name": "face_with_tears_of_joy",
     "char": "😂",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "tears",
+      "joy"
+    ],
+    "aliases": {
+      "en": [
+        "face with tears of joy"
+      ]
+    },
+    "related": [
+      "joy",
+      "smile"
+    ]
   },
   {
     "name": "flexed_biceps",
     "char": "💪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "flexed",
+      "biceps"
+    ],
+    "aliases": {
+      "en": [
+        "flexed biceps"
+      ]
+    },
     "related": []
   },
   {
     "name": "flushed",
     "char": "😵",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "flushed"
+    ],
+    "aliases": {
+      "en": [
+        "flushed"
+      ]
+    },
     "related": []
   },
   {
     "name": "folded_hands",
     "char": "🙏",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "folded",
+      "hands"
+    ],
+    "aliases": {
+      "en": [
+        "folded hands"
+      ]
+    },
+    "related": [
+      "clapping_hands",
+      "raised_hands"
+    ]
   },
   {
     "name": "green_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "green",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "green heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "grin",
     "char": "😁",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "grin"
+    ],
+    "aliases": {
+      "en": [
+        "grin"
+      ]
+    },
+    "related": [
+      "smile"
+    ]
   },
   {
     "name": "grinning",
     "char": "😀",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "grinning"
+    ],
+    "aliases": {
+      "en": [
+        "grinning"
+      ]
+    },
     "related": []
   },
   {
     "name": "heart_eyes",
     "char": "😍",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "heart",
+      "eyes"
+    ],
+    "aliases": {
+      "en": [
+        "heart eyes"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "joy",
     "char": "😂",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "joy"
+    ],
+    "aliases": {
+      "en": [
+        "joy"
+      ]
+    },
+    "related": [
+      "face_with_tears_of_joy",
+      "smile"
+    ]
   },
   {
     "name": "kiss",
     "char": "😘",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "kiss"
+    ],
+    "aliases": {
+      "en": [
+        "kiss"
+      ]
+    },
+    "related": [
+      "face_blowing_a_kiss"
+    ]
   },
   {
     "name": "laugh",
     "char": "😆",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "laugh"
+    ],
+    "aliases": {
+      "en": [
+        "laugh"
+      ]
+    },
     "related": []
   },
   {
     "name": "light_bulb",
     "char": "💡",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "light",
+      "bulb"
+    ],
+    "aliases": {
+      "en": [
+        "light bulb"
+      ]
+    },
     "related": []
   },
   {
     "name": "lock",
     "char": "🔒",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "lock"
+    ],
+    "aliases": {
+      "en": [
+        "lock"
+      ]
+    },
     "related": []
   },
   {
     "name": "loudly_crying_face",
     "char": "😭",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "loudly",
+      "crying"
+    ],
+    "aliases": {
+      "en": [
+        "loudly crying face"
+      ]
+    },
     "related": []
   },
   {
     "name": "muscle",
     "char": "💪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "muscle"
+    ],
+    "aliases": {
+      "en": [
+        "muscle"
+      ]
+    },
     "related": []
   },
   {
     "name": "neutral_face",
     "char": "😐",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "neutral"
+    ],
+    "aliases": {
+      "en": [
+        "neutral face"
+      ]
+    },
     "related": []
   },
   {
     "name": "ok_hand",
     "char": "👌",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "ok",
+      "hand"
+    ],
+    "aliases": {
+      "en": [
+        "ok hand"
+      ]
+    },
+    "related": [
+      "face_with_hand_over_mouth",
+      "victory_hand",
+      "waving_hand"
+    ]
   },
   {
     "name": "orange_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "orange",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "orange heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "purple_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "party",
     "char": "🥳",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "party"
+    ],
+    "aliases": {
+      "en": [
+        "party"
+      ]
+    },
     "related": []
   },
   {
     "name": "partying_face",
     "char": "🥳",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "partying"
+    ],
+    "aliases": {
+      "en": [
+        "partying face"
+      ]
+    },
     "related": []
   },
   {
     "name": "pleading_face",
     "char": "🥺",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pleading"
+    ],
+    "aliases": {
+      "en": [
+        "pleading face"
+      ]
+    },
     "related": []
   },
   {
     "name": "point_down",
     "char": "👇",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "point",
+      "down"
+    ],
+    "aliases": {
+      "en": [
+        "point down"
+      ]
+    },
+    "related": [
+      "point_left",
+      "point_right",
+      "point_up",
+      "thumbs_down"
+    ]
   },
   {
     "name": "point_left",
     "char": "👈",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "point",
+      "left"
+    ],
+    "aliases": {
+      "en": [
+        "point left"
+      ]
+    },
+    "related": [
+      "point_down",
+      "point_right",
+      "point_up"
+    ]
   },
   {
     "name": "point_right",
     "char": "👉",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "point",
+      "right"
+    ],
+    "aliases": {
+      "en": [
+        "point right"
+      ]
+    },
+    "related": [
+      "point_down",
+      "point_left",
+      "point_up"
+    ]
   },
   {
     "name": "point_up",
     "char": "👆",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "point",
+      "up"
+    ],
+    "aliases": {
+      "en": [
+        "point up"
+      ]
+    },
+    "related": [
+      "point_down",
+      "point_left",
+      "point_right",
+      "thumbs_up"
+    ]
   },
   {
     "name": "pray",
     "char": "🙏",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pray"
+    ],
+    "aliases": {
+      "en": [
+        "pray"
+      ]
+    },
     "related": []
   },
   {
     "name": "purple_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "purple",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "purple heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "red_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "raised_hands",
     "char": "🙌",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "raised",
+      "hands"
+    ],
+    "aliases": {
+      "en": [
+        "raised hands"
+      ]
+    },
+    "related": [
+      "clapping_hands",
+      "folded_hands"
+    ]
   },
   {
     "name": "red_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "red",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "red heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "white_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "rocket",
     "char": "🚀",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "rocket"
+    ],
+    "aliases": {
+      "en": [
+        "rocket"
+      ]
+    },
     "related": []
   },
   {
     "name": "sleeping",
     "char": "😴",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sleeping"
+    ],
+    "aliases": {
+      "en": [
+        "sleeping"
+      ]
+    },
     "related": []
   },
   {
     "name": "sleepy_face",
     "char": "😪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sleepy"
+    ],
+    "aliases": {
+      "en": [
+        "sleepy face"
+      ]
+    },
     "related": []
   },
   {
@@ -373,141 +834,305 @@
       ]
     },
     "related": [
+      "face_with_tears_of_joy",
+      "grin",
       "grinning",
+      "joy",
       "laugh"
     ]
   },
   {
     "name": "smiling_face",
     "char": "😄",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "smiling"
+    ],
+    "aliases": {
+      "en": [
+        "smiling face"
+      ]
+    },
     "related": []
   },
   {
     "name": "sob",
     "char": "😭",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sob"
+    ],
+    "aliases": {
+      "en": [
+        "sob"
+      ]
+    },
     "related": []
   },
   {
     "name": "sparkle",
     "char": "✨",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "sparkle"
+    ],
+    "aliases": {
+      "en": [
+        "sparkle"
+      ]
+    },
     "related": []
   },
   {
     "name": "star_struck",
     "char": "🤩",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "star",
+      "struck"
+    ],
+    "aliases": {
+      "en": [
+        "star struck"
+      ]
+    },
     "related": []
   },
   {
     "name": "sunglasses",
     "char": "😎",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "sunglasses"
+    ],
+    "aliases": {
+      "en": [
+        "sunglasses"
+      ]
+    },
+    "related": [
+      "face_with_sunglasses"
+    ]
   },
   {
     "name": "tada",
     "char": "🎉",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "tada"
+    ],
+    "aliases": {
+      "en": [
+        "tada"
+      ]
+    },
     "related": []
   },
   {
     "name": "thinking",
     "char": "🤔",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "thinking"
+    ],
+    "aliases": {
+      "en": [
+        "thinking"
+      ]
+    },
+    "related": [
+      "thinking_face"
+    ]
   },
   {
     "name": "thinking_face",
     "char": "🤔",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "thinking"
+    ],
+    "aliases": {
+      "en": [
+        "thinking face"
+      ]
+    },
+    "related": [
+      "thinking"
+    ]
   },
   {
     "name": "thumbs_down",
     "char": "👎",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "thumbs",
+      "down"
+    ],
+    "aliases": {
+      "en": [
+        "thumbs down"
+      ]
+    },
+    "related": [
+      "point_down",
+      "thumbs_up"
+    ]
   },
   {
     "name": "thumbs_up",
     "char": "👍",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "thumbs",
+      "up"
+    ],
+    "aliases": {
+      "en": [
+        "thumbs up"
+      ]
+    },
+    "related": [
+      "point_up",
+      "thumbs_down"
+    ]
   },
   {
     "name": "unlock",
     "char": "🔓",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "unlock"
+    ],
+    "aliases": {
+      "en": [
+        "unlock"
+      ]
+    },
     "related": []
   },
   {
     "name": "victory_hand",
     "char": "✌",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "victory",
+      "hand"
+    ],
+    "aliases": {
+      "en": [
+        "victory hand"
+      ]
+    },
+    "related": [
+      "face_with_hand_over_mouth",
+      "ok_hand",
+      "waving_hand"
+    ]
   },
   {
     "name": "wave",
     "char": "👋",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "wave"
+    ],
+    "aliases": {
+      "en": [
+        "wave"
+      ]
+    },
     "related": []
   },
   {
     "name": "waving_hand",
     "char": "👋",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "waving",
+      "hand"
+    ],
+    "aliases": {
+      "en": [
+        "waving hand"
+      ]
+    },
+    "related": [
+      "face_with_hand_over_mouth",
+      "ok_hand",
+      "victory_hand"
+    ]
   },
   {
     "name": "white_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "white",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "white heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "yellow_heart"
+    ]
   },
   {
     "name": "wink",
     "char": "😉",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "wink"
+    ],
+    "aliases": {
+      "en": [
+        "wink"
+      ]
+    },
     "related": []
   },
   {
     "name": "winking_face",
     "char": "😉",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "winking"
+    ],
+    "aliases": {
+      "en": [
+        "winking face"
+      ]
+    },
     "related": []
   },
   {
     "name": "yellow_heart",
     "char": "❤️",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "yellow",
+      "heart"
+    ],
+    "aliases": {
+      "en": [
+        "yellow heart"
+      ]
+    },
+    "related": [
+      "black_heart",
+      "blue_heart",
+      "broken_heart",
+      "green_heart",
+      "heart_eyes",
+      "orange_heart",
+      "purple_heart",
+      "red_heart",
+      "white_heart"
+    ]
   },
   {
     "name": "zany_face",
     "char": "🤪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "zany"
+    ],
+    "aliases": {
+      "en": [
+        "zany face"
+      ]
+    },
     "related": []
   }
 ]

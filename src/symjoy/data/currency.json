@@ -2,197 +2,408 @@
   {
     "name": "australian_dollar",
     "char": "A$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "australian",
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "australian dollar"
+      ]
+    },
+    "related": [
+      "canadian_dollar",
+      "dollar",
+      "hong_kong_dollar",
+      "new_zealand_dollar",
+      "singapore_dollar"
+    ]
   },
   {
     "name": "baht",
     "char": "฿",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "baht"
+    ],
+    "aliases": {
+      "en": [
+        "baht"
+      ]
+    },
     "related": []
   },
   {
     "name": "bitcoin",
     "char": "₿",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "bitcoin"
+    ],
+    "aliases": {
+      "en": [
+        "bitcoin"
+      ]
+    },
     "related": []
   },
   {
     "name": "canadian_dollar",
     "char": "C$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "canadian",
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "canadian dollar"
+      ]
+    },
+    "related": [
+      "australian_dollar",
+      "dollar",
+      "hong_kong_dollar",
+      "new_zealand_dollar",
+      "singapore_dollar"
+    ]
   },
   {
     "name": "cent",
     "char": "¢",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "cent"
+    ],
+    "aliases": {
+      "en": [
+        "cent"
+      ]
+    },
     "related": []
   },
   {
     "name": "dirham",
     "char": "د.إ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "dirham"
+    ],
+    "aliases": {
+      "en": [
+        "dirham"
+      ]
+    },
     "related": []
   },
   {
     "name": "dollar",
     "char": "$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "dollar"
+      ]
+    },
+    "related": [
+      "australian_dollar",
+      "canadian_dollar",
+      "hong_kong_dollar",
+      "new_zealand_dollar",
+      "singapore_dollar"
+    ]
   },
   {
     "name": "dong",
     "char": "₫",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "dong"
+    ],
+    "aliases": {
+      "en": [
+        "dong"
+      ]
+    },
     "related": []
   },
   {
     "name": "ethereum",
     "char": "Ξ",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "ethereum"
+    ],
+    "aliases": {
+      "en": [
+        "ethereum"
+      ]
+    },
     "related": []
   },
   {
     "name": "euro",
     "char": "€",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "euro"
+    ],
+    "aliases": {
+      "en": [
+        "euro"
+      ]
+    },
     "related": []
   },
   {
     "name": "forint",
     "char": "Ft",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "forint"
+    ],
+    "aliases": {
+      "en": [
+        "forint"
+      ]
+    },
     "related": []
   },
   {
     "name": "franc",
     "char": "₣",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "franc"
+    ],
+    "aliases": {
+      "en": [
+        "franc"
+      ]
+    },
     "related": []
   },
   {
     "name": "hong_kong_dollar",
     "char": "HK$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "hong",
+      "kong",
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "hong kong dollar"
+      ]
+    },
+    "related": [
+      "australian_dollar",
+      "canadian_dollar",
+      "dollar",
+      "new_zealand_dollar",
+      "singapore_dollar"
+    ]
   },
   {
     "name": "koruna",
     "char": "Kč",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "koruna"
+    ],
+    "aliases": {
+      "en": [
+        "koruna"
+      ]
+    },
     "related": []
   },
   {
     "name": "lira",
     "char": "₺",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "lira"
+    ],
+    "aliases": {
+      "en": [
+        "lira"
+      ]
+    },
     "related": []
   },
   {
     "name": "litecoin",
     "char": "Ł",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "litecoin"
+    ],
+    "aliases": {
+      "en": [
+        "litecoin"
+      ]
+    },
     "related": []
   },
   {
     "name": "new_zealand_dollar",
     "char": "NZ$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "new",
+      "zealand",
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "new zealand dollar"
+      ]
+    },
+    "related": [
+      "australian_dollar",
+      "canadian_dollar",
+      "dollar",
+      "hong_kong_dollar",
+      "singapore_dollar"
+    ]
   },
   {
     "name": "peso",
     "char": "₱",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "peso"
+    ],
+    "aliases": {
+      "en": [
+        "peso"
+      ]
+    },
     "related": []
   },
   {
     "name": "pound",
     "char": "£",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "pound"
+    ],
+    "aliases": {
+      "en": [
+        "pound"
+      ]
+    },
     "related": []
   },
   {
     "name": "riyals",
     "char": "﷼",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "riyals"
+    ],
+    "aliases": {
+      "en": [
+        "riyals"
+      ]
+    },
     "related": []
   },
   {
     "name": "rubl",
     "char": "₽",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "rubl"
+    ],
+    "aliases": {
+      "en": [
+        "rubl"
+      ]
+    },
     "related": []
   },
   {
     "name": "ruble",
     "char": "₽",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "ruble"
+    ],
+    "aliases": {
+      "en": [
+        "ruble"
+      ]
+    },
     "related": []
   },
   {
     "name": "rupee",
     "char": "₹",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "rupee"
+    ],
+    "aliases": {
+      "en": [
+        "rupee"
+      ]
+    },
     "related": []
   },
   {
     "name": "shekel",
     "char": "₪",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "shekel"
+    ],
+    "aliases": {
+      "en": [
+        "shekel"
+      ]
+    },
     "related": []
   },
   {
     "name": "singapore_dollar",
     "char": "S$",
-    "keywords": [],
-    "aliases": {},
-    "related": []
+    "keywords": [
+      "singapore",
+      "dollar"
+    ],
+    "aliases": {
+      "en": [
+        "singapore dollar"
+      ]
+    },
+    "related": [
+      "australian_dollar",
+      "canadian_dollar",
+      "dollar",
+      "hong_kong_dollar",
+      "new_zealand_dollar"
+    ]
   },
   {
     "name": "won",
     "char": "₩",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "won"
+    ],
+    "aliases": {
+      "en": [
+        "won"
+      ]
+    },
     "related": []
   },
   {
     "name": "yen",
     "char": "¥",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "yen"
+    ],
+    "aliases": {
+      "en": [
+        "yen"
+      ]
+    },
     "related": []
   },
   {
     "name": "zloty",
     "char": "zł",
-    "keywords": [],
-    "aliases": {},
+    "keywords": [
+      "zloty"
+    ],
+    "aliases": {
+      "en": [
+        "zloty"
+      ]
+    },
     "related": []
   }
 ]
