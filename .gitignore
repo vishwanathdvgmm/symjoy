@@ -17,9 +17,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# test files
-tests/
-
 # api file
 *.key
 
