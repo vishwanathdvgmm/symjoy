@@ -10,7 +10,8 @@
         "clockwise"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "counterclockwise",
@@ -23,7 +24,8 @@
         "counterclockwise"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "double_down",
@@ -43,7 +45,8 @@
       "down",
       "down_left",
       "down_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "equivalent",
@@ -56,7 +59,8 @@
         "equivalent"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "double_up",
@@ -78,7 +82,8 @@
       "up",
       "up_left",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "down",
@@ -95,7 +100,8 @@
       "double_down",
       "down_left",
       "down_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "down_left",
@@ -121,7 +127,8 @@
       "long_left",
       "long_left_right",
       "up_left"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "down_right",
@@ -147,7 +154,8 @@
       "long_right",
       "right",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "hook_left",
@@ -171,7 +179,8 @@
       "long_left",
       "long_left_right",
       "up_left"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "hook_right",
@@ -195,7 +204,8 @@
       "long_right",
       "right",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "implied_by",
@@ -209,7 +219,8 @@
         "implied by"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "implies",
@@ -222,7 +233,8 @@
         "implies"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "left",
@@ -244,7 +256,8 @@
       "long_left",
       "long_left_right",
       "up_left"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "left_right",
@@ -273,7 +286,8 @@
       "right",
       "up_left",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "long_left",
@@ -297,7 +311,8 @@
       "long_left_right",
       "long_right",
       "up_left"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "long_left_right",
@@ -327,7 +342,8 @@
       "right",
       "up_left",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "long_right",
@@ -351,7 +367,8 @@
       "long_left_right",
       "right",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "right",
@@ -373,7 +390,8 @@
       "long_left_right",
       "long_right",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "up",
@@ -390,7 +408,8 @@
       "double_up",
       "up_left",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "up_left",
@@ -416,7 +435,8 @@
       "long_left_right",
       "up",
       "up_right"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "up_right",
@@ -442,6 +462,7 @@
       "right",
       "up",
       "up_left"
-    ]
+    ],
+    "group": "other"
   }
 ]

@@ -1,6 +1,6 @@
 from __future__ import annotations
 import random as _random
-from symjoy.core.registry import get_symbol, list_by_category
+from symjoy.core.registry import get_symbol, list_by_category, list_by_group
 from symjoy.core.registry import get_related as _get_related
 
 _CATEGORY = "symbols"
@@ -27,7 +27,7 @@ def random() -> str | None:
         return None
     return _random.choice(symbols).char
 
-def list() -> list[str]:
+def list() -> list[str]:    
     """
     List all symbol names (sorted).
     """
@@ -88,3 +88,11 @@ def related(name: str) -> list[dict]:
         for n in nodes
         if n.category == _CATEGORY
         ]
+
+def by_group(group: str):
+    nodes = list_by_category(group)
+    return [
+        {"name": n.name, "char": n.char}
+        for n in nodes
+        if n.category == _CATEGORY
+    ]

@@ -10,7 +10,8 @@
         "alpha"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "angle",
@@ -23,7 +24,8 @@
         "angle"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "approximately",
@@ -36,7 +38,8 @@
         "approximately"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "because",
@@ -49,7 +52,8 @@
         "because"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "beta",
@@ -62,7 +66,8 @@
         "beta"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "chi",
@@ -75,7 +80,8 @@
         "chi"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "congruent",
@@ -88,7 +94,8 @@
         "congruent"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cube_root",
@@ -101,7 +108,10 @@
         "cube root"
       ]
     },
-    "related": []
+    "related": [
+      "square_root"
+    ],
+    "group": "other"
   },
   {
     "name": "degree",
@@ -114,7 +124,8 @@
         "degree"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "delta",
@@ -127,7 +138,8 @@
         "delta"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "divide",
@@ -140,7 +152,8 @@
         "divide"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "double_prime",
@@ -157,7 +170,8 @@
     "related": [
       "prime",
       "triple_prime"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "element_of",
@@ -172,7 +186,8 @@
     },
     "related": [
       "not_element_of"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "epsilon",
@@ -185,7 +200,8 @@
         "epsilon"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "equals",
@@ -200,7 +216,8 @@
     },
     "related": [
       "not_equals"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "eta",
@@ -213,7 +230,8 @@
         "eta"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "exists",
@@ -226,7 +244,8 @@
         "exists"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "for_all",
@@ -239,7 +258,8 @@
         "for all"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "gamma",
@@ -252,7 +272,8 @@
         "gamma"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "greater_equal",
@@ -269,7 +290,8 @@
     "related": [
       "greater_than",
       "less_equal"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "greater_than",
@@ -286,7 +308,8 @@
     "related": [
       "greater_equal",
       "less_than"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "identical",
@@ -299,7 +322,8 @@
         "identical"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "infinity",
@@ -312,7 +336,8 @@
         "infinity"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "integral",
@@ -325,7 +350,8 @@
         "integral"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "intersection",
@@ -338,7 +364,8 @@
         "intersection"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "iota",
@@ -351,7 +378,8 @@
         "iota"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "kappa",
@@ -364,7 +392,8 @@
         "kappa"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "lambda",
@@ -377,7 +406,8 @@
         "lambda"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "less_equal",
@@ -394,7 +424,8 @@
     "related": [
       "greater_equal",
       "less_than"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "less_than",
@@ -411,7 +442,8 @@
     "related": [
       "greater_than",
       "less_equal"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "minus",
@@ -426,7 +458,8 @@
     },
     "related": [
       "plus_minus"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "mu",
@@ -439,7 +472,8 @@
         "mu"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "multiply",
@@ -452,7 +486,8 @@
         "multiply"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "nabla",
@@ -465,7 +500,8 @@
         "nabla"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "not_equals",
@@ -481,7 +517,8 @@
     },
     "related": [
       "equals"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "not_exists",
@@ -494,7 +531,8 @@
         "not exists"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "not_in",
@@ -507,7 +545,8 @@
         "not in"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "nu",
@@ -520,7 +559,8 @@
         "nu"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "omega",
@@ -533,7 +573,8 @@
         "omega"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "omicron",
@@ -546,7 +587,8 @@
         "omicron"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "parallel",
@@ -559,7 +601,8 @@
         "parallel"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "partial_derivative",
@@ -573,7 +616,8 @@
         "partial derivative"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "percent",
@@ -586,7 +630,8 @@
         "percent"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "perpendicular",
@@ -599,7 +644,8 @@
         "perpendicular"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "phi",
@@ -612,7 +658,8 @@
         "phi"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pi",
@@ -625,7 +672,8 @@
         "pi"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "plus",
@@ -640,7 +688,8 @@
     },
     "related": [
       "plus_minus"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "plus_minus",
@@ -657,7 +706,8 @@
     "related": [
       "minus",
       "plus"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "prime",
@@ -673,7 +723,8 @@
     "related": [
       "double_prime",
       "triple_prime"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "product",
@@ -686,7 +737,8 @@
         "product"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "proportional",
@@ -699,7 +751,8 @@
         "proportional"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "proper_subset",
@@ -716,7 +769,8 @@
     "related": [
       "proper_superset",
       "subset"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "proper_superset",
@@ -733,7 +787,8 @@
     "related": [
       "proper_subset",
       "superset"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "psi",
@@ -746,7 +801,8 @@
         "psi"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rho",
@@ -759,7 +815,8 @@
         "rho"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "set_natural",
@@ -772,7 +829,8 @@
         "natural numbers"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "set_real",
@@ -785,7 +843,8 @@
         "real numbers"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "set_integer",
@@ -798,7 +857,8 @@
         "integers"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "set_complex",
@@ -811,7 +871,8 @@
         "complex"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sigma",
@@ -824,7 +885,8 @@
         "sigma"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "square_root",
@@ -838,7 +900,10 @@
         "square root"
       ]
     },
-    "related": []
+    "related": [
+      "cube_root"
+    ],
+    "group": "other"
   },
   {
     "name": "subset",
@@ -853,7 +918,8 @@
     },
     "related": [
       "proper_subset"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "summation",
@@ -866,7 +932,8 @@
         "summation"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "superset",
@@ -881,7 +948,8 @@
     },
     "related": [
       "proper_superset"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "tau",
@@ -894,7 +962,8 @@
         "tau"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "therefore",
@@ -907,7 +976,8 @@
         "therefore"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "theta",
@@ -920,7 +990,8 @@
         "theta"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "triple_prime",
@@ -937,7 +1008,8 @@
     "related": [
       "double_prime",
       "prime"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "union",
@@ -950,7 +1022,8 @@
         "union"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "upsilon",
@@ -963,7 +1036,8 @@
         "upsilon"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "xi",
@@ -976,7 +1050,8 @@
         "xi"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "zeta",
@@ -989,6 +1064,7 @@
         "zeta"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   }
 ]

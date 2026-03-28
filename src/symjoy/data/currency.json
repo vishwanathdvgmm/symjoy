@@ -17,7 +17,8 @@
       "hong_kong_dollar",
       "new_zealand_dollar",
       "singapore_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "baht",
@@ -30,7 +31,8 @@
         "baht"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bitcoin",
@@ -43,7 +45,8 @@
         "bitcoin"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "canadian_dollar",
@@ -63,7 +66,8 @@
       "hong_kong_dollar",
       "new_zealand_dollar",
       "singapore_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "cent",
@@ -76,7 +80,8 @@
         "cent"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dirham",
@@ -89,7 +94,8 @@
         "dirham"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dollar",
@@ -108,7 +114,8 @@
       "hong_kong_dollar",
       "new_zealand_dollar",
       "singapore_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "dong",
@@ -121,7 +128,8 @@
         "dong"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "ethereum",
@@ -134,7 +142,8 @@
         "ethereum"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "euro",
@@ -147,7 +156,8 @@
         "euro"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "forint",
@@ -160,7 +170,8 @@
         "forint"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "franc",
@@ -173,7 +184,8 @@
         "franc"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hong_kong_dollar",
@@ -194,7 +206,8 @@
       "dollar",
       "new_zealand_dollar",
       "singapore_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "koruna",
@@ -207,7 +220,8 @@
         "koruna"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "lira",
@@ -220,7 +234,8 @@
         "lira"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "litecoin",
@@ -233,7 +248,8 @@
         "litecoin"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "new_zealand_dollar",
@@ -254,7 +270,8 @@
       "dollar",
       "hong_kong_dollar",
       "singapore_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "peso",
@@ -267,7 +284,8 @@
         "peso"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pound",
@@ -280,7 +298,8 @@
         "pound"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "riyals",
@@ -293,7 +312,8 @@
         "riyals"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "ruble",
@@ -306,7 +326,8 @@
         "ruble"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rupee",
@@ -319,7 +340,8 @@
         "rupee"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "shekel",
@@ -332,7 +354,8 @@
         "shekel"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "singapore_dollar",
@@ -352,7 +375,8 @@
       "dollar",
       "hong_kong_dollar",
       "new_zealand_dollar"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "won",
@@ -365,7 +389,8 @@
         "won"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "yen",
@@ -378,7 +403,8 @@
         "yen"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "zloty",
@@ -391,6 +417,7 @@
         "zloty"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   }
 ]

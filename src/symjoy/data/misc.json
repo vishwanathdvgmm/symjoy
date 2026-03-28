@@ -10,7 +10,8 @@
         "alarm"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "biohazard",
@@ -23,7 +24,8 @@
         "biohazard"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "check",
@@ -36,7 +38,8 @@
         "check"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cloud",
@@ -49,7 +52,8 @@
         "cloud"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "comet",
@@ -62,7 +66,8 @@
         "comet"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "compass",
@@ -75,7 +80,8 @@
         "compass"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cross",
@@ -88,7 +94,8 @@
         "cross"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "exclamation",
@@ -101,7 +108,8 @@
         "exclamation"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hourglass",
@@ -114,7 +122,8 @@
         "hourglass"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "information",
@@ -127,7 +136,8 @@
         "information"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "lightning",
@@ -140,7 +150,8 @@
         "lightning"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "music",
@@ -153,7 +164,8 @@
         "music"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "no_entry",
@@ -167,7 +179,8 @@
         "no entry"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "note",
@@ -180,7 +193,8 @@
         "note"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pause",
@@ -193,7 +207,8 @@
         "pause"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "peace",
@@ -206,7 +221,8 @@
         "peace"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "play",
@@ -219,7 +235,8 @@
         "play"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "prohibited",
@@ -232,7 +249,8 @@
         "prohibited"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "question",
@@ -245,7 +263,8 @@
         "question"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "radioactive",
@@ -258,7 +277,8 @@
         "radioactive"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rain",
@@ -273,7 +293,8 @@
     },
     "related": [
       "umbrella_rain"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "snowflake",
@@ -286,7 +307,8 @@
         "snowflake"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "snowman",
@@ -299,7 +321,8 @@
         "snowman"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "star",
@@ -312,7 +335,8 @@
         "star"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "stop",
@@ -325,7 +349,8 @@
         "stop"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sun",
@@ -338,7 +363,8 @@
         "sun"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "nature"
   },
   {
     "name": "thermometer",
@@ -351,7 +377,8 @@
         "thermometer"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "umbrella",
@@ -366,7 +393,8 @@
     },
     "related": [
       "umbrella_rain"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "umbrella_rain",
@@ -383,7 +411,8 @@
     "related": [
       "rain",
       "umbrella"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "warning",
@@ -396,7 +425,8 @@
         "warning"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "watch",
@@ -409,7 +439,8 @@
         "watch"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "wind",
@@ -422,7 +453,8 @@
         "wind"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "yin_yang",
@@ -436,6 +468,7 @@
         "yin yang"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   }
 ]

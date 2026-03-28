@@ -30,6 +30,7 @@ class SymbolNode:
     keywords: tuple[str, ...] = ()
     aliases: dict[str, tuple[str, ...]] | None = None
     related: tuple[str, ...] = ()
+    group: str = "other"
 
 # -------------------------------
 # Internal State
@@ -99,6 +100,7 @@ def _load_category_from_json(category_name: str) -> bool:
                 keywords=keywords,
                 aliases=aliases,
                 related=tuple(item.get("related", [])),
+                group=item.get("group", "other"),
             )
 
             _register_symbol(node)
@@ -121,7 +123,6 @@ def _enrich_metadata():
     # Step 1 — Fill missing keywords & aliases
     for name, node in list(_REGISTRY.items()):
 
-        # Generate keywords if empty
         if not node.keywords:
             tokens = tuple(
                 t for t in name.split("_")
@@ -130,13 +131,11 @@ def _enrich_metadata():
         else:
             tokens = node.keywords
 
-        # Generate alias if empty
         if not node.aliases:
             aliases = {"en": (name.replace("_", " "),)}
         else:
             aliases = node.aliases
 
-        # Replace node (dataclass is frozen)
         _REGISTRY[name] = SymbolNode(
             name=node.name,
             char=node.char,
@@ -145,6 +144,7 @@ def _enrich_metadata():
             keywords=tokens,
             aliases=aliases,
             related=node.related,
+            group=node.group,  # ✅ FIX
         )
 
     # Step 2 — Auto-generate relationships
@@ -179,6 +179,7 @@ def _enrich_metadata():
             keywords=node.keywords,
             aliases=node.aliases,
             related=tuple(sorted(auto_related)),
+            group=node.group,  # ✅ FIX
         )
 
 # -------------------------------
@@ -247,6 +248,13 @@ def list_by_category(category: str) -> list[SymbolNode]:
     return [
         _REGISTRY[name]
         for name in sorted(_BY_CATEGORY.get(category, []))
+    ]
+
+def list_by_group(group: str):
+    _ensure_initialized()
+    return [
+        node for node in _REGISTRY.values()
+        if node.group == group
     ]
 
 def get_related(name: str) -> list[SymbolNode]:

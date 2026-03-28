@@ -10,7 +10,8 @@
         "100"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "alien",
@@ -24,7 +25,10 @@
         "alien"
       ]
     },
-    "related": []
+    "related": [
+      "alien_monster"
+    ],
+    "group": "other"
   },
   {
     "name": "alien_monster",
@@ -39,7 +43,11 @@
         "alien_monster"
       ]
     },
-    "related": []
+    "related": [
+      "alien",
+      "chess"
+    ],
+    "group": "other"
   },
   {
     "name": "angry_face",
@@ -53,7 +61,11 @@
         "angry"
       ]
     },
-    "related": []
+    "related": [
+      "angry_face_with_horns",
+      "face_with_steam_from_nose"
+    ],
+    "group": "emotion"
   },
   {
     "name": "angry_face_with_horns",
@@ -67,7 +79,11 @@
         "imp"
       ]
     },
-    "related": []
+    "related": [
+      "angry_face",
+      "face_with_steam_from_nose"
+    ],
+    "group": "emotion"
   },
   {
     "name": "anguished_face",
@@ -80,7 +96,8 @@
         "anguished"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "apple",
@@ -94,7 +111,15 @@
         "apple"
       ]
     },
-    "related": []
+    "related": [
+      "banana",
+      "cherries",
+      "grapes",
+      "mango",
+      "strawberry",
+      "watermelon"
+    ],
+    "group": "other"
   },
   {
     "name": "astonished_face",
@@ -108,7 +133,8 @@
         "astonished"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "avocado",
@@ -121,7 +147,8 @@
         "avocado"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "baby",
@@ -134,7 +161,8 @@
         "baby"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "badminton",
@@ -147,7 +175,12 @@
         "badminton"
       ]
     },
-    "related": []
+    "related": [
+      "baseball",
+      "basketball",
+      "cricket"
+    ],
+    "group": "other"
   },
   {
     "name": "bald_person",
@@ -160,7 +193,11 @@
         "bald"
       ]
     },
-    "related": []
+    "related": [
+      "man_bald",
+      "woman_bald"
+    ],
+    "group": "other"
   },
   {
     "name": "banana",
@@ -173,7 +210,15 @@
         "banana"
       ]
     },
-    "related": []
+    "related": [
+      "apple",
+      "cherries",
+      "grapes",
+      "mango",
+      "strawberry",
+      "watermelon"
+    ],
+    "group": "other"
   },
   {
     "name": "baseball",
@@ -186,7 +231,12 @@
         "baseball"
       ]
     },
-    "related": []
+    "related": [
+      "badminton",
+      "basketball",
+      "cricket"
+    ],
+    "group": "other"
   },
   {
     "name": "basketball",
@@ -199,7 +249,12 @@
         "basketball"
       ]
     },
-    "related": []
+    "related": [
+      "badminton",
+      "baseball",
+      "cricket"
+    ],
+    "group": "other"
   },
   {
     "name": "beach",
@@ -212,7 +267,8 @@
         "beach"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "beaming_face_with_smiling_eyes",
@@ -226,7 +282,10 @@
         "grin"
       ]
     },
-    "related": []
+    "related": [
+      "grinning_face_with_smiling_eyes"
+    ],
+    "group": "emotion"
   },
   {
     "name": "bear",
@@ -239,7 +298,8 @@
         "bear"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bearded_person",
@@ -252,7 +312,8 @@
         "bearded_person"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bell",
@@ -265,7 +326,8 @@
         "bell"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "beating_heart",
@@ -304,7 +366,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "billiards",
@@ -317,7 +380,8 @@
         "8ball"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bird",
@@ -330,7 +394,8 @@
         "bird"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "black_heart",
@@ -369,7 +434,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "blond_haired_person",
@@ -382,7 +448,11 @@
         "blond"
       ]
     },
-    "related": []
+    "related": [
+      "man_blond_hair",
+      "woman_blond_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "blue_heart",
@@ -421,7 +491,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "boom",
@@ -434,7 +505,8 @@
         "boom"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bowling",
@@ -447,7 +519,8 @@
         "bowling"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "boxing",
@@ -460,7 +533,8 @@
         "boxing"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "boy",
@@ -473,7 +547,8 @@
         "boy"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bread",
@@ -486,7 +561,8 @@
         "bread"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "bridge",
@@ -499,7 +575,8 @@
         "bridge"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "broken_heart",
@@ -538,7 +615,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "brown_heart",
@@ -577,7 +655,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "burger",
@@ -590,7 +669,8 @@
         "hamburger"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cake",
@@ -603,7 +683,12 @@
         "cake"
       ]
     },
-    "related": []
+    "related": [
+      "cookie",
+      "donut",
+      "ice_cream"
+    ],
+    "group": "other"
   },
   {
     "name": "camping",
@@ -616,7 +701,8 @@
         "camping"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "carrot",
@@ -629,7 +715,10 @@
         "carrot"
       ]
     },
-    "related": []
+    "related": [
+      "corn"
+    ],
+    "group": "other"
   },
   {
     "name": "cat_face",
@@ -646,7 +735,8 @@
       "cat",
       "cat_face_with_tears_of_joy",
       "cat_with_heart_eyes"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "cat_face_with_tears_of_joy",
@@ -660,7 +750,11 @@
         "joy_cat"
       ]
     },
-    "related": []
+    "related": [
+      "cat_face",
+      "face_with_tears_of_joy"
+    ],
+    "group": "emotion"
   },
   {
     "name": "cheese",
@@ -673,7 +767,8 @@
         "cheese"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cherries",
@@ -686,7 +781,15 @@
         "cherries"
       ]
     },
-    "related": []
+    "related": [
+      "apple",
+      "banana",
+      "grapes",
+      "mango",
+      "strawberry",
+      "watermelon"
+    ],
+    "group": "other"
   },
   {
     "name": "chess",
@@ -699,7 +802,10 @@
         "chess"
       ]
     },
-    "related": []
+    "related": [
+      "alien_monster"
+    ],
+    "group": "other"
   },
   {
     "name": "chicken",
@@ -712,7 +818,8 @@
         "chicken"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "chicken_leg",
@@ -725,7 +832,10 @@
         "poultry_leg"
       ]
     },
-    "related": []
+    "related": [
+      "steak"
+    ],
+    "group": "other"
   },
   {
     "name": "child",
@@ -738,7 +848,8 @@
         "child"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "chocolate",
@@ -751,7 +862,8 @@
         "chocolate"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "city",
@@ -764,7 +876,8 @@
         "cityscape"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "clapping_hands",
@@ -781,7 +894,8 @@
     "related": [
       "folded_hands",
       "raised_hands"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "clown_face",
@@ -794,7 +908,8 @@
         "clown_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cold_face",
@@ -808,7 +923,8 @@
         "cold_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "confounded_face",
@@ -821,7 +937,8 @@
         "confounded"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "confused_face",
@@ -834,7 +951,8 @@
         "confused"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "cookie",
@@ -847,7 +965,12 @@
         "cookie"
       ]
     },
-    "related": []
+    "related": [
+      "cake",
+      "donut",
+      "ice_cream"
+    ],
+    "group": "other"
   },
   {
     "name": "corn",
@@ -860,7 +983,10 @@
         "corn"
       ]
     },
-    "related": []
+    "related": [
+      "carrot"
+    ],
+    "group": "other"
   },
   {
     "name": "cow",
@@ -873,7 +999,8 @@
         "cow"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "crescent_moon",
@@ -887,7 +1014,8 @@
         "crescent moon"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "nature"
   },
   {
     "name": "cricket",
@@ -900,7 +1028,12 @@
         "cricket"
       ]
     },
-    "related": []
+    "related": [
+      "badminton",
+      "baseball",
+      "basketball"
+    ],
+    "group": "other"
   },
   {
     "name": "crossed_fingers",
@@ -914,7 +1047,8 @@
         "crossed fingers"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "crying_face",
@@ -928,7 +1062,12 @@
         "cry"
       ]
     },
-    "related": []
+    "related": [
+      "downcast_face_with_sweat",
+      "sad_but_relieved_face",
+      "sad_face"
+    ],
+    "group": "emotion"
   },
   {
     "name": "cycling",
@@ -941,7 +1080,8 @@
         "cycling"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dart",
@@ -954,7 +1094,8 @@
         "dart"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "deer",
@@ -967,7 +1108,8 @@
         "deer"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "desert",
@@ -980,7 +1122,8 @@
         "desert"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "disappointed",
@@ -993,7 +1136,8 @@
         "disappointed"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dizzy_face",
@@ -1006,7 +1150,8 @@
         "dizzy_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dog",
@@ -1019,7 +1164,8 @@
         "dog"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "dolphin",
@@ -1032,7 +1178,8 @@
         "dolphin"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "donut",
@@ -1045,7 +1192,12 @@
         "doughnut"
       ]
     },
-    "related": []
+    "related": [
+      "cake",
+      "cookie",
+      "ice_cream"
+    ],
+    "group": "other"
   },
   {
     "name": "dotted_line_face",
@@ -1058,7 +1210,8 @@
         "dotted_line_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "downcast_face_with_sweat",
@@ -1072,7 +1225,12 @@
         "sweat"
       ]
     },
-    "related": []
+    "related": [
+      "crying_face",
+      "sad_but_relieved_face",
+      "sad_face"
+    ],
+    "group": "emotion"
   },
   {
     "name": "drooling_face",
@@ -1085,7 +1243,8 @@
         "drooling_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "duck",
@@ -1098,7 +1257,8 @@
         "duck"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "eagle",
@@ -1111,7 +1271,8 @@
         "eagle"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "earth",
@@ -1124,7 +1285,8 @@
         "earth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "egg",
@@ -1137,7 +1299,8 @@
         "egg"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "elephant",
@@ -1150,7 +1313,8 @@
         "elephant"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "exploding_head",
@@ -1163,7 +1327,8 @@
         "exploding_head"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "expressionless_face",
@@ -1176,7 +1341,8 @@
         "expressionless"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_blowing_a_kiss",
@@ -1190,7 +1356,11 @@
         "kissing_heart"
       ]
     },
-    "related": []
+    "related": [
+      "kissing face",
+      "smiling_face_with_heart_eyes"
+    ],
+    "group": "other"
   },
   {
     "name": "face_exhaling",
@@ -1203,7 +1373,8 @@
         "face_exhaling"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_holding_back_tears",
@@ -1216,7 +1387,8 @@
         "holding_back_tears"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_in_clouds",
@@ -1229,7 +1401,8 @@
         "face_in_clouds"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_savoring_food",
@@ -1242,7 +1415,8 @@
         "yum"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_screaming_in_fear",
@@ -1255,7 +1429,8 @@
         "scream"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_vomiting",
@@ -1268,7 +1443,8 @@
         "vomiting"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_diagonal_mouth",
@@ -1281,7 +1457,8 @@
         "diagonal_mouth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_hand_over_mouth",
@@ -1294,7 +1471,8 @@
         "hand_over_mouth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "gesture"
   },
   {
     "name": "face_with_head_bandage",
@@ -1307,7 +1485,8 @@
         "head_bandage"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_medical_mask",
@@ -1320,7 +1499,8 @@
         "mask"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_monocle",
@@ -1333,7 +1513,8 @@
         "monocle"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_open_eyes_and_hand_over_mouth",
@@ -1346,7 +1527,8 @@
         "open_hand_mouth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "gesture"
   },
   {
     "name": "face_with_peeking_eye",
@@ -1359,7 +1541,8 @@
         "peeking_eye"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_raised_eyebrow",
@@ -1372,7 +1555,8 @@
         "raised_eyebrow"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_rolling_eyes",
@@ -1385,7 +1569,8 @@
         "roll_eyes"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_spiral_eyes",
@@ -1398,7 +1583,8 @@
         "spiral_eyes"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_steam_from_nose",
@@ -1412,7 +1598,11 @@
         "triumph"
       ]
     },
-    "related": []
+    "related": [
+      "angry_face",
+      "angry_face_with_horns"
+    ],
+    "group": "emotion"
   },
   {
     "name": "face_with_symbols_on_mouth",
@@ -1425,7 +1615,8 @@
         "cursing"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_tears_of_joy",
@@ -1438,7 +1629,10 @@
         "joy"
       ]
     },
-    "related": []
+    "related": [
+      "cat_face_with_tears_of_joy"
+    ],
+    "group": "emotion"
   },
   {
     "name": "face_with_thermometer",
@@ -1451,7 +1645,8 @@
         "thermometer"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_with_tongue",
@@ -1464,7 +1659,8 @@
         "tongue"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "face_without_mouth",
@@ -1477,7 +1673,8 @@
         "no_mouth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "fearful_face",
@@ -1490,7 +1687,8 @@
         "fearful"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "fire",
@@ -1503,7 +1701,10 @@
         "fire"
       ]
     },
-    "related": []
+    "related": [
+      "heart_on_fire"
+    ],
+    "group": "other"
   },
   {
     "name": "fish",
@@ -1516,7 +1717,8 @@
         "fish"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "flower",
@@ -1529,7 +1731,8 @@
         "flower"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "flushed_face",
@@ -1542,7 +1745,8 @@
         "flushed"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "football",
@@ -1555,7 +1759,8 @@
         "soccer"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "forest",
@@ -1568,7 +1773,10 @@
         "tree"
       ]
     },
-    "related": []
+    "related": [
+      "tree"
+    ],
+    "group": "other"
   },
   {
     "name": "fox",
@@ -1581,7 +1789,8 @@
         "fox"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "french_fries",
@@ -1594,7 +1803,8 @@
         "fries"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "frog",
@@ -1607,7 +1817,8 @@
         "frog"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "ghost",
@@ -1620,7 +1831,8 @@
         "ghost"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "giraffe",
@@ -1633,7 +1845,8 @@
         "giraffe"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "girl",
@@ -1646,7 +1859,8 @@
         "girl"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "goat",
@@ -1659,7 +1873,8 @@
         "goat"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "golf",
@@ -1672,7 +1887,8 @@
         "golf"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "gorilla",
@@ -1685,7 +1901,8 @@
         "gorilla"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "grapes",
@@ -1698,7 +1915,15 @@
         "grapes"
       ]
     },
-    "related": []
+    "related": [
+      "apple",
+      "banana",
+      "cherries",
+      "mango",
+      "strawberry",
+      "watermelon"
+    ],
+    "group": "other"
   },
   {
     "name": "green_heart",
@@ -1737,7 +1962,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "grey_heart",
@@ -1776,7 +2002,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "grinning_face",
@@ -1789,7 +2016,8 @@
         "grinning"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "grinning_face_with_big_eyes",
@@ -1802,7 +2030,8 @@
         "smiley"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "grinning_face_with_smiling_eyes",
@@ -1815,7 +2044,10 @@
         "smile"
       ]
     },
-    "related": []
+    "related": [
+      "beaming_face_with_smiling_eyes"
+    ],
+    "group": "emotion"
   },
   {
     "name": "grinning_squinting_face",
@@ -1828,7 +2060,8 @@
         "laughing"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "grimacing_face",
@@ -1841,7 +2074,8 @@
         "grimacing"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "growing_heart",
@@ -1880,7 +2114,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "gym",
@@ -1893,7 +2128,8 @@
         "weightlifting"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hamster",
@@ -1906,7 +2142,8 @@
         "hamster"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "heart_decoration",
@@ -1945,7 +2182,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "heart_exclamation",
@@ -1984,7 +2222,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "heart_on_fire",
@@ -2004,6 +2243,7 @@
       "blue_heart",
       "broken_heart",
       "brown_heart",
+      "fire",
       "green_heart",
       "grey_heart",
       "growing_heart",
@@ -2023,7 +2263,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "heart_with_arrow",
@@ -2062,7 +2303,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "heart_with_ribbon",
@@ -2101,7 +2343,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "horse",
@@ -2114,7 +2357,8 @@
         "horse"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hot_dog",
@@ -2127,7 +2371,8 @@
         "hotdog"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hot_face",
@@ -2140,7 +2385,8 @@
         "hot_face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hugging_face",
@@ -2153,7 +2399,8 @@
         "hugging"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "hushed_face",
@@ -2166,7 +2413,8 @@
         "hushed"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "ice_cream",
@@ -2179,7 +2427,12 @@
         "ice_cream"
       ]
     },
-    "related": []
+    "related": [
+      "cake",
+      "cookie",
+      "donut"
+    ],
+    "group": "other"
   },
   {
     "name": "island",
@@ -2192,7 +2445,8 @@
         "island"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "kangaroo",
@@ -2205,7 +2459,8 @@
         "kangaroo"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "kissing face",
@@ -2218,7 +2473,10 @@
         "kissing"
       ]
     },
-    "related": []
+    "related": [
+      "face_blowing_a_kiss"
+    ],
+    "group": "other"
   },
   {
     "name": "koala",
@@ -2231,7 +2489,8 @@
         "koala"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "lake",
@@ -2244,7 +2503,8 @@
         "lake"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "leopard",
@@ -2257,7 +2517,8 @@
         "leopard"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "light_blue_heart",
@@ -2296,7 +2557,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "light_bulb",
@@ -2310,7 +2572,8 @@
         "light bulb"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "object"
   },
   {
     "name": "lion",
@@ -2323,7 +2586,8 @@
         "lion"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "lock",
@@ -2336,7 +2600,8 @@
         "lock"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "object"
   },
   {
     "name": "loudly_crying_face",
@@ -2349,7 +2614,8 @@
         "sob"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "man",
@@ -2362,7 +2628,15 @@
         "man"
       ]
     },
-    "related": []
+    "related": [
+      "man_bald",
+      "man_blond_hair",
+      "man_curly_hair",
+      "man_red_hair",
+      "man_white_hair",
+      "older_man"
+    ],
+    "group": "other"
   },
   {
     "name": "man_bald",
@@ -2376,7 +2650,17 @@
         "man_bald"
       ]
     },
-    "related": []
+    "related": [
+      "bald_person",
+      "man",
+      "man_blond_hair",
+      "man_curly_hair",
+      "man_red_hair",
+      "man_white_hair",
+      "older_man",
+      "woman_bald"
+    ],
+    "group": "other"
   },
   {
     "name": "man_blond_hair",
@@ -2390,7 +2674,17 @@
         "man_blond"
       ]
     },
-    "related": []
+    "related": [
+      "blond_haired_person",
+      "man",
+      "man_bald",
+      "man_curly_hair",
+      "man_red_hair",
+      "man_white_hair",
+      "older_man",
+      "woman_blond_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "man_curly_hair",
@@ -2404,7 +2698,17 @@
         "man_curly"
       ]
     },
-    "related": []
+    "related": [
+      "man",
+      "man_bald",
+      "man_blond_hair",
+      "man_red_hair",
+      "man_white_hair",
+      "older_man",
+      "person_curly_hair",
+      "woman_curly_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "man_red_hair",
@@ -2418,7 +2722,18 @@
         "man_red"
       ]
     },
-    "related": []
+    "related": [
+      "man",
+      "man_bald",
+      "man_blond_hair",
+      "man_curly_hair",
+      "man_white_hair",
+      "older_man",
+      "person_red_hair",
+      "red_heart",
+      "woman_red_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "man_white_hair",
@@ -2432,7 +2747,17 @@
         "man_white"
       ]
     },
-    "related": []
+    "related": [
+      "man",
+      "man_bald",
+      "man_blond_hair",
+      "man_curly_hair",
+      "man_red_hair",
+      "older_man",
+      "person_white_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "mango",
@@ -2445,7 +2770,15 @@
         "mango"
       ]
     },
-    "related": []
+    "related": [
+      "apple",
+      "banana",
+      "cherries",
+      "grapes",
+      "strawberry",
+      "watermelon"
+    ],
+    "group": "other"
   },
   {
     "name": "medal",
@@ -2458,7 +2791,8 @@
         "medal"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "melting_face",
@@ -2471,7 +2805,8 @@
         "melting"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "mending_heart",
@@ -2510,7 +2845,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "money_mouth_face",
@@ -2523,7 +2859,8 @@
         "money_mouth"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "monkey",
@@ -2536,7 +2873,8 @@
         "monkey"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "mouse",
@@ -2549,7 +2887,8 @@
         "mouse"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "mountain",
@@ -2562,7 +2901,8 @@
         "mountain"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "muscle",
@@ -2575,20 +2915,8 @@
         "muscle"
       ]
     },
-    "related": []
-  },
-  {
-    "name": "music",
-    "char": "🎵",
-    "keywords": [
-      "music"
-    ],
-    "aliases": {
-      "en": [
-        "music_note"
-      ]
-    },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "nerd_face",
@@ -2601,7 +2929,8 @@
         "nerd"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "neutral_face",
@@ -2614,7 +2943,8 @@
         "neutral face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "octopus",
@@ -2627,7 +2957,8 @@
         "octopus"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "ok_hand",
@@ -2645,7 +2976,8 @@
       "face_with_hand_over_mouth",
       "victory_hand",
       "waving_hand"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "older_adult",
@@ -2658,7 +2990,11 @@
         "older_adult"
       ]
     },
-    "related": []
+    "related": [
+      "older_man",
+      "older_woman"
+    ],
+    "group": "other"
   },
   {
     "name": "older_man",
@@ -2672,7 +3008,17 @@
         "older_man"
       ]
     },
-    "related": []
+    "related": [
+      "man",
+      "man_bald",
+      "man_blond_hair",
+      "man_curly_hair",
+      "man_red_hair",
+      "man_white_hair",
+      "older_adult",
+      "older_woman"
+    ],
+    "group": "other"
   },
   {
     "name": "older_woman",
@@ -2686,7 +3032,17 @@
         "older_woman"
       ]
     },
-    "related": []
+    "related": [
+      "older_adult",
+      "older_man",
+      "woman",
+      "woman_bald",
+      "woman_blond_hair",
+      "woman_curly_hair",
+      "woman_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "orange_heart",
@@ -2725,7 +3081,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "owl",
@@ -2738,7 +3095,8 @@
         "owl"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "panda",
@@ -2751,7 +3109,8 @@
         "panda"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "partying_face",
@@ -2764,7 +3123,8 @@
         "party"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "activity"
   },
   {
     "name": "penguin",
@@ -2777,7 +3137,8 @@
         "penguin"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pensive_face",
@@ -2790,7 +3151,8 @@
         "pensive"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "person",
@@ -2803,7 +3165,12 @@
         "person"
       ]
     },
-    "related": []
+    "related": [
+      "person_curly_hair",
+      "person_red_hair",
+      "person_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "person_curly_hair",
@@ -2817,7 +3184,14 @@
         "person_curly"
       ]
     },
-    "related": []
+    "related": [
+      "man_curly_hair",
+      "person",
+      "person_red_hair",
+      "person_white_hair",
+      "woman_curly_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "person_red_hair",
@@ -2831,7 +3205,15 @@
         "person_red"
       ]
     },
-    "related": []
+    "related": [
+      "man_red_hair",
+      "person",
+      "person_curly_hair",
+      "person_white_hair",
+      "red_heart",
+      "woman_red_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "person_white_hair",
@@ -2845,7 +3227,14 @@
         "person_white"
       ]
     },
-    "related": []
+    "related": [
+      "man_white_hair",
+      "person",
+      "person_curly_hair",
+      "person_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "pig",
@@ -2858,7 +3247,8 @@
         "pig"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pink_heart",
@@ -2897,7 +3287,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "pizza",
@@ -2910,7 +3301,8 @@
         "pizza"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pleading_face",
@@ -2923,7 +3315,8 @@
         "pleading face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "point_down",
@@ -2942,7 +3335,8 @@
       "point_right",
       "point_up",
       "thumbs_down"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "point_left",
@@ -2960,7 +3354,8 @@
       "point_down",
       "point_right",
       "point_up"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "point_right",
@@ -2978,7 +3373,8 @@
       "point_down",
       "point_left",
       "point_up"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "point_up",
@@ -2997,7 +3393,8 @@
       "point_left",
       "point_right",
       "thumbs_up"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "poop",
@@ -3010,7 +3407,8 @@
         "poop"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "popcorn",
@@ -3023,7 +3421,8 @@
         "popcorn"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "pray",
@@ -3036,7 +3435,8 @@
         "pray"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "purple_heart",
@@ -3075,7 +3475,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "rabbit",
@@ -3088,7 +3489,8 @@
         "rabbit"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "raccoon",
@@ -3101,7 +3503,8 @@
         "raccoon"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rainbow",
@@ -3114,7 +3517,8 @@
         "rainbow"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "raised_hands",
@@ -3131,7 +3535,8 @@
     "related": [
       "clapping_hands",
       "folded_hands"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "red_heart",
@@ -3160,8 +3565,10 @@
       "heart_with_arrow",
       "heart_with_ribbon",
       "light_blue_heart",
+      "man_red_hair",
       "mending_heart",
       "orange_heart",
+      "person_red_hair",
       "pink_heart",
       "purple_heart",
       "revolving_hearts",
@@ -3169,8 +3576,10 @@
       "sparkling_heart",
       "two_hearts",
       "white_heart",
+      "woman_red_hair",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "relieved_face",
@@ -3183,7 +3592,8 @@
         "relieved"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rolling_on_the_floor_laughing",
@@ -3196,7 +3606,8 @@
         "rofl"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "revolving_hearts",
@@ -3235,7 +3646,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "rice",
@@ -3248,7 +3660,8 @@
         "rice"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "rocket",
@@ -3261,7 +3674,8 @@
         "rocket"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "activity"
   },
   {
     "name": "running",
@@ -3274,7 +3688,8 @@
         "running"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sad_but_relieved_face",
@@ -3287,7 +3702,12 @@
         "sad_relieved"
       ]
     },
-    "related": []
+    "related": [
+      "crying_face",
+      "downcast_face_with_sweat",
+      "sad_face"
+    ],
+    "group": "emotion"
   },
   {
     "name": "sad_face",
@@ -3300,7 +3720,12 @@
         "frowning"
       ]
     },
-    "related": []
+    "related": [
+      "crying_face",
+      "downcast_face_with_sweat",
+      "sad_but_relieved_face"
+    ],
+    "group": "emotion"
   },
   {
     "name": "salad",
@@ -3313,7 +3738,8 @@
         "salad"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sandwich",
@@ -3326,7 +3752,8 @@
         "sandwich"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "shark",
@@ -3339,7 +3766,8 @@
         "shark"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sheep",
@@ -3352,7 +3780,8 @@
         "sheep"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "shushing_face",
@@ -3365,7 +3794,8 @@
         "shushing"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "shrimp",
@@ -3378,7 +3808,8 @@
         "shrimp"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "skateboard",
@@ -3391,7 +3822,8 @@
         "skateboard"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "skull",
@@ -3404,7 +3836,8 @@
         "skull"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "skull_and_crossbones",
@@ -3417,7 +3850,8 @@
         "skull_crossbones"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sleeping_face",
@@ -3430,7 +3864,8 @@
         "sleeping"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sleepy_face",
@@ -3443,7 +3878,8 @@
         "sleepy"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "slightly_smiling_face",
@@ -3456,7 +3892,8 @@
         "slightly_smiling"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "smiling_face_with_halo",
@@ -3469,7 +3906,8 @@
         "innocent"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "smiling_face_with_heart_eyes",
@@ -3482,7 +3920,10 @@
         "heart_eyes"
       ]
     },
-    "related": []
+    "related": [
+      "face_blowing_a_kiss"
+    ],
+    "group": "symbolic"
   },
   {
     "name": "smirking_face",
@@ -3495,7 +3936,8 @@
         "smirk"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "snail",
@@ -3508,7 +3950,8 @@
         "snail"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "snake",
@@ -3521,7 +3964,8 @@
         "snake"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "spaghetti",
@@ -3534,7 +3978,8 @@
         "spaghetti"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sparkle",
@@ -3547,7 +3992,8 @@
         "sparkle"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sparkling_heart",
@@ -3586,7 +4032,8 @@
       "two_hearts",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "star_struck",
@@ -3600,7 +4047,8 @@
         "star struck"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "steak",
@@ -3613,7 +4061,10 @@
         "steak"
       ]
     },
-    "related": []
+    "related": [
+      "chicken_leg"
+    ],
+    "group": "other"
   },
   {
     "name": "strawberry",
@@ -3626,20 +4077,15 @@
         "strawberry"
       ]
     },
-    "related": []
-  },
-  {
-    "name": "sun",
-    "char": "☀️",
-    "keywords": [
-      "sun"
+    "related": [
+      "apple",
+      "banana",
+      "cherries",
+      "grapes",
+      "mango",
+      "watermelon"
     ],
-    "aliases": {
-      "en": [
-        "sun"
-      ]
-    },
-    "related": []
+    "group": "other"
   },
   {
     "name": "sunglasses",
@@ -3654,7 +4100,8 @@
     },
     "related": [
       "face_with_sunglasses"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "sunrise",
@@ -3667,7 +4114,8 @@
         "sunrise"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "sunset",
@@ -3680,7 +4128,8 @@
         "sunset"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "swimming",
@@ -3693,7 +4142,8 @@
         "swimming"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "taco",
@@ -3706,7 +4156,8 @@
         "taco"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "tada",
@@ -3719,7 +4170,8 @@
         "tada"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "tennis",
@@ -3732,7 +4184,8 @@
         "tennis"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "thinking_face",
@@ -3745,7 +4198,8 @@
         "thinking"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "tiger",
@@ -3758,7 +4212,8 @@
         "tiger"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "tired_face",
@@ -3771,7 +4226,8 @@
         "tired"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "thumbs_down",
@@ -3788,7 +4244,8 @@
     "related": [
       "point_down",
       "thumbs_up"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "thumbs_up",
@@ -3805,7 +4262,8 @@
     "related": [
       "point_up",
       "thumbs_down"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "tree",
@@ -3818,7 +4276,10 @@
         "tree"
       ]
     },
-    "related": []
+    "related": [
+      "forest"
+    ],
+    "group": "other"
   },
   {
     "name": "trophy",
@@ -3831,7 +4292,8 @@
         "trophy"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "turtle",
@@ -3844,7 +4306,8 @@
         "turtle"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "two_hearts",
@@ -3883,7 +4346,8 @@
       "sparkling_heart",
       "white_heart",
       "yellow_heart"
-    ]
+    ],
+    "group": "other"
   },
   {
     "name": "unlock",
@@ -3896,7 +4360,8 @@
         "unlock"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "upside_down_face",
@@ -3909,7 +4374,8 @@
         "upside_down"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "video_game",
@@ -3922,7 +4388,8 @@
         "video_game"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "victory_hand",
@@ -3940,7 +4407,8 @@
       "face_with_hand_over_mouth",
       "ok_hand",
       "waving_hand"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "volcano",
@@ -3953,7 +4421,8 @@
         "volcano"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "water_wave",
@@ -3967,7 +4436,8 @@
         "water wave"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "watermelon",
@@ -3980,7 +4450,15 @@
         "watermelon"
       ]
     },
-    "related": []
+    "related": [
+      "apple",
+      "banana",
+      "cherries",
+      "grapes",
+      "mango",
+      "strawberry"
+    ],
+    "group": "other"
   },
   {
     "name": "waving_hand",
@@ -3998,7 +4476,8 @@
       "face_with_hand_over_mouth",
       "ok_hand",
       "victory_hand"
-    ]
+    ],
+    "group": "gesture"
   },
   {
     "name": "whale",
@@ -4011,7 +4490,8 @@
         "whale"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "white_heart",
@@ -4050,20 +4530,8 @@
       "sparkling_heart",
       "two_hearts",
       "yellow_heart"
-    ]
-  },
-  {
-    "name": "wind",
-    "char": "🌬️",
-    "keywords": [
-      "wind"
     ],
-    "aliases": {
-      "en": [
-        "wind"
-      ]
-    },
-    "related": []
+    "group": "symbolic"
   },
   {
     "name": "winking face",
@@ -4076,7 +4544,8 @@
         "wink"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "wolf",
@@ -4089,7 +4558,8 @@
         "wolf"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "woman",
@@ -4102,7 +4572,15 @@
         "woman"
       ]
     },
-    "related": []
+    "related": [
+      "older_woman",
+      "woman_bald",
+      "woman_blond_hair",
+      "woman_curly_hair",
+      "woman_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woman_bald",
@@ -4116,7 +4594,17 @@
         "woman_bald"
       ]
     },
-    "related": []
+    "related": [
+      "bald_person",
+      "man_bald",
+      "older_woman",
+      "woman",
+      "woman_blond_hair",
+      "woman_curly_hair",
+      "woman_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woman_blond_hair",
@@ -4130,7 +4618,17 @@
         "woman_blond"
       ]
     },
-    "related": []
+    "related": [
+      "blond_haired_person",
+      "man_blond_hair",
+      "older_woman",
+      "woman",
+      "woman_bald",
+      "woman_curly_hair",
+      "woman_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woman_curly_hair",
@@ -4144,7 +4642,17 @@
         "woman_curly"
       ]
     },
-    "related": []
+    "related": [
+      "man_curly_hair",
+      "older_woman",
+      "person_curly_hair",
+      "woman",
+      "woman_bald",
+      "woman_blond_hair",
+      "woman_red_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woman_red_hair",
@@ -4158,7 +4666,18 @@
         "woman_red"
       ]
     },
-    "related": []
+    "related": [
+      "man_red_hair",
+      "older_woman",
+      "person_red_hair",
+      "red_heart",
+      "woman",
+      "woman_bald",
+      "woman_blond_hair",
+      "woman_curly_hair",
+      "woman_white_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woman_white_hair",
@@ -4172,7 +4691,17 @@
         "woman_white"
       ]
     },
-    "related": []
+    "related": [
+      "man_white_hair",
+      "older_woman",
+      "person_white_hair",
+      "woman",
+      "woman_bald",
+      "woman_blond_hair",
+      "woman_curly_hair",
+      "woman_red_hair"
+    ],
+    "group": "other"
   },
   {
     "name": "woozy_face",
@@ -4185,7 +4714,8 @@
         "woozy"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "worried_face",
@@ -4198,7 +4728,8 @@
         "worried"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "yellow_heart",
@@ -4237,7 +4768,8 @@
       "sparkling_heart",
       "two_hearts",
       "white_heart"
-    ]
+    ],
+    "group": "symbolic"
   },
   {
     "name": "zany_face",
@@ -4250,7 +4782,8 @@
         "zany face"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   },
   {
     "name": "zebra",
@@ -4263,6 +4796,7 @@
         "zebra"
       ]
     },
-    "related": []
+    "related": [],
+    "group": "other"
   }
 ]
