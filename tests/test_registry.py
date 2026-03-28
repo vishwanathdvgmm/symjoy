@@ -7,8 +7,10 @@ from symjoy.core.registry import (
 
 def test_symbol_lookup():
     node = get_symbol("heart")
+
     assert node is not None
-    assert isinstance(node.char, str)
+    assert node.char == "♥"
+    assert node.category == "symbols"
 
 def test_categories_exist():
     categories = list_categories()

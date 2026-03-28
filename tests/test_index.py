@@ -9,5 +9,5 @@ def test_aliases_index():
     assert len(results) > 0
 
 def test_tokens_index():
-    results = search("face_with_tears_of_joy")
+    results = search("tears")
     assert len(results) > 0

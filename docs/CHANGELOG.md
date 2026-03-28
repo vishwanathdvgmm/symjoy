@@ -6,6 +6,32 @@ The format follows principles from **Keep a Changelog** and adheres to **Semanti
 
 ---
 
+## [2.7.0] - 2026-03-28
+
+### Added
+
+- Semantic grouping system (`group` field in data layer).
+- `by_group()` API across all categories.
+- Multi-token search support.
+- Improved test coverage for grouping and search.
+- CI automation via GitHub Actions.
+
+### Changed
+
+- Search engine upgraded to use indexed keyword, alias, and token matching.
+- Deterministic ranking refined:
+    - exact → keyword → alias → token.
+- Registry enrichment pipeline updated to preserve `group` metadata.
+- API consistency improvements across all category modules.
+
+### Fixed
+
+- Incorrect `by_group()` implementation in category APIs.
+- `emoji.related()` returning empty results due to logic error.
+- Case normalization issues in search and indexing.
+
+---
+
 ## [2.6.0] - 2026-03-07
 
 ### Added
@@ -39,8 +65,8 @@ The format follows principles from **Keep a Changelog** and adheres to **Semanti
 
 ### Deprecated
 
-- Legacy dictionary access (`emojis["name"]`)
-- Direct category dict usage
+- Legacy dictionary access (`emojis["name"]`).
+- Direct category dict usage.
 
 ---
 
@@ -59,9 +85,9 @@ The format follows principles from **Keep a Changelog** and adheres to **Semanti
 
 ### Changed
 
-- Introduced structured v2 API
-- Global search support
-- Backward compatibility with v1 (deprecated layer added)
+- Introduced structured v2 API.
+- Global search support.
+- Backward compatibility with v1 (deprecated layer added).
 
 ---
 
@@ -69,4 +95,4 @@ The format follows principles from **Keep a Changelog** and adheres to **Semanti
 
 ### Added
 
-- Initial release
+- Initial release.

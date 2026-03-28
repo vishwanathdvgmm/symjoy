@@ -1,7 +1,6 @@
 from collections import defaultdict
 from symjoy.core.registry import _REGISTRY
 
-_NAME_INDEX = {}
 _KEYWORD_INDEX = defaultdict(set)
 _ALIAS_INDEX = defaultdict(set)
 _TOKEN_INDEX = defaultdict(set)
@@ -15,9 +14,6 @@ def build_index():
         return
 
     for node in _REGISTRY.values():
-
-        # Name index
-        _NAME_INDEX[node.name] = node
 
         # Keyword index
         if node.keywords:
@@ -35,6 +31,13 @@ def build_index():
             _TOKEN_INDEX[token.lower()].add(node.name)
 
     _INDEX_BUILT = True
+
+def reset_index():
+    global _INDEX_BUILT
+    _KEYWORD_INDEX.clear()
+    _ALIAS_INDEX.clear()
+    _TOKEN_INDEX.clear()
+    _INDEX_BUILT = False
 
 def search_keyword(keyword: str):
     return _KEYWORD_INDEX.get(keyword.lower(), set())

@@ -64,8 +64,10 @@ def info(name: str) -> dict | None:
     """
     if not name:
         return None
+    
+    name = name.lower()
 
-    symbol = get_symbol(name.lower())
+    symbol = get_symbol(name)
     if symbol and symbol.category == _CATEGORY:
         return {
             "name": symbol.name,
@@ -81,15 +83,19 @@ def related(name: str) -> list[dict]:
     """
     if not name:
         return []
-    nodes = _get_related(name)
+    
+    nodes = _get_related(name.lower())
     return [
         {"name": n.name, "char": n.char}
         for n in nodes
         if n.category == _CATEGORY
         ]
     
-def by_group(group: str):
-    nodes = list_by_category(group)
+def by_group(group: str) -> list[dict]:
+    if not group:
+        return []
+        
+    nodes = list_by_group(group)
     return [
         {"name": n.name, "char": n.char}
         for n in nodes

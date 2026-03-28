@@ -57,7 +57,7 @@ v2.6.0 introduces an **indexed search engine** to improve performance.
 **What Changed Internally**
 
 - Symbol index engine added.
-- Keyword, alias and token indexes created at registry initialization.
+- Keyword, alias and token indexes created at initialization.
 - Search now uses indexed lookups instead of scanning the registry.
 
 **What Did NOT Change**
@@ -78,3 +78,62 @@ from symjoy import search
 search("heart")
 search("joy")
 ```
+
+## Migrating from 2.6.0 to 2.7.0
+
+v2.7.0 introduces **semantic grouping and improved search behavior**.
+
+### New Features
+
+1. **Grouping API**
+
+Symbols are now categorized into semantic groups.
+
+```python
+from symjoy import emoji
+
+emoji.by_group("emotion")
+```
+
+Available groups include:
+
+- emotion
+- gesture
+- nature
+- object
+- activity
+- symbolic
+
+2. **Improved Search**
+
+Search now supports:
+
+- multi-token queries
+- keyword + alias + token matching
+- refined ranking
+
+```python
+search("smile face")
+search("red heart")
+```
+
+### What Changed
+
+- Search results may appear in a different order due to improved ranking.
+- Internal grouping metadata (`group`) added to all symbols.
+
+### What Did NOT Change
+
+- Existing APIs (`get`, `list`, `items`, `related`) remain unchanged.
+- No breaking changes introduced.
+- Existing code continues to work without modification.
+
+### Optional Adoption
+
+You can optionally use the new grouping feature:
+
+```python
+emoji.by_group("emotion")
+```
+
+No migration is required if you don’t use it.

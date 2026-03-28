@@ -1,26 +1,28 @@
 from symjoy import emoji, symbols, arrows, math, currency, misc
 
 def test_emoji_get():
-    assert emoji.get("face_with_tears_of_joy") is not None
+    assert emoji.get("face_with_tears_of_joy") == "😂"
 
 def test_symbol_get():
-    assert symbols.get("heart") is not None
+    assert symbols.get("heart") == "♥"
 
 def test_arrow_get():
-    assert arrows.get("left") is not None
+    assert arrows.get("left") == "←"
 
 def test_math_get():
-    assert math.get("pi") is not None
+    assert math.get("pi") == "π"
 
 def test_currency_get():
-    assert currency.get("rupee") is not None
+    assert currency.get("rupee") == "₹"
 
 def test_misc_get():
-    assert misc.get("sun") is not None
+    assert misc.get("sun") == "☀"
 
 def test_random_emoji():
     assert emoji.random() is not None
 
 def test_related():
     related = emoji.related("heart")
+
     assert isinstance(related, list)
+    assert all("name" in r and "char" in r for r in related)

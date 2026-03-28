@@ -1,28 +1,38 @@
 ![PyPI](https://img.shields.io/pypi/v/symjoy)
 ![Python](https://img.shields.io/pypi/pyversions/symjoy)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)<br>
+![Downloads](https://img.shields.io/pypi/dm/symjoy)
+![Status](https://img.shields.io/badge/status-active-success)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 
-# Symjoy
+# ✨Symjoy - Unicode Engine for Python
 
-| Version | Highlights                    |
-| ------- | ----------------------------- |
-| v2.6.0  | Indexed search engine         |
-| v2.5.0  | Metadata-driven architecture  |
-| v2.1.0  | Helper APIs & improved search |
-| v2.0.0  | Structured category API       |
+| Version | Highlights                              |
+| ------- | --------------------------------------- |
+| v2.7.0  | Grouping API + search improvements + CI |
+| v2.6.0  | Indexed search engine                   |
+| v2.5.0  | Metadata-driven architecture            |
+| v2.1.0  | Helper APIs & improved search           |
+| v2.0.0  | Structured category API                 |
 
-A structured, metadata-driven Unicode symbol engine for Python.
+A **metadata-driven Unicode symbol engine** for Python.
 
-**symjoy** provides clean, consistent, and intelligent access to Unicode characters including:
+**Symjoy** provides clean, structured, and intelligent access to Unicode characters including:
 
 - Emojis 😄
-- Symbols ♥
+- Symbols ❤️
 - Arrows →
 - Mathematical symbols π
 - Currency signs ₹
-- Miscellaneous icons ☀
+- Miscellaneous icons ☀️
 
-It is designed for chat applications, games, educational tools, financial apps, and any Python project requiring Unicode characters.
+Designed for:
+
+- 💬Chat applications
+- 🎮 Games
+- 📚Educational tools
+- 💰 Financial systems
+- ⚙️ Developer utilities
 
 ---
 
@@ -33,7 +43,7 @@ It is designed for chat applications, games, educational tools, financial apps, 
 - Automatic keyword enrichment.
 - Semantic relationship graph.
 - Multilingual alias support.
-- **Indexed search engine for fast lookups**.
+- ⚡**Indexed search engine**.
 - Deterministic search ordering.
 - Category-isolated APIs.
 - Backward compatible with v2.x.
@@ -54,11 +64,11 @@ Required Python version: **3.12+**
 from symjoy import emoji, symbols, arrows, math, currency, misc, search
 
 print(emoji.get("smile"))      # 😄
-print(symbols.get("heart"))    # ♥
+print(symbols.get("heart"))    # ❤️
 print(arrows.get("right"))     # →
 print(math.get("pi"))          # π
 print(currency.get("rupee"))   # ₹
-print(misc.get("sun"))         # ☀
+print(misc.get("sun"))         # ☀️
 
 print(emoji.random())          # Random emoji
 ```
@@ -69,10 +79,13 @@ Each category exposes a consistent interface:
 
 ```python
 get(name) -> str | None
-random() -> str
+exists(name) -> bool
+info(name) -> dict | None
+random() -> str | None
 list() -> list[str]
 items() -> dict[str, str]
 related(name) -> list[dict]
+by_group(group) -> list[dict]
 ```
 
 Example:
@@ -81,7 +94,8 @@ Example:
 from symjoy import emoji
 
 print(emoji.list())
-print(emoji.related("broken_heart"))
+print(emoji.related("heart"))
+print(emoji.by_group("emotion"))
 ```
 
 ## 🔎 Intelligent Search
@@ -94,25 +108,31 @@ from symjoy import search
 results = search("heart")
 ```
 
+### Ranking Strategy
+
 Search is ranked by:
 
-1. Exact name match.
-2. Prefix name match.
-3. Keyword match.
-4. Alias match.
-5. Substring fallback.
+1. Exact match.
+2. Keyword match.
+3. Alias match.
+4. Token match.
+
+### Multi-token Support
+
+```python
+search("smile face")
+search("red heart")
+```
 
 ## 🧠 Metadata Engine (v2.5.0)
 
-v2.5.0 introduces a major internal upgrade:
+Introduced a fully data-driven system::
 
 - JSON-driven data storage
 - Runtime metadata enrichment
 - Automatic keyword generation
-- Token-based semantic relationship graph
-- Fully category-agnostic registry
-
-Example:
+- Token-based relationship graph
+- Category-agnostic registry
 
 ```python
 emoji.related("heart")
@@ -121,22 +141,61 @@ search("joy")
 
 ## ⚡ Indexed Search Engine (v2.6.0)
 
-v2.6.0 introduces an internal **symbol index engine** that significantly improves search performance.
+Introduces internal indexing for high-performance queries.
 
-The registry now builds internal indexes for:
+### Indexed Fields
 
-- symbol names.
-- keywords.
-- aliases.
-- name tokens.
+- Names.
+- Keywords.
+- Aliases.
+- Tokens.
 
-This allows search queries to avoid scanning the entire symbol registry and instead perform indexed lookups.
+### Benefits:
 
-Benefits:
+- Faster lookups.
+- Scalable architecture.
+- Reduced full-registry scans.
+- Improved query precision.
 
-- faster search performance.
-- scalable architecture for larger Unicode datasets.
-- improved metadata-based queries.
+## 🚀 Grouping & Search Improvements (v2.7.0)
+
+v2.7.0 introduces **semantic grouping and enhanced search capabilities**.
+
+### 🧩 Grouping API
+
+Symbols are now organized into semantic groups:
+
+- emotion
+- gesture
+- nature
+- object
+- activity
+- symbolic
+
+```python
+from symjoy import emoji
+
+emoji.by_group("emotion")
+```
+
+### 🔍 Improved Search Engine
+
+Search now supports:
+
+- multi-token queries
+- keyword + alias + token indexing
+- deterministic ranking
+
+```python
+search("smile face")
+search("red heart")
+```
+
+### ⚙️ Developer Improvements
+
+- CI automation (GitHub Actions)
+- Improved test coverage
+- Stabilized registry + index pipeline
 
 ## 🔁 Backward Compatibility (v1.x)
 
@@ -161,17 +220,11 @@ print(emojis["smile"])
 
 ## Project Links
 
-**If any issue with the package you can contact here:**
-
-- **Email:** vishwanathdvgmm@gmail.com
-
-**The source code is available on GitHub**
-
+- **Pypi:** https://pypi.org/project/symjoy/
 - **Github:** https://github.com/vishwanathdvgmm/symjoy
 - **Github issues:** https://github.com/vishwanathdvgmm/symjoy/issues
+- **Email:** vishwanathdvgmm@gmail.com
 
-**The link for the package in pypi.org is:**
+## License
 
-- **Pypi:** https://pypi.org/project/symjoy/
-
-**License: MIT**
+**MIT License**

@@ -2,11 +2,16 @@
 
 ## Overview
 
-symjoy is a metadata-driven Unicode symbol engine built around a layered architecture designed for ease of use and extensibility, performance and deterministic behavior.
+symjoy is a metadata-driven Unicode symbol engine built around a layered architecture designed for:
+
+- extensibility.
+- performance.
+- deterministic behavior.
+- clean API boundaries.
 
 # Architecture Layers
 
-symjoy is organized into sux logical layers:
+symjoy is organized into **six logical layers**:
 
 1. Data Layer
 2. Registry Layer
@@ -25,25 +30,32 @@ Location:
 
 Each category is stored as JSON:
 
-- emoji.json
-- symbols.json
-- arrows.json
-- math.json
-- currency.json
-- misc.json
+- `emoji.json`
+- `symbols.json`
+- `arrows.json`
+- `math.json`
+- `currency.json`
+- `misc.json`
 
-These files contain the **raw symbol definitions**.
+These files contain the **raw symbol definitions + metadata**.
 
-Example entry:
+Example:
 
 ```json
 {
 	"name": "heart",
-	"char": "❤️"
+	"char": "❤️",
+	"keywords": ["heart", "love"],
+	"aliases": { "en": ["red heart"] },
+	"group": "symbolic"
 }
 ```
 
-This design allows new symbols to be added without modifying the codebase.
+### Responsibilities
+
+- Source of truth for all symbols.
+- No logic - Pure data layer.
+- Easily extensible without code changes.
 
 ---
 
@@ -56,18 +68,19 @@ Location:
 ### Responsibilities
 
 - Lazy initialization.
-- Loads categories JSON files.
-- Register symbols internally.
-- Build the unified symbol registry.
-- Provide lookup APIs for symbols.
+- Load JSON categories.
+- Register symbols into a unified registry.
+- Provide lookup APIs.
 
-Registry output:
+### Core Structure
 
-```text
+Each symbol is represented as:
+
+```Plain text
 SymbolNode
 ```
 
-Each node conatins:
+Fields:
 
 - name
 - char
@@ -75,19 +88,25 @@ Each node conatins:
 - unicode
 - keywords
 - aliases
-- related symbols
+- related
+- group
+
+The registry is the **central in-memory representation** of all symbols.
 
 ---
 
 ## Layer 3 — Metadata Enrichment Layer
 
-After symbols are registerd, metadata enrichment runs.
+Runs immediatetly after registry load.
 
-Responsibilities:
+### Responsibilities:
 
-- Auto-generate keywords from symbol names.
-- Generate default aliases.
-- Build sematic relationships between symbols.
+- Generate missing keywords.
+- Normalize aliases.
+- Build sematic relationships.
+- Preserve grouping metadata.
+
+### Behavior
 
 Example:
 
@@ -96,7 +115,7 @@ face_with_tears_of_joy
 → keywords: ["tears", "joy"]
 ```
 
-Relationships are built by matching shared keyword tokens.
+Relationships are computed via **shared keyword tokens**.
 
 ---
 
@@ -112,7 +131,7 @@ Indexes created:
 
 | Index         | Purpose               |
 | ------------- | --------------------- |
-| Name index    | direct symbol lookup  |
+| Name index    | direct lookup         |
 | Keyword index | keyword → symbols     |
 | Alias index   | alias → symbols       |
 | Token index   | tokenized name lookup |
@@ -120,38 +139,46 @@ Indexes created:
 Example:
 
 ```python
-keyword_index["heart"] → ["heart", "red_heart", "black_heart"]
+keyword_index["heart"] → ["heart", "red_heart"]
 ```
 
-This allows the search engine to avoid scanning the entire registry.
+### Purpose
+
+- Avoid full registry scans.
+- Enable scalable search performance.
+
+---
 
 ## Layer 5 — Search Engine
 
 Location:
 `src/symjoy/core/search.py`
 
-Responsibilities:
+### Responsibilities:
 
-- Query the index engine
-- Rank search results
-- Return deterministic symbol results
+- Query index engine.
+- Merge candidate sets.
+- Rank results deterministically.
 
-Search ranking priority:
+### Ranking priority (v2.7):
 
 1. Exact name match
-2. Prefix name match
-3. Keyword match
-4. Alias match
-5. Substring fallback
+2. Keyword match
+3. Alias match
+4. Token match
+5. Fallback
 
-Example:
+### Behavior
+
+- Uses **indexed lookups only**
+- Supports **multi-token queries**
+- Deterministic ordering:
 
 ```python
-from symjoy import search
-
-search("heart")
-search("joy")
+(key_rank, category, name)
 ```
+
+---
 
 ## Layer 6 — API Layer
 
@@ -159,9 +186,9 @@ Location:
 
 `src/symjoy/api/`
 
-The API layer provides category-specific interfaces.
+Provides category-specific interfaces.
 
-Categories:
+### Categories:
 
 - emoji
 - symbols
@@ -170,7 +197,7 @@ Categories:
 - currency
 - misc
 
-Each category exposes:
+### API Surface:
 
 ```python
 get()
@@ -180,46 +207,61 @@ items()
 related()
 exists()
 info()
+by_group()
 ```
 
-The API layer isolates categories while using the shared registry.
+Example:
+
+```python
+from symjoy import emoji
+
+emoji.get("smile")
+emoji.by_group("emotion")
+```
+
+### Role
+
+- Thin abstraction over registry.
+- Category isolation.
+- Consistent developer experience.
+
+---
 
 ## Design Principles
 
-symjoy follows several key architectural principles:
-
 **Data-driven architecture**
 
-All symbol definitions come from JSON data.
+All symbol originate from JSON.
 
 **Separation of concerns**
 
-Each layer handles a specific responsibility.
+Each layer has a specific responsibility.
 
-**Lazy loading**
+**Lazy Initialization**
 
-Registry initialization occurs only when needed.
+Registry loads only when required.
 
 **Deterministic behavior**
 
-Search results are consistently ordered.
+Search and outputs are stable.
 
-**Performance-aware design**
+**Performance-Oriented**
 
-The index engine ensures search remains fast as the dataset grows.
+Index engine prevents O(n) scans.
 
 **Backward compatibility**
 
-Legacy dictionary access remains available until v3.0.
+Legacy dictionary access supported until v3.0.
 
 ---
 
 ## Future Directions (v3.x)
 
-Planned architectural expansions include:
+Planned enhancements:
 
-- Plugin system for external symbol packs
-- Unicode database ingestion
-- Language packs for multilingual aliases
-- CLI interface (symjoy search)
-- Advanced fuzzy search
+- Plugin system (external symbol packs).
+- Unicode database ingestion.
+- Language packs for aliases.
+- CLI interface (symjoy search).
+- Fuzzy search (Levenshtein distance).
+- Advanced Ranking models.

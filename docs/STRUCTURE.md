@@ -3,6 +3,14 @@
 **Root Path:** `d:\Python Packages\Symjoy`
 
 ```
+├── 📁 .github
+│   └── 📁 workflows
+│       └── ⚙️ python.yml
+├── 📁 docs
+│   ├── 📝 ARCHITECTURE.md
+│   ├── 📝 CHANGELOG.md
+│   ├── 📝 MIGRATION.md
+│   └── 📝 STRUCTURE.md
 ├── 📁 src
 │   └── 📁 symjoy
 │       ├── 📁 api
@@ -38,13 +46,15 @@
 │       ├── 🐍 math_symbols.py
 │       ├── 🐍 misc.py
 │       └── 🐍 symbols.py
+├── 📁 tests
+│   ├── 🐍 test_api.py
+│   ├── 🐍 test_grouping.py
+│   ├── 🐍 test_index.py
+│   ├── 🐍 test_registry.py
+│   └── 🐍 test_search.py
 ├── ⚙️ .gitignore
-├── 📝 ARCHITECTURE.md
-├── 📝 CHANGELOG.md
 ├── 📄 LICENSE
-├── 📝 MIGRATION.md
 ├── 📝 README.md
-├── 📝 STRUCTURE.md
 └── ⚙️ pyproject.toml
 ```
 

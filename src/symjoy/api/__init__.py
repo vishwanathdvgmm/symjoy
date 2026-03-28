@@ -1,5 +1,3 @@
-# src/symjoy/api/__init__.py
-
 from . import emoji
 from . import symbols
 from . import arrows

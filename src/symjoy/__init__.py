@@ -58,7 +58,7 @@ __all__ = [
     "emojis",  # deprecated
 ]
 
-__version__ = "2.7.0-dev"
+__version__ = "2.7.0"
 
 __license__ = "MIT"
 

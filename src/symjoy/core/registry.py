@@ -77,23 +77,21 @@ def _load_category_from_json(category_name: str) -> bool:
             items = json.load(f)
 
         for item in items:
+            name = item["name"]
+
             # Auto keyword generation
-            raw_keywords = item.get("keywords", [])
-            if not raw_keywords:
-                raw_keywords = item["name"].split("_")
-            keywords = tuple(raw_keywords)
+            raw_keywords = item.get("keywords") or name.split("_")
+            keywords = tuple(k.lower() for k in raw_keywords)
 
             # Auto alias generation
-            raw_aliases = item.get("aliases", {})
-            if not raw_aliases:
-                raw_aliases = {"en": [item["name"]]}
+            raw_aliases = item.get("aliases") or {"en": [name]}
             aliases = {
-                lang: tuple(vals)
+                lang: tuple(a.lower() for a in vals)
                 for lang, vals in raw_aliases.items()
             }
 
             node = SymbolNode(
-                name=item["name"],
+                name=name,
                 char=item["char"],
                 category=category_name,
                 unicode=_unicode_codepoint(item["char"]),
@@ -113,28 +111,15 @@ def _load_category_from_json(category_name: str) -> bool:
         return False
 
 def _enrich_metadata():
-    """
-    Automatically enrich nodes with:
-    - Generated keywords (if empty)
-    - Generated aliases (if empty)
-    - Token-based relationships
-    """
-
     # Step 1 — Fill missing keywords & aliases
     for name, node in list(_REGISTRY.items()):
 
-        if not node.keywords:
-            tokens = tuple(
-                t for t in name.split("_")
-                if t.lower() not in _STOPWORDS
-            )
-        else:
-            tokens = node.keywords
+        tokens = node.keywords or tuple(
+            t for t in name.split("_")
+            if t.lower() not in _STOPWORDS
+        )
 
-        if not node.aliases:
-            aliases = {"en": (name.replace("_", " "),)}
-        else:
-            aliases = node.aliases
+        aliases = node.aliases or {"en": (name.replace("_", " "),)}
 
         _REGISTRY[name] = SymbolNode(
             name=node.name,
@@ -151,9 +136,8 @@ def _enrich_metadata():
     for name, node in list(_REGISTRY.items()):
 
         base_tokens = {
-            t.lower()
-            for t in node.keywords
-            if t.lower() not in _STOPWORDS
+            t for t in node.keywords
+            if t not in _STOPWORDS
         }
 
         auto_related = set(node.related)
@@ -163,12 +147,11 @@ def _enrich_metadata():
                 continue
 
             other_tokens = {
-                t.lower()
-                for t in other.keywords
-                if t.lower() not in _STOPWORDS
+                t for t in other.keywords
+                if t not in _STOPWORDS
             }
 
-            if base_tokens.intersection(other_tokens):
+            if base_tokens & other_tokens:
                 auto_related.add(other.name)
 
         _REGISTRY[name] = SymbolNode(
@@ -217,8 +200,7 @@ def _ensure_initialized():
 
     # Load JSON categories
     for category, legacy_data in category_map.items():
-        loaded = _load_category_from_json(category)
-        if not loaded:
+        if not _load_category_from_json(category):
             _register_legacy_category(category, legacy_data)
     
     _enrich_metadata()

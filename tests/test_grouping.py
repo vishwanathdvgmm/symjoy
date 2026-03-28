@@ -5,3 +5,4 @@ def test_grouping():
 
     assert isinstance(results, list)
     assert len(results) > 0
+    assert all("name" in r and "char" in r for r in results)

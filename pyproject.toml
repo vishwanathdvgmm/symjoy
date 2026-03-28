@@ -4,10 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "symjoy"
-version = "2.7.0-dev"
+version = "2.7.0"
 
 authors = [
-    { name = "Vishwanath M M", email = "vishwanathmm2005@gmail.com" }
+    { name = "Vishwanath M M", email = "vishwanathdvgmm@gmail.com" }
 ]
 
 description = "A structured, metadata-driven Unicode symbol engine for Python."
