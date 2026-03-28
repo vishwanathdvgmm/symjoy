@@ -104,19 +104,6 @@
     "related": []
   },
   {
-    "name": "fire",
-    "char": "🔥",
-    "keywords": [
-      "fire"
-    ],
-    "aliases": {
-      "en": [
-        "fire"
-      ]
-    },
-    "related": []
-  },
-  {
     "name": "hourglass",
     "char": "⌛",
     "keywords": [
@@ -287,19 +274,6 @@
     "related": [
       "umbrella_rain"
     ]
-  },
-  {
-    "name": "skull",
-    "char": "☠",
-    "keywords": [
-      "skull"
-    ],
-    "aliases": {
-      "en": [
-        "skull"
-      ]
-    },
-    "related": []
   },
   {
     "name": "snowflake",
